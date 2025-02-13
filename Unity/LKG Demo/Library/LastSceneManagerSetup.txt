@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/LookingGlass/Examples/1 - Framing Content with Hologram Camera.unity
+- path: Assets/Scenes/2-10-25 Demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
