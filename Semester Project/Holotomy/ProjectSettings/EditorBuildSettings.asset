@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GameStart.unity
+    guid: 7aa5212e475b2af4fa5337309f5e22ef
+  - enabled: 1
+    path: Assets/Scenes/M2 Holotomy.unity
+    guid: afaeb6fde5a1b9f44999251b063cafb7
   m_configObjects: {}

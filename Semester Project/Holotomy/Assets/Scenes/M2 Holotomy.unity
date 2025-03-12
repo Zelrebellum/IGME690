@@ -370,6 +370,232 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &497848173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497848176}
+  - component: {fileID: 497848175}
+  - component: {fileID: 497848174}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &497848174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497848173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'nc eu orci tempor tincidunt. Duis facilisis ac mi a luctus. Sed quis sagittis
+    turpis. In hac habitasse platea dictumst. Nam id magna quis dui venenatis sodales.
+    Ut in eleifend nisl. Pellentesque dapibus, augue id semper finibus, ipsum sapien
+    dapibus magna, id egestas lectus velit ac velit. Pellentesque euismod, odio sed
+    sodales commodo, ante elit viverra massa, vitae iaculis enim odio vel sapien.
+    Aenean porta augue vitae ante ullamcorper consequat. Praesent elementum metus
+    quis tellus tempus congue. Donec euismod enim sit amet eros laoreet, quis dignissim
+    turpis egestas.
+
+
+
+    Maecenas libero nulla, sollicitudin id quam nec, vestibulum
+    fringilla quam. Nunc finibus tellus vitae purus sodales sollicitudin. Integer
+    euismod eros a velit hendrerit, vel malesuada turpis dictum. Donec bibendum eget
+    ante non commodo. Mauris ut faucibus orci, id molestie quam. Nulla at egestas
+    urna. Duis fermentum orci tellus, vitae mattis arcu ultricies cursus. Morbi efficitur
+    non elit at viverra. Nullam in massa est.
+
+
+
+    Morbi pretium tristique orci,
+    et ultrices metus tempus in. Praesent nunc lectus, tincidunt quis justo ut, lacinia
+    euismod nunc. Pellentesque rhoncus fringilla massa et laoreet. Suspendisse euismod
+    lacus rutrum consectetur lacinia. Aenean rutrum eu turpis at viverra. Nulla sed
+    nisi sit amet nisl egestas ornare eget at lectus. Quisque eget massa a purus
+    tempus pharetra. Suspendisse non maximus ex. Maecenas convallis diam metus, a
+    ultricies est placerat id. Cras nec neque facilisis, fermentum ligula vel, dictum
+    est. Morbi sit amet porta erat.
+
+
+
+    Quisque dignissim et felis nec finibus.
+    Aliquam et vestibulum libero. Fusce pellentesque sagittis sollicitudin. Fusce
+    vel lectus viverra, venenatis dolor eu, placerat magna. Nullam mollis ac ex eu
+    luctus. Nunc eu vulputate sapien, in dictum mi. Maecenas vitae turpis auctor,
+    scelerisque tortor eu, mollis magna. Nunc felis neque, rhoncus rhoncus nulla
+    id, elementum scelerisque nisl. Sed euismod felis est, at pellentesque enim volutpat
+    a. Duis fermentum, eros at tincidunt ornare, augue felis ullamcorper eros, in
+    vestibulum lorem sapien eu ex. Fusce pharetra, nunc ac ultricies pretium, arcu
+    magna sagittis erat, et suscipit sem magna eu sapien. Ut mattis risus felis,
+    eu ultricies diam tempus sit amet. In a nibh vitae arcu egestas congue eget sed
+    lorem. Vivamus iaculis ornare mi eget ultricies. Maecenas risus arcu, fringilla
+    eu leo vitae, dapibus iaculis eros. In hendrerit urna vitae risus dapibus gravida.
+
+
+
+    Sed
+    at justo id lectus bibendum tempus eu sed ante. Ut eget tellus ac justo ornare
+    sodales in vel sapien. Pellentesque tempor sit amet mi ut rhoncus. Duis laoreet
+    libero ac elit interdum, vel ultrices nunc placerat. Sed scelerisque sapien ac
+    risus vulputate dictum. Donec et metus eleifend, placerat purus vitae, dignissim
+    velit. In molestie metus vitae eros vulputate sagittis. Curabitur pharetra odio
+    at molestie facilisis. Sed hendrerit sem ut elit commodo vestibulum. Suspendisse
+    quis vehicula urna. Proin nibh nisl, congue ac mattis vitae, efficitur id orci.
+    Praesent neque sapien, scelerisque vel facilisis quis, varius at dui. Nunc facilisis
+    lobortis diam, sed malesuada mi ultrices eu. Phasellus pretium molestie ante.'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278650691
+  m_fontColor: {r: 0.26415092, g: 0.028657887, b: 0.028657887, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 3
+  m_fontSizeBase: 3
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 0
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: -0.27441406, z: 9.944473, w: -8.146231}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  _SortingLayer: 0
+  _SortingLayerID: 0
+  _SortingOrder: 0
+  m_hasFontAssetChanged: 0
+  m_renderer: {fileID: 497848175}
+  m_maskType: 0
+--- !u!23 &497848175
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497848173}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!224 &497848176
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497848173}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 5.11, y: 6.57}
+  m_SizeDelta: {x: 20, y: 5}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &517434668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -504,108 +730,137 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
+      propertyPath: fov
+      value: 17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: targetLKG
-      value: LKG-PORT-
+      value: LKG-PORT-23122
+      objectReference: {fileID: 0}
+    - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
+      propertyPath: focalPlane
+      value: 32.485523
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: quiltTexture
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
-      propertyPath: lkgDisplay.id
-      value: -1
+      propertyPath: farClipFactor
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
-      propertyPath: isEmulatingDevice
+      propertyPath: lkgDisplay.id
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
-      propertyPath: lkgDisplay.calibration.dpi
+      propertyPath: nearClipFactor
+      value: 0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
+      propertyPath: isEmulatingDevice
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
+      propertyPath: verticalFrustumOffset
+      value: 7.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
+      propertyPath: lkgDisplay.calibration.dpi
+      value: 324
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.calibration.pitch
-      value: 0
+      value: 52.6056
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.calibration.slope
-      value: 0
+      value: -7.1735573
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.defaultQuilt.rows
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.hardwareInfo.hwid
-      value: 
+      value: LKG-P23122
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.calibration.center
-      value: 0
+      value: 0.53831303
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.calibration.serial
-      value: 
+      value: LKG-PORT-23122
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.hardwareInfo.index
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.hardwareInfo.state
-      value: 
+      value: ok
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.calibration.invView
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.calibration.rawJson
-      value: 
+      value: "{\r\n  \"DPI\": {\r\n    \"value\": 324.0\r\n  },\r\n  \"center\":
+        {\r\n    \"value\": 0.53831300300124152\r\n  },\r\n  \"configVersion\": \"1.0\",\r\n 
+        \"flipImageX\": {\r\n    \"value\": 0\r\n  },\r\n  \"flipImageY\": {\r\n   
+        \"value\": 0\r\n  },\r\n  \"flipSubp\": {\r\n    \"value\": 0.0\r\n  },\r\n 
+        \"fringe\": {\r\n    \"value\": 0.0\r\n  },\r\n  \"invView\": {\r\n    \"value\":
+        1\r\n  },\r\n  \"pitch\": {\r\n    \"value\": 52.605599155540261\r\n  },\r\n 
+        \"screenH\": {\r\n    \"value\": 2048.0\r\n  },\r\n  \"screenW\": {\r\n   
+        \"value\": 1536.0\r\n  },\r\n  \"serial\": \"LKG-PORT-23122\",\r\n  \"slope\":
+        {\r\n    \"value\": -7.1735571692623967\r\n  },\r\n  \"verticalAngle\": {\r\n   
+        \"value\": 0\r\n  },\r\n  \"viewCone\": {\r\n    \"value\": 40.0\r\n  }\r\n}"
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.calibration.screenH
-      value: 0
+      value: 2048
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.calibration.screenW
-      value: 0
+      value: 1536
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.calibration.viewCone
-      value: 0
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.defaultQuilt.columns
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.defaultQuilt.tileCount
-      value: 0
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.defaultQuilt.quiltWidth
-      value: 0
+      value: 3360
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.defaultQuilt.quiltHeight
-      value: 0
+      value: 3360
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.calibration.configVersion
-      value: 
+      value: 1.0
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.defaultQuilt.renderAspect
-      value: 0
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.hardwareInfo.windowCoordX
-      value: 0
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 114865344359803568, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
       propertyPath: lkgDisplay.hardwareInfo.hardwareVersion
-      value: 
+      value: portrait
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -700,7 +955,7 @@ Transform:
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
   m_LocalRotation: {x: -0.08175107, y: -0.1489897, z: 0.21163706, w: 0.9624597}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 4.3, y: -8.68, z: -10.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1160,7 +1415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68a20d4b41b9c04e8529d1932fed809, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.04
+      value: -0.22
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68a20d4b41b9c04e8529d1932fed809, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1320,8 +1575,8 @@ Transform:
   m_GameObject: {fileID: 1859440945}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 19.64}
-  m_LocalScale: {x: 1.1243, y: 1, z: 1.4941752}
+  m_LocalPosition: {x: 0, y: 1.36, z: 10.7}
+  m_LocalScale: {x: 1.0117576, y: 1, z: 1.3634199}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1499,9 +1754,10 @@ Rigidbody:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 671722928}
   - {fileID: 705507995}
   - {fileID: 1859440949}
   - {fileID: 1208455569}
   - {fileID: 1525078448}
-  - {fileID: 671722928}
   - {fileID: 396748214}
+  - {fileID: 497848176}

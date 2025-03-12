@@ -286,10 +286,10 @@
                 {
                     "name": "",
                     "id": "14681fb3-91e2-48f8-8e54-9ad2431d23d7",
-                    "path": "<Keyboard>/space",
+                    "path": "*/{Back}",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard&Mouse",
+                    "groups": "XR;Keyboard&Mouse",
                     "action": "ChangeLKG",
                     "isComposite": false,
                     "isPartOfComposite": false
