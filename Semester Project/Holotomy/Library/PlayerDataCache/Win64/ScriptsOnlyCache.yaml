@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - GameStart
     - tempSceneChange
     GraphQLClient:
     - GraphQLClient.GraphQLAPI
@@ -15,10 +14,8 @@ ScriptsOnlyBuild:
     - LookingGlass.PluginVersionAsset
     - LookingGlass.QuiltCapture
     Unity.InputSystem.dll:
-    - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
-    - UnityEngine.InputSystem.PlayerInput
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     Unity.PlasticSCM.Editor.dll:
     - Unity.PlasticSCM.Editor.PlasticWindow
@@ -81,16 +78,6 @@ ScriptsOnlyBuild:
     - LookingGlass.Toolkit.QuiltSettings
     - LookingGlass.TransformMode
     - LookingGlass.ViewRenderEvent
-    Unity.InputSystem:
-    - UnityEngine.InputSystem.InputAction
-    - UnityEngine.InputSystem.InputActionMap
-    - UnityEngine.InputSystem.InputBinding
-    - UnityEngine.InputSystem.InputControlScheme
-    - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
-    - UnityEngine.InputSystem.PlayerInput/ActionEvent
-    - UnityEngine.InputSystem.PlayerInput/ControlsChangedEvent
-    - UnityEngine.InputSystem.PlayerInput/DeviceLostEvent
-    - UnityEngine.InputSystem.PlayerInput/DeviceRegainedEvent
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -107,9 +94,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
-    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
-    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -117,12 +102,9 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: GameStart
-    methodName: OnStart
+  methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/GameStart.unity:
+    Assets/Scenes/Credits.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -131,21 +113,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 72
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -156,50 +126,53 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1700}
-    - Class: 114
-      Script: {instanceID: 1752}
-    - Class: 114
-      Script: {instanceID: 2464}
-    - Class: 114
-      Script: {instanceID: 3244}
-    - Class: 114
-      Script: {instanceID: 4390}
-    - Class: 114
       Script: {instanceID: 4792}
-    - Class: 114
-      Script: {instanceID: 4874}
     - Class: 114
       Script: {instanceID: 4954}
     - Class: 114
-      Script: {instanceID: 5196}
-    - Class: 114
       Script: {instanceID: 5868}
     - Class: 114
-      Script: {instanceID: 6088}
-    - Class: 114
-      Script: {instanceID: 6980}
-    - Class: 114
       Script: {instanceID: 7270}
-    - Class: 114
-      Script: {instanceID: 9104}
-    - Class: 114
-      Script: {instanceID: 9114}
-    - Class: 114
-      Script: {instanceID: 9634}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 222
+    Assets/Scenes/Instructions.unity:
+    - Class: 1
       Script: {instanceID: 0}
-    - Class: 223
+    - Class: 4
       Script: {instanceID: 0}
-    - Class: 224
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 4792}
+    - Class: 114
+      Script: {instanceID: 4954}
+    - Class: 114
+      Script: {instanceID: 5868}
+    - Class: 114
+      Script: {instanceID: 7270}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
     Assets/Scenes/M2 Holotomy.unity:
     - Class: 1
@@ -235,13 +208,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1752}
-    - Class: 114
       Script: {instanceID: 4160}
     - Class: 114
       Script: {instanceID: 4792}
     - Class: 114
       Script: {instanceID: 4954}
+    - Class: 114
+      Script: {instanceID: 5868}
     - Class: 114
       Script: {instanceID: 6088}
     - Class: 114
@@ -253,6 +226,79 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Title.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1700}
+    - Class: 114
+      Script: {instanceID: 2464}
+    - Class: 114
+      Script: {instanceID: 3244}
+    - Class: 114
+      Script: {instanceID: 4792}
+    - Class: 114
+      Script: {instanceID: 4874}
+    - Class: 114
+      Script: {instanceID: 4954}
+    - Class: 114
+      Script: {instanceID: 5196}
+    - Class: 114
+      Script: {instanceID: 5868}
+    - Class: 114
+      Script: {instanceID: 6088}
+    - Class: 114
+      Script: {instanceID: 6980}
+    - Class: 114
+      Script: {instanceID: 7270}
+    - Class: 114
+      Script: {instanceID: 9114}
+    - Class: 114
+      Script: {instanceID: 9634}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
@@ -997,7 +1043,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStayMessageListener
   - hash:
       serializedVersion: 2
-      Hash: f52160e7806d1ce47ee3884e186da07d
+      Hash: dc10e9179861794fed5ccf3f10e7b643
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: tempSceneChange
@@ -1543,12 +1589,6 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
-      Hash: 3c9390c35930b0cee9f5f24633c26a2a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameStart
-  - hash:
-      serializedVersion: 2
       Hash: d59d8b76928d5ae59a86eb906a346a39
     assemblyName: GraphQLClient
     namespaceName: GraphQLClient
@@ -1663,6 +1703,8 @@ ScriptsOnlyBuild:
     className: DemoCursorInteraction
   platform: 19
   scenePathNames:
-  - Assets/Scenes/GameStart.unity
+  - Assets/Scenes/Title.unity
   - Assets/Scenes/M2 Holotomy.unity
+  - Assets/Scenes/Instructions.unity
+  - Assets/Scenes/Credits.unity
   playerPath: C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Holotomy/Holotomy.exe

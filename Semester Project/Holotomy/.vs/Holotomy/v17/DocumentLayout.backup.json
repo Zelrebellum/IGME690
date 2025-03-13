@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{474CD9FE-CDD1-6F63-5930-F615E1DFA48A}|LookingGlass.Demos.csproj|solutionrelative:assets\\lkg\\lookingglass\\examples\\scripts\\lookingglass.demos\\demoinputtogglebuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{474CD9FE-CDD1-6F63-5930-F615E1DFA48A}|LookingGlass.Demos.csproj|c:\\users\\rosey\\source\\repos\\igme690\\semester project\\holotomy\\assets\\lkg\\lookingglass\\examples\\scripts\\lookingglass.demos\\demodmabutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{474CD9FE-CDD1-6F63-5930-F615E1DFA48A}|LookingGlass.Demos.csproj|solutionrelative:assets\\lkg\\lookingglass\\examples\\scripts\\lookingglass.demos\\demodmabutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B81EAAFF-9855-4B17-159E-BB6A03386681}|Assembly-CSharp.csproj|C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\assets\\scripts\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B81EAAFF-9855-4B17-159E-BB6A03386681}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474CD9FE-CDD1-6F63-5930-F615E1DFA48A}|LookingGlass.Demos.csproj|C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\assets\\lkg\\lookingglass\\examples\\scripts\\lookingglass.demos\\demodmabutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474CD9FE-CDD1-6F63-5930-F615E1DFA48A}|LookingGlass.Demos.csproj|solutionrelative:assets\\lkg\\lookingglass\\examples\\scripts\\lookingglass.demos\\demodmabutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,14 +36,14 @@
               "RelativeDocumentMoniker": "Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoInputToggleButtons.cs",
               "ToolTip": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoInputToggleButtons.cs",
               "RelativeToolTip": "Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoInputToggleButtons.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAQAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T15:28:07.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DemoDMAButton.cs",
               "DocumentMoniker": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoDMAButton.cs",
               "RelativeDocumentMoniker": "Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoDMAButton.cs",
@@ -51,20 +51,20 @@
               "RelativeToolTip": "Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoDMAButton.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T15:27:50.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T15:27:50.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GameStart.cs",
               "DocumentMoniker": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\Scripts\\GameStart.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameStart.cs",
               "ToolTip": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\Scripts\\GameStart.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameStart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:23:17.651Z"
+              "WhenOpened": "2025-03-12T13:23:17.651Z",
+              "EditorCaption": ""
             }
           ]
         }

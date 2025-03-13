@@ -372,8 +372,7 @@
 "Assets/LKG/LookingGlass/Examples/DemoResources/LookingGlass Alcove/DynamicAlcove.cs"
 "Assets/LKG/LookingGlass/Examples/URP/ExampleAssets/TutorialInfo/Scripts/Readme.cs"
 "Assets/LKG/LookingGlass/Extras/OBEY Game Assets/lightFlicker.cs"
-"Assets/Scripts/GameStart.cs"
-"Assets/Scripts/tempSceneChange.cs"
+"Assets/Scripts/SceneManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
