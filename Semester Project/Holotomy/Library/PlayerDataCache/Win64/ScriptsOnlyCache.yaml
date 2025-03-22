@@ -10,7 +10,6 @@ ScriptsOnlyBuild:
     - LookingGlass.Blocks.BlockUploader
     - LookingGlass.HologramCamera
     - LookingGlass.LKGDisplaySystem/CoroutineRunner
-    - LookingGlass.MultiViewRenderer
     - LookingGlass.PluginVersionAsset
     - LookingGlass.QuiltCapture
     Unity.InputSystem.dll:
@@ -126,18 +125,34 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4792}
+      Script: {instanceID: 1702}
     - Class: 114
-      Script: {instanceID: 4954}
+      Script: {instanceID: 3246}
     - Class: 114
-      Script: {instanceID: 5868}
+      Script: {instanceID: 4794}
     - Class: 114
-      Script: {instanceID: 7270}
+      Script: {instanceID: 4956}
+    - Class: 114
+      Script: {instanceID: 6088}
+    - Class: 114
+      Script: {instanceID: 6978}
+    - Class: 114
+      Script: {instanceID: 7268}
+    - Class: 114
+      Script: {instanceID: 9822}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Instructions.unity:
     - Class: 1
@@ -161,18 +176,34 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4792}
+      Script: {instanceID: 1702}
     - Class: 114
-      Script: {instanceID: 4954}
+      Script: {instanceID: 3246}
     - Class: 114
-      Script: {instanceID: 5868}
+      Script: {instanceID: 4794}
     - Class: 114
-      Script: {instanceID: 7270}
+      Script: {instanceID: 4956}
+    - Class: 114
+      Script: {instanceID: 6088}
+    - Class: 114
+      Script: {instanceID: 6978}
+    - Class: 114
+      Script: {instanceID: 7268}
+    - Class: 114
+      Script: {instanceID: 9822}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/M2 Holotomy.unity:
     - Class: 1
@@ -208,17 +239,17 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4160}
+      Script: {instanceID: 4162}
     - Class: 114
-      Script: {instanceID: 4792}
+      Script: {instanceID: 4794}
     - Class: 114
-      Script: {instanceID: 4954}
-    - Class: 114
-      Script: {instanceID: 5868}
+      Script: {instanceID: 4956}
     - Class: 114
       Script: {instanceID: 6088}
     - Class: 114
-      Script: {instanceID: 7270}
+      Script: {instanceID: 7268}
+    - Class: 114
+      Script: {instanceID: 9822}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -263,31 +294,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1700}
+      Script: {instanceID: 1702}
     - Class: 114
-      Script: {instanceID: 2464}
+      Script: {instanceID: 2466}
     - Class: 114
-      Script: {instanceID: 3244}
+      Script: {instanceID: 3246}
     - Class: 114
-      Script: {instanceID: 4792}
+      Script: {instanceID: 4794}
     - Class: 114
-      Script: {instanceID: 4874}
+      Script: {instanceID: 4876}
     - Class: 114
-      Script: {instanceID: 4954}
+      Script: {instanceID: 4956}
     - Class: 114
-      Script: {instanceID: 5196}
-    - Class: 114
-      Script: {instanceID: 5868}
+      Script: {instanceID: 5198}
     - Class: 114
       Script: {instanceID: 6088}
     - Class: 114
-      Script: {instanceID: 6980}
+      Script: {instanceID: 6978}
     - Class: 114
-      Script: {instanceID: 7270}
+      Script: {instanceID: 7268}
     - Class: 114
-      Script: {instanceID: 9114}
+      Script: {instanceID: 9110}
     - Class: 114
-      Script: {instanceID: 9634}
+      Script: {instanceID: 9630}
+    - Class: 114
+      Script: {instanceID: 9822}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -303,6 +334,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 1fe39535bdbd40760cdc29003c8f5d6e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DynamicAlcove
   - hash:
       serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
@@ -1043,12 +1080,6 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStayMessageListener
   - hash:
       serializedVersion: 2
-      Hash: dc10e9179861794fed5ccf3f10e7b643
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: tempSceneChange
-  - hash:
-      serializedVersion: 2
       Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -1137,12 +1168,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Text
-  - hash:
-      serializedVersion: 2
-      Hash: 1fe39535bdbd40760cdc29003c8f5d6e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DynamicAlcove
   - hash:
       serializedVersion: 2
       Hash: 2071f7ac454ae14eafecfd4041edae3a
@@ -1701,6 +1726,12 @@ ScriptsOnlyBuild:
     assemblyName: LookingGlass.Demos
     namespaceName: LookingGlass.Demos
     className: DemoCursorInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: dc10e9179861794fed5ccf3f10e7b643
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: tempSceneChange
   platform: 19
   scenePathNames:
   - Assets/Scenes/Title.unity
