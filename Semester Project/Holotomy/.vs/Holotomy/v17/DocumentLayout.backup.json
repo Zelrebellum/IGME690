@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{474CD9FE-CDD1-6F63-5930-F615E1DFA48A}|LookingGlass.Demos.csproj|c:\\users\\rosey\\source\\repos\\igme690\\semester project\\holotomy\\assets\\lkg\\lookingglass\\examples\\scripts\\lookingglass.demos\\demoinputtogglebuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{474CD9FE-CDD1-6F63-5930-F615E1DFA48A}|LookingGlass.Demos.csproj|solutionrelative:assets\\lkg\\lookingglass\\examples\\scripts\\lookingglass.demos\\demoinputtogglebuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B81EAAFF-9855-4B17-159E-BB6A03386681}|Assembly-CSharp.csproj|c:\\users\\rosey\\source\\repos\\igme690\\semester project\\holotomy\\assets\\scripts\\skin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EAAFF-9855-4B17-159E-BB6A03386681}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B81EAAFF-9855-4B17-159E-BB6A03386681}|Assembly-CSharp.csproj|C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\assets\\scripts\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81EAAFF-9855-4B17-159E-BB6A03386681}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B81EAAFF-9855-4B17-159E-BB6A03386681}|Assembly-CSharp.csproj|C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\assets\\scripts\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EAAFF-9855-4B17-159E-BB6A03386681}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{474CD9FE-CDD1-6F63-5930-F615E1DFA48A}|LookingGlass.Demos.csproj|C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\assets\\lkg\\lookingglass\\examples\\scripts\\lookingglass.demos\\demodmabutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{474CD9FE-CDD1-6F63-5930-F615E1DFA48A}|LookingGlass.Demos.csproj|solutionrelative:assets\\lkg\\lookingglass\\examples\\scripts\\lookingglass.demos\\demodmabutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAD7DF5A-D1E6-9758-ABB2-FB42FE890166}|LookingGlass.csproj|c:\\users\\rosey\\source\\repos\\igme690\\semester project\\holotomy\\assets\\lkg\\lookingglass\\scripts\\lookingglass\\lkg-toolkit\\toolkit-api\\bridge\\bridgeconnectionhttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD7DF5A-D1E6-9758-ABB2-FB42FE890166}|LookingGlass.csproj|solutionrelative:assets\\lkg\\lookingglass\\scripts\\lookingglass\\lkg-toolkit\\toolkit-api\\bridge\\bridgeconnectionhttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD7DF5A-D1E6-9758-ABB2-FB42FE890166}|LookingGlass.csproj|C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\assets\\lkg\\lookingglass\\scripts\\lookingglass\\hologramcamera\\multiviewrendering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD7DF5A-D1E6-9758-ABB2-FB42FE890166}|LookingGlass.csproj|solutionrelative:assets\\lkg\\lookingglass\\scripts\\lookingglass\\hologramcamera\\multiviewrendering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,48 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DemoInputToggleButtons.cs",
-              "DocumentMoniker": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoInputToggleButtons.cs",
-              "RelativeDocumentMoniker": "Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoInputToggleButtons.cs",
-              "ToolTip": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoInputToggleButtons.cs",
-              "RelativeToolTip": "Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoInputToggleButtons.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAA/AAAAAAAAAA==",
+              "Title": "Skin.cs",
+              "DocumentMoniker": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\Scripts\\Skin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Skin.cs",
+              "ToolTip": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\Scripts\\Skin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Skin.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T15:28:07.828Z",
+              "WhenOpened": "2025-03-23T00:02:56.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DemoDMAButton.cs",
-              "DocumentMoniker": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoDMAButton.cs",
-              "RelativeDocumentMoniker": "Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoDMAButton.cs",
-              "ToolTip": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoDMAButton.cs",
-              "RelativeToolTip": "Assets\\LKG\\LookingGlass\\Examples\\Scripts\\LookingGlass.Demos\\DemoDMAButton.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "BridgeConnectionHTTP.cs",
+              "DocumentMoniker": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\LKG\\LookingGlass\\Scripts\\LookingGlass\\LKG-Toolkit\\Toolkit-API\\Bridge\\BridgeConnectionHTTP.cs",
+              "RelativeDocumentMoniker": "Assets\\LKG\\LookingGlass\\Scripts\\LookingGlass\\LKG-Toolkit\\Toolkit-API\\Bridge\\BridgeConnectionHTTP.cs",
+              "ToolTip": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\LKG\\LookingGlass\\Scripts\\LookingGlass\\LKG-Toolkit\\Toolkit-API\\Bridge\\BridgeConnectionHTTP.cs",
+              "RelativeToolTip": "Assets\\LKG\\LookingGlass\\Scripts\\LookingGlass\\LKG-Toolkit\\Toolkit-API\\Bridge\\BridgeConnectionHTTP.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAjwMgAAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T15:27:50.762Z"
+              "WhenOpened": "2025-03-21T23:49:44.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MultiViewRendering.cs",
+              "DocumentMoniker": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\LKG\\LookingGlass\\Scripts\\LookingGlass\\HologramCamera\\MultiViewRendering.cs",
+              "RelativeDocumentMoniker": "Assets\\LKG\\LookingGlass\\Scripts\\LookingGlass\\HologramCamera\\MultiViewRendering.cs",
+              "ToolTip": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\LKG\\LookingGlass\\Scripts\\LookingGlass\\HologramCamera\\MultiViewRendering.cs",
+              "RelativeToolTip": "Assets\\LKG\\LookingGlass\\Scripts\\LookingGlass\\HologramCamera\\MultiViewRendering.cs",
+              "ViewState": "AgIAAAcCAAAAAAAAAAArwB8CAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:59:06.202Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameStart.cs",
-              "DocumentMoniker": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\Scripts\\GameStart.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameStart.cs",
-              "ToolTip": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\Scripts\\GameStart.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameStart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Title": "SceneManager.cs",
+              "DocumentMoniker": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\Scripts\\SceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManager.cs",
+              "ToolTip": "C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\Scripts\\SceneManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:23:17.651Z",
+              "WhenOpened": "2025-03-13T13:45:10.118Z",
               "EditorCaption": ""
             }
           ]

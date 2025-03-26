@@ -1066,6 +1066,14 @@
       <Project>{B81EAAFF-9855-4B17-159E-BB6A03386681}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.UIInput.csproj">
+      <Project>{654D38F7-8CB1-F4E4-49BD-8779C3AE3B62}</Project>
+      <Name>Ultraleap.Tracking.UIInput</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.Aggregation.csproj">
+      <Project>{6C267D2E-2544-9FDD-26BF-5120E7220817}</Project>
+      <Name>Ultraleap.Tracking.Aggregation</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
       <Project>{BB9E57A2-1CEC-BC52-4D70-93F977138509}</Project>
       <Name>Unity.Postprocessing.Editor</Name>
@@ -1073,6 +1081,10 @@
     <ProjectReference Include="FFmpegOut.csproj">
       <Project>{CF14CBD8-BA72-4844-664C-D54E81EC0CAA}</Project>
       <Name>FFmpegOut</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.Locomotion.csproj">
+      <Project>{4F19CE8F-C137-27AB-7F29-A792D27B4861}</Project>
+      <Name>Ultraleap.Tracking.Locomotion</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{92BF9B55-42F4-014D-D61F-23E8760630E7}</Project>
@@ -1090,9 +1102,41 @@
       <Project>{0C107BBF-3ADC-0246-C490-2BAF35A0736E}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.PhysicalHands.csproj">
+      <Project>{CED4947E-2E9B-E442-B7EC-51890794A1C6}</Project>
+      <Name>Ultraleap.Tracking.PhysicalHands</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.Hands.Editor.csproj">
+      <Project>{6D24C34F-586A-E190-F8E8-0DFFE81B27F1}</Project>
+      <Name>Ultraleap.Tracking.Hands.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.UIInput.Editor.csproj">
+      <Project>{C425CEB0-002C-1B89-CD40-21B9FFEEF82B}</Project>
+      <Name>Ultraleap.Tracking.UIInput.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.HandRays.Editor.csproj">
+      <Project>{BA48FC20-351C-2638-FCA0-0EE5FDD305B3}</Project>
+      <Name>Ultraleap.Tracking.HandRays.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
       <Project>{E4B2EBFE-4E6A-CB1F-3BFC-F63D68E09491}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.Aggregation.Editor.csproj">
+      <Project>{6020B9DA-8458-11E0-DE21-D10C21EB4DF0}</Project>
+      <Name>Ultraleap.Tracking.Aggregation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.HandRecorder.csproj">
+      <Project>{CA4AC4BC-942C-4274-DE2D-44B75E4A8494}</Project>
+      <Name>Ultraleap.Tracking.HandRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.Controllers.csproj">
+      <Project>{2C6AE9BA-4C5C-E5F4-30C1-B7D456DA35D8}</Project>
+      <Name>Ultraleap.Tracking.Controllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.PhysicalHands.Editor.csproj">
+      <Project>{981D8B34-B646-E0C3-96FE-8AF04FB49BFD}</Project>
+      <Name>Ultraleap.Tracking.PhysicalHands.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="LookingGlass.Demos.csproj">
       <Project>{474CD9FE-CDD1-6F63-5930-F615E1DFA48A}</Project>
@@ -1106,9 +1150,25 @@
       <Project>{A24850AB-91F7-FE5E-4DD5-ABF58D6C8636}</Project>
       <Name>LookingGlass.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.Core.Editor.csproj">
+      <Project>{A3FE8E22-9F08-6320-C473-7064BF982E1E}</Project>
+      <Name>Ultraleap.Tracking.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.Hands.csproj">
+      <Project>{E902BDFF-6666-CC2A-0B39-0567645233ED}</Project>
+      <Name>Ultraleap.Tracking.Hands</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.HandRecorder.Editor.csproj">
+      <Project>{7D6D4A03-D98B-9F44-EBD9-7D8C74ADD998}</Project>
+      <Name>Ultraleap.Tracking.HandRecorder.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="GraphQLClient.csproj">
       <Project>{1B1096C2-932E-4AAC-BF0B-A9EF8A29A8F2}</Project>
       <Name>GraphQLClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.HandRays.csproj">
+      <Project>{64B55A15-FE8A-3E36-E3C5-84A6476E86F5}</Project>
+      <Name>Ultraleap.Tracking.HandRays</Name>
     </ProjectReference>
     <ProjectReference Include="LookingGlass.csproj">
       <Project>{AAD7DF5A-D1E6-9758-ABB2-FB42FE890166}</Project>
@@ -1121,6 +1181,14 @@
     <ProjectReference Include="GraphQLClient.Editor.csproj">
       <Project>{A2E44AA4-3243-008D-D5B2-C62E5627B33A}</Project>
       <Name>GraphQLClient.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.ImageDistort.csproj">
+      <Project>{CA7ED9FB-A54D-79F0-8EB3-6900BA264DDF}</Project>
+      <Name>Ultraleap.Tracking.ImageDistort</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ultraleap.Tracking.Core.csproj">
+      <Project>{D279BB49-2494-C432-32B0-08144B8C16A7}</Project>
+      <Name>Ultraleap.Tracking.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -12,6 +12,10 @@ public class tempSceneChange : MonoBehaviour
     string sceneMiddle;
     [SerializeField]
     string sceneBottom;
+
+    [SerializeField] bool isOnTop;
+    [SerializeField] bool isOnMiddle;
+    [SerializeField] bool isOnBottom;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,9 +25,9 @@ public class tempSceneChange : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        KeyCheckV2(sceneTop,HardwareButton.Back);
-        KeyCheckV2(sceneMiddle, HardwareButton.Forward);
-        KeyCheckV2(sceneBottom, HardwareButton.PlayPause);
+        if (isOnTop) { KeyCheckV2(sceneTop, HardwareButton.Back); }
+        if (isOnMiddle) { KeyCheckV2(sceneMiddle, HardwareButton.Forward); }
+        if (isOnBottom) { KeyCheckV2(sceneBottom, HardwareButton.PlayPause); }
     }
 
     private void keyCheck()

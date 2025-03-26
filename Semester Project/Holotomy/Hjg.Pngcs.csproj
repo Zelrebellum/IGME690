@@ -67,8 +67,8 @@
     <Compile Include="Assets\LKG\LookingGlass\Plugins\PNGCS\Hjg.Pngcs\Chunks\PngChunkTIME.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Plugins\PNGCS\Hjg.Pngcs\Zlib\AZlibOutputStream.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Plugins\PNGCS\Hjg.Pngcs\Chunks\PngChunkTEXT.cs" />
-    <Compile Include="Assets\LKG\LookingGlass\Plugins\PNGCS\Hjg.Pngcs\PngjException.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Plugins\PNGCS\Hjg.Pngcs\Chunks\PngChunkMultiple.cs" />
+    <Compile Include="Assets\LKG\LookingGlass\Plugins\PNGCS\Hjg.Pngcs\PngjException.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Plugins\PNGCS\Hjg.Pngcs\PngjBadCrcException.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Plugins\PNGCS\Hjg.Pngcs\PngIDatChunkOutputStream.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Plugins\PNGCS\Hjg.Pngcs\Chunks\ChunkHelper.cs" />

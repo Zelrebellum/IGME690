@@ -166,7 +166,19 @@
         158,
         159,
         160,
-        161
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -440,7 +452,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 17745,
+      "PayloadLength": 19068,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -546,22 +558,32 @@
         "C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.UIInput.dll",
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.Aggregation.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/FFmpegOut.dll",
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.Locomotion.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Hjg.Pngcs.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.PhysicalHands.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll",
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.HandRecorder.dll",
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.Controllers.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/LookingGlass.Demos.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/NativeFilePicker.Runtime.dll",
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.Hands.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/GraphQLClient.dll",
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.HandRays.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/LookingGlass.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/WebSocketSharp.dll",
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.ImageDistort.dll",
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.Core.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Assets/LKG/LookingGlass/Plugins/PNGCS/ICSharpCode.SharpZipLib.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll",
         "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -650,6 +672,30 @@
       "DebugActionIndex": 25
     },
     {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Plugins/x86_64/UltraleapOpenXRUnity.dll",
+      "DisplayName": "Copying UltraleapOpenXRUnity.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/UnityPlugin-develop/UnityPlugin-develop/Packages/Tracking/OpenXR/Runtime/Plugins/x64/UltraleapOpenXRUnity.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Plugins/x86_64/UltraleapOpenXRUnity.dll"
+      ],
+      "DebugActionIndex": 26
+    },
+    {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Plugins/x86_64/LeapC.dll",
+      "DisplayName": "Copying LeapC.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/UnityPlugin-develop/UnityPlugin-develop/Packages/Tracking/Core/Runtime/Plugins/x86_64/LeapC.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Plugins/x86_64/LeapC.dll"
+      ],
+      "DebugActionIndex": 27
+    },
+    {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.AIModule.dll",
       "DisplayName": "Copying UnityEngine.AIModule.dll",
       "ActionType": "CopyFiles",
@@ -659,7 +705,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ARModule.dll",
@@ -671,7 +717,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -683,7 +729,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -695,7 +741,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -707,7 +753,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -719,7 +765,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.AudioModule.dll",
@@ -731,7 +777,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ClothModule.dll",
@@ -743,7 +789,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -755,7 +801,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -767,7 +813,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -779,7 +825,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.ContentLoadModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.CoreModule.dll",
@@ -791,7 +837,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -803,7 +849,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -815,7 +861,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -827,7 +873,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.GIModule.dll",
@@ -839,7 +885,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -851,7 +897,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.GridModule.dll",
@@ -863,7 +909,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -875,7 +921,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -887,7 +933,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -899,7 +945,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -911,7 +957,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.InputModule.dll",
@@ -923,7 +969,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -935,7 +981,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -947,7 +993,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -959,7 +1005,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -971,7 +1017,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -983,7 +1029,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -995,7 +1041,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1007,7 +1053,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1019,7 +1065,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -1031,7 +1077,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.PropertiesModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -1043,7 +1089,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1055,7 +1101,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1067,7 +1113,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -1079,7 +1125,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1091,7 +1137,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1103,7 +1149,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1115,7 +1161,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1127,7 +1173,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.TLSModule.dll",
@@ -1139,7 +1185,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1151,7 +1197,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1163,7 +1209,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1175,7 +1221,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1187,7 +1233,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1199,7 +1245,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1211,7 +1257,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1223,7 +1269,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UIModule.dll",
@@ -1235,7 +1281,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1247,7 +1293,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1259,7 +1305,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1271,7 +1317,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1283,7 +1329,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1295,7 +1341,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1307,7 +1353,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1319,7 +1365,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1331,7 +1377,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1343,7 +1389,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1355,7 +1401,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1367,7 +1413,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1379,7 +1425,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.VRModule.dll",
@@ -1391,7 +1437,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1403,7 +1449,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1415,7 +1461,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1427,7 +1473,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.WindModule.dll",
@@ -1439,7 +1485,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.XRModule.dll",
@@ -1451,7 +1497,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.dll",
@@ -1463,7 +1509,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Assembly-CSharp.dll",
@@ -1475,7 +1521,31 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 96
+    },
+    {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.UIInput.dll",
+      "DisplayName": "Copying Ultraleap.Tracking.UIInput.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.UIInput.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.UIInput.dll"
+      ],
+      "DebugActionIndex": 97
+    },
+    {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Aggregation.dll",
+      "DisplayName": "Copying Ultraleap.Tracking.Aggregation.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.Aggregation.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Aggregation.dll"
+      ],
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/FFmpegOut.dll",
@@ -1487,7 +1557,19 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/FFmpegOut.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 99
+    },
+    {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Locomotion.dll",
+      "DisplayName": "Copying Ultraleap.Tracking.Locomotion.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.Locomotion.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Locomotion.dll"
+      ],
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -1499,7 +1581,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Hjg.Pngcs.dll",
@@ -1511,7 +1593,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Hjg.Pngcs.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UI.dll",
@@ -1523,7 +1605,19 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 103
+    },
+    {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.PhysicalHands.dll",
+      "DisplayName": "Copying Ultraleap.Tracking.PhysicalHands.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.PhysicalHands.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.PhysicalHands.dll"
+      ],
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1535,7 +1629,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Unity.Timeline.dll",
@@ -1547,7 +1641,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Unity.InputSystem.dll",
@@ -1559,7 +1653,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Unity.InputSystem.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Unity.InputSystem.ForUI.dll",
@@ -1571,7 +1665,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Unity.InputSystem.ForUI.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Unity.Postprocessing.Runtime.dll",
@@ -1583,7 +1677,31 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Unity.Postprocessing.Runtime.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 109
+    },
+    {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.HandRecorder.dll",
+      "DisplayName": "Copying Ultraleap.Tracking.HandRecorder.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.HandRecorder.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.HandRecorder.dll"
+      ],
+      "DebugActionIndex": 110
+    },
+    {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Controllers.dll",
+      "DisplayName": "Copying Ultraleap.Tracking.Controllers.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.Controllers.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Controllers.dll"
+      ],
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/LookingGlass.Demos.dll",
@@ -1595,7 +1713,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/LookingGlass.Demos.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/NativeFilePicker.Runtime.dll",
@@ -1607,7 +1725,19 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/NativeFilePicker.Runtime.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 113
+    },
+    {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Hands.dll",
+      "DisplayName": "Copying Ultraleap.Tracking.Hands.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.Hands.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Hands.dll"
+      ],
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Unity.TextMeshPro.dll",
@@ -1619,7 +1749,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/GraphQLClient.dll",
@@ -1631,7 +1761,19 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/GraphQLClient.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 116
+    },
+    {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.HandRays.dll",
+      "DisplayName": "Copying Ultraleap.Tracking.HandRays.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.HandRays.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.HandRays.dll"
+      ],
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/LookingGlass.dll",
@@ -1643,7 +1785,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/LookingGlass.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.State.dll",
@@ -1655,7 +1797,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/WebSocketSharp.dll",
@@ -1667,7 +1809,31 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/WebSocketSharp.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 120
+    },
+    {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.ImageDistort.dll",
+      "DisplayName": "Copying Ultraleap.Tracking.ImageDistort.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.ImageDistort.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.ImageDistort.dll"
+      ],
+      "DebugActionIndex": 121
+    },
+    {
+      "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Core.dll",
+      "DisplayName": "Copying Ultraleap.Tracking.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Library/Bee/PlayerScriptAssemblies/Ultraleap.Tracking.Core.dll"
+      ],
+      "Outputs": [
+        "Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Core.dll"
+      ],
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/ICSharpCode.SharpZipLib.dll",
@@ -1679,7 +1845,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/ICSharpCode.SharpZipLib.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Newtonsoft.Json.dll",
@@ -1691,7 +1857,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Newtonsoft.Json.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1703,7 +1869,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/netstandard.dll",
@@ -1715,7 +1881,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/Mono.Security.dll",
@@ -1727,7 +1893,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1739,7 +1905,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Configuration.dll",
@@ -1751,7 +1917,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Core.dll",
@@ -1763,7 +1929,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1775,7 +1941,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Data.dll",
@@ -1787,7 +1953,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Drawing.dll",
@@ -1799,7 +1965,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.EnterpriseServices.dll",
@@ -1811,7 +1977,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1823,7 +1989,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.IO.Compression.dll",
@@ -1835,7 +2001,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Net.Http.dll",
@@ -1847,7 +2013,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Numerics.dll",
@@ -1859,7 +2025,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Runtime.Serialization.dll",
@@ -1871,7 +2037,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Security.dll",
@@ -1883,7 +2049,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1895,7 +2061,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Transactions.dll",
@@ -1907,7 +2073,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Xml.Linq.dll",
@@ -1919,7 +2085,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.Xml.dll",
@@ -1931,7 +2097,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/System.dll",
@@ -1943,7 +2109,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Managed/mscorlib.dll",
@@ -1955,20 +2121,20 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 17917,
+      "PayloadOffset": 19240,
       "PayloadLength": 23,
       "PayloadDebugContentSnippet": "DefaultCompany\nHolotomy",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/app.info",
@@ -1981,9 +2147,9 @@
         "Holotomy/Holotomy_Data/app.info"
       ],
       "ToBuildDependencies": [
-        135
+        147
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy_Data/Resources/unity default resources",
@@ -1995,7 +2161,7 @@
       "Outputs": [
         "Holotomy/Holotomy_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles Holotomy/Holotomy.exe",
@@ -2007,7 +2173,7 @@
       "Outputs": [
         "Holotomy/Holotomy.exe"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -2019,7 +2185,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -2031,7 +2197,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -2043,7 +2209,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -2055,7 +2221,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -2067,7 +2233,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -2079,7 +2245,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -2091,7 +2257,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -2103,7 +2269,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -2115,7 +2281,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -2127,7 +2293,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -2139,7 +2305,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -2151,7 +2317,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -2163,7 +2329,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -2175,7 +2341,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -2187,7 +2353,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -2199,7 +2365,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -2211,7 +2377,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -2223,7 +2389,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/config",
@@ -2235,7 +2401,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "CopyFiles Holotomy/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -2247,7 +2413,7 @@
       "Outputs": [
         "Holotomy/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles Holotomy/UnityCrashHandler64.exe",
@@ -2259,7 +2425,7 @@
       "Outputs": [
         "Holotomy/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles Holotomy/UnityPlayer.dll",
@@ -2271,7 +2437,7 @@
       "Outputs": [
         "Holotomy/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "Player",
@@ -2411,6 +2577,7 @@
         132,
         133,
         134,
+        135,
         136,
         137,
         138,
@@ -2422,7 +2589,6 @@
         144,
         145,
         146,
-        147,
         148,
         149,
         150,
@@ -2435,10 +2601,22 @@
         157,
         158,
         159,
-        160
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 161
+      "DebugActionIndex": 173
     }
   ],
   "FileSignatures": [
@@ -2559,6 +2737,12 @@
   ],
   "StatSignatures": [
     {
+      "File": "Assets/UnityPlugin-develop/UnityPlugin-develop/Packages/Tracking/Core/Runtime/Plugins/x86_64/LeapC.dll"
+    },
+    {
+      "File": "Assets/UnityPlugin-develop/UnityPlugin-develop/Packages/Tracking/OpenXR/Runtime/Plugins/x64/UltraleapOpenXRUnity.dll"
+    },
+    {
       "File": "C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
@@ -2639,7 +2823,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 161
+          "Player": 173
         }
 ,  "DefaultNodes": [
     0

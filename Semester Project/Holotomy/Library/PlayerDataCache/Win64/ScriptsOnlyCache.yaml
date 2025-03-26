@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Skin
     - tempSceneChange
     GraphQLClient:
     - GraphQLClient.GraphQLAPI
@@ -10,8 +11,26 @@ ScriptsOnlyBuild:
     - LookingGlass.Blocks.BlockUploader
     - LookingGlass.HologramCamera
     - LookingGlass.LKGDisplaySystem/CoroutineRunner
+    - LookingGlass.MultiViewRenderer
     - LookingGlass.PluginVersionAsset
     - LookingGlass.QuiltCapture
+    Ultraleap.Tracking.Aggregation:
+    - JointOcclusion
+    Ultraleap.Tracking.Core:
+    - Leap.CapsuleHand
+    - Leap.HandEnableDisable
+    - Leap.UltraleapSettings
+    Ultraleap.Tracking.Core.dll:
+    - AutomaticRenderPipelineMaterialShaderUpdater
+    - Leap.HandEnableDisable
+    - Leap.LeapServiceProvider
+    - Leap.UltraleapSettings
+    Ultraleap.Tracking.Hands.dll:
+    - Leap.HandsModule.HandBinder
+    Ultraleap.Tracking.PhysicalHands.dll:
+    - Leap.PhysicalHands.GrabHelper
+    - Leap.PhysicalHands.HardContactParent
+    - Leap.PhysicalHands.PhysicalHandsManager
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -30,7 +49,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -77,6 +95,17 @@ ScriptsOnlyBuild:
     - LookingGlass.Toolkit.QuiltSettings
     - LookingGlass.TransformMode
     - LookingGlass.ViewRenderEvent
+    Ultraleap.Tracking.Core:
+    - Leap.Arm
+    - Leap.Bone
+    - Leap.Finger
+    - Leap.Hand
+    Ultraleap.Tracking.Hands:
+    - Leap.HandsModule.BoundBone
+    - Leap.HandsModule.BoundFinger
+    - Leap.HandsModule.BoundHand
+    - Leap.HandsModule.SerializedTransform
+    - Leap.HandsModule.TransformStore
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -94,6 +123,7 @@ ScriptsOnlyBuild:
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.UnityEvent`2[Leap.PhysicalHands.ContactHand,UnityEngine.Rigidbody]
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -125,21 +155,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1702}
+      Script: {instanceID: 1718}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 5032}
     - Class: 114
-      Script: {instanceID: 4956}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 6088}
+      Script: {instanceID: 6190}
     - Class: 114
-      Script: {instanceID: 6978}
+      Script: {instanceID: 6420}
     - Class: 114
-      Script: {instanceID: 7268}
+      Script: {instanceID: 7370}
     - Class: 114
-      Script: {instanceID: 9822}
+      Script: {instanceID: 7674}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -147,6 +177,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -176,21 +210,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1702}
+      Script: {instanceID: 1718}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 5032}
     - Class: 114
-      Script: {instanceID: 4956}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 6088}
+      Script: {instanceID: 6190}
     - Class: 114
-      Script: {instanceID: 6978}
+      Script: {instanceID: 6420}
     - Class: 114
-      Script: {instanceID: 7268}
+      Script: {instanceID: 7370}
     - Class: 114
-      Script: {instanceID: 9822}
+      Script: {instanceID: 7674}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -198,6 +232,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -234,31 +272,47 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4162}
+      Script: {instanceID: 1946}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 2192}
     - Class: 114
-      Script: {instanceID: 4956}
+      Script: {instanceID: 2900}
     - Class: 114
-      Script: {instanceID: 6088}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 7268}
+      Script: {instanceID: 3668}
     - Class: 114
-      Script: {instanceID: 9822}
+      Script: {instanceID: 4106}
+    - Class: 114
+      Script: {instanceID: 5032}
+    - Class: 114
+      Script: {instanceID: 5210}
+    - Class: 114
+      Script: {instanceID: 6190}
+    - Class: 114
+      Script: {instanceID: 6930}
+    - Class: 114
+      Script: {instanceID: 7674}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 128
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 224
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     Assets/Scenes/Title.unity:
     - Class: 1
@@ -281,11 +335,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -294,31 +348,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1702}
+      Script: {instanceID: 1718}
     - Class: 114
-      Script: {instanceID: 2466}
+      Script: {instanceID: 1946}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 2540}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 4876}
+      Script: {instanceID: 5032}
     - Class: 114
-      Script: {instanceID: 4956}
+      Script: {instanceID: 5126}
     - Class: 114
-      Script: {instanceID: 5198}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 6088}
+      Script: {instanceID: 5466}
     - Class: 114
-      Script: {instanceID: 6978}
+      Script: {instanceID: 6190}
     - Class: 114
-      Script: {instanceID: 7268}
+      Script: {instanceID: 6392}
     - Class: 114
-      Script: {instanceID: 9110}
+      Script: {instanceID: 6420}
+    - Class: 114
+      Script: {instanceID: 7148}
+    - Class: 114
+      Script: {instanceID: 7370}
+    - Class: 114
+      Script: {instanceID: 7674}
+    - Class: 114
+      Script: {instanceID: 8148}
     - Class: 114
       Script: {instanceID: 9630}
     - Class: 114
-      Script: {instanceID: 9822}
+      Script: {instanceID: 10192}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -326,6 +388,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -336,16 +402,16 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: 1fe39535bdbd40760cdc29003c8f5d6e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DynamicAlcove
-  - hash:
-      serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -364,6 +430,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
     className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 5c1346d316db3b52f91ecd341b686a77
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: SoftContactBone
+  - hash:
+      serializedVersion: 2
+      Hash: c90fd8d4da5d7d124fdf30f917f8fa80
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: EditorURL
+  - hash:
+      serializedVersion: 2
+      Hash: 6fd0df369bb34810acddd6e92b88d8ec
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: LeapImageRetriever
   - hash:
       serializedVersion: 2
       Hash: f45600bcc886206dd55a3208474aad61
@@ -390,10 +474,22 @@ ScriptsOnlyBuild:
     className: Grain
   - hash:
       serializedVersion: 2
+      Hash: 0cd207d1bc80601a25069d8f6a59ac36
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandEnableDisable
+  - hash:
+      serializedVersion: 2
       Hash: 00bbd9db8634496d079d17711b2ff7c4
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: bb862643846357a888502713997cbdf1
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.HandsModule.Examples
+    className: CycleHandPairs
   - hash:
       serializedVersion: 2
       Hash: 157d3cf40178d244cd11ae1c9791ead7
@@ -420,10 +516,52 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e3f7147897a600617856964e778e2c9f
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: LeapXRServiceProvider
+  - hash:
+      serializedVersion: 2
+      Hash: d3b5bd86ad4c806812d1e91d5af6b95b
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: HandRayDotRenderer
+  - hash:
+      serializedVersion: 2
       Hash: f854af586011dd194574f89546642e29
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8af48245d812aec5a23fe0d426250959
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: GrabHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 92edb590f42aa26ada6cfc43586b044a
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: Anchor
+  - hash:
+      serializedVersion: 2
+      Hash: 6f11cb6532c000ea98702157c2a884a2
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: 
+    className: AutomaticRenderPipelineMaterialShaderUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 39e3d13d26d22683fdf4bf0ac57a8184
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsSlider
+  - hash:
+      serializedVersion: 2
+      Hash: fbda57f106245ada546c88465855448a
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: Comment
   - hash:
       serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
@@ -442,6 +580,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4ca9f7e142b68b55e2e93da82fb8190d
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: PinchDetector
   - hash:
       serializedVersion: 2
       Hash: 1bc6ff8d02d2d68019aa6a028f8d409d
@@ -468,10 +612,28 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreakMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 7c3511ff834bf2ac1d732fec40be5215
+    assemblyName: Ultraleap.Tracking.Aggregation
+    namespaceName: Leap
+    className: AggregationProviderConfidenceInterpolation
+  - hash:
+      serializedVersion: 2
+      Hash: 2a1912c70093801c3d4026984c50c59e
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: EnableDepthBuffer
+  - hash:
+      serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: b122b1d3ee011c4e40bee01fdcecba0b
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: NoContactBone
   - hash:
       serializedVersion: 2
       Hash: ff086b2fc4609f8b094e7c0435c6db0a
@@ -486,10 +648,52 @@ ScriptsOnlyBuild:
     className: XYSpotlight
   - hash:
       serializedVersion: 2
+      Hash: a50c85d9505e9931449cbd0624856152
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Skin
+  - hash:
+      serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 30d773f3b69327364bb55f885974f619
+    assemblyName: Ultraleap.Tracking.ImageDistort
+    namespaceName: 
+    className: LeapDistortImage
+  - hash:
+      serializedVersion: 2
+      Hash: d6513b331a95193e4f20066ca0f18c5d
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: IgnorePhysicalHands
+  - hash:
+      serializedVersion: 2
+      Hash: e19c2976301b3b3980277a8e908c5d3e
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: AnchorGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d75c4810e62aa1b7ef87a0a2d22c375c
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: TrackingMarker
+  - hash:
+      serializedVersion: 2
+      Hash: adeedbad372e0c75f8397d7337a49390
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsManager
+  - hash:
+      serializedVersion: 2
+      Hash: f024791ca254544c5fc66eee9b9c7cac
+    assemblyName: Ultraleap.Tracking.Controllers
+    namespaceName: Leap.Controllers
+    className: HandControllerSwapper
   - hash:
       serializedVersion: 2
       Hash: e987953190eb4c12cf19df790566dc2c
@@ -528,6 +732,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: d709a191dd596c563e77e4061d2d8bca
+    assemblyName: Ultraleap.Tracking.HandRecorder
+    namespaceName: Leap.Recording
+    className: HandRecorder
+  - hash:
+      serializedVersion: 2
       Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -538,6 +748,12 @@ ScriptsOnlyBuild:
     assemblyName: LookingGlass.Demos
     namespaceName: LookingGlass.Demos
     className: PageHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 3d5d6c39a259082b91526b81895375b7
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: WristShoulderHandRay
   - hash:
       serializedVersion: 2
       Hash: fce9b835d1e8b08e7ecea8da19f21986
@@ -594,16 +810,16 @@ ScriptsOnlyBuild:
     className: UnityOnInputFieldEndEditMessageListener
   - hash:
       serializedVersion: 2
-      Hash: bf40c7a9dc15bc219687c9838aa9b41f
-    assemblyName: UnityEngine.TestRunner
-    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
-    className: TestResultRendererCallback
-  - hash:
-      serializedVersion: 2
       Hash: e2986044f9ac90c37161aac638ab17c3
     assemblyName: LookingGlass.Demos
     namespaceName: LookingGlass.Demos
     className: ModelController
+  - hash:
+      serializedVersion: 2
+      Hash: bf40c7a9dc15bc219687c9838aa9b41f
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
       Hash: b98001682cba83786775c9e415b89a61
@@ -612,10 +828,28 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 5189120f2f73624b59c80f6959fb206a
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Attachments
+    className: AttachmentPointBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 227925b86c8ea1d8d04861bfbe0e26d9
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: HardContactParent
+  - hash:
+      serializedVersion: 2
       Hash: b838cbada0b03f1cfbaebc8e124f4f39
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.OnScreen
     className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: 99d08873dd7f5c544adcd0a08d2eae82
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: TrackingMarkerObject
   - hash:
       serializedVersion: 2
       Hash: a1ac4c50e55874de16eee3db71aa9784
@@ -630,10 +864,28 @@ ScriptsOnlyBuild:
     className: CameraCapture
   - hash:
       serializedVersion: 2
+      Hash: d8b3f4ac634127b7b16f3c31b46e0031
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: XRLeapProviderManager
+  - hash:
+      serializedVersion: 2
+      Hash: 026cdb1d97f711249eac3278e6e8f159
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.RuntimeGizmos
+    className: RuntimeGizmoToggle
+  - hash:
+      serializedVersion: 2
       Hash: 915204dac8acad99f076d6e72ada0a0f
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: ada504bc54c963b2e35d055b617e4518
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsButton
   - hash:
       serializedVersion: 2
       Hash: d90629714fa6b0145fcaffc87f5c6559
@@ -648,6 +900,18 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDownMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 03478dbb503e7731d0a63686e36fa469
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: NoContactHand
+  - hash:
+      serializedVersion: 2
+      Hash: a2d858ddb3cf5dc7380159f144f6602f
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: HandFadeInAtDistanceFromRealData
+  - hash:
+      serializedVersion: 2
       Hash: b6307dfc54cca9ba44f47185c578b0ce
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -660,6 +924,12 @@ ScriptsOnlyBuild:
     className: AutoExposure
   - hash:
       serializedVersion: 2
+      Hash: 5eb4b8ab506665fa788025e7ec990110
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: DebugHand
+  - hash:
+      serializedVersion: 2
       Hash: d7c8092511063e0dae8106bfc8ed63dd
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -670,6 +940,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 06c984b9f4ada1d0e2b43ceed5f2b365
+    assemblyName: Ultraleap.Tracking.Locomotion
+    namespaceName: Leap.Preview.Locomotion
+    className: JumpGem
   - hash:
       serializedVersion: 2
       Hash: d41ab9b5ea92474f9c0a6937a0607ce1
@@ -688,6 +964,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 180973776fec882fc71729d5cca2169a
+    assemblyName: Ultraleap.Tracking.Hands
+    namespaceName: Leap.HandsModule
+    className: HandBinder
   - hash:
       serializedVersion: 2
       Hash: 7bdff9e91edfd9600f92a185def7e34a
@@ -714,16 +996,40 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 5e8ad8b430e5b82ba2af25508cbeb8a6
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandPoseEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 78bdc2cc78370a063d6b8aa3b431dbae
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: HardContactHand
+  - hash:
+      serializedVersion: 2
       Hash: e6f8333cc8a800e2866870a5ef7efc35
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnControllerColliderHitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: eaab4c4cd63f652dfe2568fb4160bfc4
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: HardContactBone
+  - hash:
+      serializedVersion: 2
       Hash: 88fb61bb508a86605b1a692a09279159
     assemblyName: NativeFilePicker.Runtime
     namespaceName: NativeFilePickerNamespace
     className: FPResultCallbackiOS
+  - hash:
+      serializedVersion: 2
+      Hash: 053d1193387b4bde59f07b17f1835217
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Attachments
+    className: AttachmentHands
   - hash:
       serializedVersion: 2
       Hash: 960935b102b3064f4b924de16426e340
@@ -750,10 +1056,22 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 8388cadbb8a3e60c3be9c139769a577f
+    assemblyName: Ultraleap.Tracking.Locomotion
+    namespaceName: Leap.Preview.Locomotion
+    className: JumpGemTeleport
+  - hash:
+      serializedVersion: 2
       Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
     className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3371fe37cc9941496d12b5e975906c65
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: StraightRayInteractor
   - hash:
       serializedVersion: 2
       Hash: 42284ecb06b05bfc619be3758fa5dd7a
@@ -802,6 +1120,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 943c087b3aa374c5367d730f2a99e9b9
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Attachments
+    className: AttachmentHand
   - hash:
       serializedVersion: 2
       Hash: ded9279e912155c99217c5ffbd8affcc
@@ -900,6 +1224,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 0c091927067212d744ceaa77b2e694c1
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: 
+    className: HandPoseValidator
+  - hash:
+      serializedVersion: 2
       Hash: 215d2dc6ec6ea06728398ea39a103cb3
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.OnScreen
@@ -924,16 +1254,16 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: df4a907c35265c62138cb07ad995964a
+    assemblyName: Ultraleap.Tracking.Hands
+    namespaceName: Leap.HandsModule
+    className: DistortTrackingDataToVisuals
+  - hash:
+      serializedVersion: 2
       Hash: 46b8e57153042148a7d1f5a65152ba7d
     assemblyName: LookingGlass.Demos
     namespaceName: LookingGlass.Demos
     className: DemoCaptureAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: ea1b87a3bfed09792e7720338241c7a0
-    assemblyName: Unity.InputSystem
-    namespaceName: UnityEngine.InputSystem.Editor
-    className: InputDeviceDebuggerWindow
   - hash:
       serializedVersion: 2
       Hash: f2f8cdee4be19b515bb3ff027c83f6b3
@@ -946,6 +1276,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: ea1b87a3bfed09792e7720338241c7a0
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
   - hash:
       serializedVersion: 2
       Hash: ff71db1a48de41d3a8a5ffdfae1ea607
@@ -966,6 +1302,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 66a782f09c3a7acebec8557f4d8ec23f
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: UIInputCursor
+  - hash:
+      serializedVersion: 2
       Hash: e83a8dd1b5de388dd12741f9dabe7b6c
     assemblyName: LookingGlass.Demos
     namespaceName: LookingGlass.Demos
@@ -984,10 +1326,28 @@ ScriptsOnlyBuild:
     className: DualMonitorApplicationBaseIPC
   - hash:
       serializedVersion: 2
+      Hash: f9d4788cb42dbeb53e13e8b76416c629
+    assemblyName: Ultraleap.Tracking.Locomotion
+    namespaceName: Leap.Preview.Locomotion
+    className: IsFacingObject
+  - hash:
+      serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b31c2d7860306cafc5b599fa13dc5e52
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: SoftContactHand
+  - hash:
+      serializedVersion: 2
+      Hash: 148ccbdaccb9710aed0642ce4781435b
+    assemblyName: Ultraleap.Tracking.Locomotion
+    namespaceName: Leap.Preview.Locomotion
+    className: TeleportAnchor
   - hash:
       serializedVersion: 2
       Hash: e402a382f213255c22bda9254dd831b3
@@ -1008,16 +1368,16 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 606f65480196dd35fcb4fd1c55c34c94
-    assemblyName: Assembly-CSharp
-    namespaceName: LookingGlass.Extras
-    className: lightFlicker
-  - hash:
-      serializedVersion: 2
       Hash: 90cf308600fb4aeb677786843453ec55
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
     className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: 606f65480196dd35fcb4fd1c55c34c94
+    assemblyName: Assembly-CSharp
+    namespaceName: LookingGlass.Extras
+    className: lightFlicker
   - hash:
       serializedVersion: 2
       Hash: b6792907b61f32faaf3e23f55e750107
@@ -1036,6 +1396,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: b597d83c9f8970cb4e25f0b9916069df
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: SpawnObjectAtPosition
   - hash:
       serializedVersion: 2
       Hash: db9b308769d19e1f9e161df0392c23ca
@@ -1080,6 +1446,12 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 9a5f19b33d7fd16f2bfc8eeff718cba6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: tempSceneChange
+  - hash:
+      serializedVersion: 2
       Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -1114,6 +1486,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f8f10d3215c7c6847fd1d57b59204bee
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: UltraleapSettings
   - hash:
       serializedVersion: 2
       Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
@@ -1170,10 +1548,46 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: 1fe39535bdbd40760cdc29003c8f5d6e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DynamicAlcove
+  - hash:
+      serializedVersion: 2
+      Hash: 7ac6de8eb875d65c7cf03b0d328d83f1
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: NoContactParent
+  - hash:
+      serializedVersion: 2
+      Hash: 1f4a174779b659049048b54b74d1980b
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandPoseViewer
+  - hash:
+      serializedVersion: 2
+      Hash: e2a7e188eca8218db78d6ddf1fb14398
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: SoundOverrides
+  - hash:
+      serializedVersion: 2
+      Hash: 69cdd0c57f23f2c1815a0c0fda8c37b5
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandPoseDetector
+  - hash:
+      serializedVersion: 2
       Hash: 2071f7ac454ae14eafecfd4041edae3a
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: e508617b1c4f7a55699cdd017757185c
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: LeapServiceProvider
   - hash:
       serializedVersion: 2
       Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
@@ -1186,6 +1600,12 @@ ScriptsOnlyBuild:
     assemblyName: FFmpegOut
     namespaceName: FFmpegOut
     className: FrameRateController
+  - hash:
+      serializedVersion: 2
+      Hash: 07e0a547f0e3fcea7b459288c3d558f8
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: FarFieldLayerManager
   - hash:
       serializedVersion: 2
       Hash: 6cf63e9dc888f92a3672d2e4db631c8e
@@ -1206,6 +1626,18 @@ ScriptsOnlyBuild:
     className: DemoIOSUIController
   - hash:
       serializedVersion: 2
+      Hash: faaf7c5663a8ba2f1cd922fa30209736
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: CompressibleUI
+  - hash:
+      serializedVersion: 2
+      Hash: 411aeba4ec88e8cecdbcc94f62452b06
+    assemblyName: Ultraleap.Tracking.Aggregation
+    namespaceName: 
+    className: JointOcclusion
+  - hash:
+      serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1216,6 +1648,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: c90767db78b7ead80617b2d0a283c791
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Readme
+    className: SceneReadmePing
+  - hash:
+      serializedVersion: 2
+      Hash: 7588006c8811d55a13ec27d323f81bec
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: ParabolicRayInteractor
   - hash:
       serializedVersion: 2
       Hash: 8e867e9b6da8d6e002a3b7061e5f4ea2
@@ -1266,10 +1710,10 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStay2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 9104447b683bf70406fa01f12ecb564a
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.EventSystems
-    className: StandaloneInputModule
+      Hash: de3bec7ec70dff411f6bb08b42cdda21
+    assemblyName: Ultraleap.Tracking.Aggregation
+    namespaceName: 
+    className: VisualizeJointConfidence
   - hash:
       serializedVersion: 2
       Hash: a90f6a00b23520788be7d89ee3b0773d
@@ -1290,10 +1734,22 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: e39e2c8e72854d39371ad04f5be6f955
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: SimpleAnchorFeedback
+  - hash:
+      serializedVersion: 2
       Hash: 672716ae97f6ddb615fa5ac3ec9da349
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 076dd3db18f8b68bc849e816c972af53
+    assemblyName: Ultraleap.Tracking.Aggregation
+    namespaceName: Leap
+    className: AggregationProviderAngularInterpolation
   - hash:
       serializedVersion: 2
       Hash: bc75926bfd3609757f7bf33ff766f026
@@ -1338,6 +1794,12 @@ ScriptsOnlyBuild:
     className: InputActionAssetEditor
   - hash:
       serializedVersion: 2
+      Hash: a064c8fd589ce85943085fb54d3d597b
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: CapsuleHand
+  - hash:
+      serializedVersion: 2
       Hash: e63fe08659e7e4647a51098c666f8845
     assemblyName: Unity.InputSystem
     namespaceName: 
@@ -1348,6 +1810,18 @@ ScriptsOnlyBuild:
     assemblyName: LookingGlass
     namespaceName: LookingGlass
     className: SimpleDOF
+  - hash:
+      serializedVersion: 2
+      Hash: ef1bed0068849933a63ffedbec2f56d0
+    assemblyName: Ultraleap.Tracking.Controllers
+    namespaceName: Leap.Controllers
+    className: ControllerPostProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 49d33869171bde084cb88eab67cc19ed
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: PalmWristShoulderHandRay
   - hash:
       serializedVersion: 2
       Hash: f669be52680c88846b2093fd41d1e06e
@@ -1366,6 +1840,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 73077df76e8f3617af147ee287d0fe8e
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsButtonHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 258aee3b0541bcdc50db220a6ff07839
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: GrabBall
   - hash:
       serializedVersion: 2
       Hash: 33eb495d99aa9bea4dbe8b4c4e02c7bb
@@ -1404,16 +1890,22 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerEnter2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
-    assemblyName: Unity.Timeline
-    namespaceName: UnityEngine.Timeline
-    className: BasicPlayableBehaviour
+      Hash: 2ebe242529c72ae582e36b8c833dd5b2
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Examples
+    className: IgnoreCollisionsInChildren
   - hash:
       serializedVersion: 2
       Hash: 5a36c0d1e3ebf3749cbb562be5028bf2
     assemblyName: LookingGlass
     namespaceName: LookingGlass
     className: OrbitControl
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
   - hash:
       serializedVersion: 2
       Hash: e8d390bd9ecacc453a7500b90d0c0292
@@ -1440,10 +1932,28 @@ ScriptsOnlyBuild:
     className: PageTestHandler
   - hash:
       serializedVersion: 2
+      Hash: 0cb425f0b58fcd4574fca4589722c676
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: HandRayRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 866f2b9f5f74de07e0d67fea4471a2fd
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Attachments
+    className: AttachmentHandEnableDisable
+  - hash:
+      serializedVersion: 2
       Hash: d9f8f9d182fbd93891b16df5e55c4a86
     assemblyName: LookingGlass.Demos
     namespaceName: LookingGlass.Demos
     className: DemoGetAllLKGDisplays
+  - hash:
+      serializedVersion: 2
+      Hash: 8c82791ed2ea48a8bf47ddf24f3c1fe3
+    assemblyName: Ultraleap.Tracking.Hands
+    namespaceName: Leap.HandsModule
+    className: ShowArm
   - hash:
       serializedVersion: 2
       Hash: 6a0b5b415c00f783202fd1ae2d556cb2
@@ -1470,6 +1980,12 @@ ScriptsOnlyBuild:
     className: Rotator
   - hash:
       serializedVersion: 2
+      Hash: d3ab64899d9c0d96b3d8d8d050d7ee54
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: InferredBodyPositions
+  - hash:
+      serializedVersion: 2
       Hash: 830c3b545f6e6ee60a4cebab90516f2c
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -1480,6 +1996,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: c979f7be1210f86d4b30ceddb3c91384
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsButtonToggle
   - hash:
       serializedVersion: 2
       Hash: 4895209f48657ff949db7815a6062743
@@ -1500,6 +2022,30 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 4a95b8786f5a2d9383d89f8e083998ca
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: AnchorableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71d0251e1b113fcb8ccc731047912af2
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: SimpleFacingCameraCallbacks
+  - hash:
+      serializedVersion: 2
+      Hash: 9dcb7a1aef62578582c3bde5b42ed984
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: PhysicsUI
+  - hash:
+      serializedVersion: 2
+      Hash: 68088888e737d8ebdd3c840d9c738dcc
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandPoseRecorder
+  - hash:
+      serializedVersion: 2
       Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1510,6 +2056,12 @@ ScriptsOnlyBuild:
     assemblyName: LookingGlass
     namespaceName: LookingGlass
     className: InterProcessCommunicator
+  - hash:
+      serializedVersion: 2
+      Hash: 067ac480a2b32fcdd846d1d357e42b8f
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsSliderHelper
   - hash:
       serializedVersion: 2
       Hash: 30fc5e4818a4a3e91f3fc8d137361a49
@@ -1530,6 +2082,12 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 60add405c0582e2531e620e6d988201e
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap
+    className: PhysicalHandsAnchorable
+  - hash:
+      serializedVersion: 2
       Hash: d0392b7f3f52d5af537ade186b4f51f1
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1540,6 +2098,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: bac0b35daaee0e26b853580b97306d68
+    assemblyName: Ultraleap.Tracking.Hands
+    namespaceName: Leap.HandsModule
+    className: HandModelManager
   - hash:
       serializedVersion: 2
       Hash: dbe80c9dc024d18e75107a0b4da06133
@@ -1554,16 +2118,46 @@ ScriptsOnlyBuild:
     className: PostProcessDebug
   - hash:
       serializedVersion: 2
+      Hash: 4bd6cd7bacfd1edb5bec54b5cc8b97fb
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandEvents
+  - hash:
+      serializedVersion: 2
       Hash: d5cd7f207e91ca8336c65a577a6fb2a0
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 89d442605069ee8315c68ee16f9b2314
+    assemblyName: Ultraleap.Tracking.Locomotion
+    namespaceName: Leap.Preview.Locomotion
+    className: PinchToTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: a9cfe8b70148bbeb810f6abb6a697f2d
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: EyePinchHandRay
+  - hash:
+      serializedVersion: 2
+      Hash: ab71e93958afdfc45a4911be9d1cef55
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: SoftContactParent
+  - hash:
+      serializedVersion: 2
       Hash: d045836fe9e4ab651d186d23f8f29cf3
     assemblyName: LookingGlass
     namespaceName: LookingGlass.UI
     className: RawImageUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: f42eeda902f33d15df4c74d6b42862a4
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: UIInputModule
   - hash:
       serializedVersion: 2
       Hash: 1e7b3a7c3346a274578b70b430bcc449
@@ -1596,6 +2190,12 @@ ScriptsOnlyBuild:
     className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
+      Hash: 10e15e2f03fc78966ddda19baa968c3a
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: TransformWristShoulderHandRay
+  - hash:
+      serializedVersion: 2
       Hash: 0f5a086d4d028363983ba6ca30a01397
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1614,6 +2214,12 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
+      Hash: 55d5be533db80f7a21d5e8b125356e52
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: GrabDetector
+  - hash:
+      serializedVersion: 2
       Hash: d59d8b76928d5ae59a86eb906a346a39
     assemblyName: GraphQLClient
     namespaceName: GraphQLClient
@@ -1630,6 +2236,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: c76766bea6f8d46207a6addca0726491
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: PointerElement
   - hash:
       serializedVersion: 2
       Hash: 568292fb7ea6c4f7a667e5ff76bc7e85
@@ -1656,10 +2268,22 @@ ScriptsOnlyBuild:
     className: UISetup
   - hash:
       serializedVersion: 2
+      Hash: eef30bef0b81ef241b84efc20c5c85cb
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.RuntimeGizmos
+    className: RuntimeGizmoManager
+  - hash:
+      serializedVersion: 2
       Hash: 58956aded6597a577c90084231d14801
     assemblyName: LookingGlass
     namespaceName: LookingGlass.DualMonitorApplication
     className: DualMonitorApplicationManager
+  - hash:
+      serializedVersion: 2
+      Hash: b858289e8fff3e9286f0edf04e2dde04
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandPoseScriptableObject
   - hash:
       serializedVersion: 2
       Hash: cadfe2456e5bcf7ea5f562e278dd18ea
@@ -1726,12 +2350,6 @@ ScriptsOnlyBuild:
     assemblyName: LookingGlass.Demos
     namespaceName: LookingGlass.Demos
     className: DemoCursorInteraction
-  - hash:
-      serializedVersion: 2
-      Hash: dc10e9179861794fed5ccf3f10e7b643
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: tempSceneChange
   platform: 19
   scenePathNames:
   - Assets/Scenes/Title.unity

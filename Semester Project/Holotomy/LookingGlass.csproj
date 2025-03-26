@@ -100,8 +100,8 @@
     <Compile Include="Assets\LKG\LookingGlass\Scripts\LookingGlass\LKG-Toolkit\Toolkit-API\Device\LKGDeviceType.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Scripts\LookingGlass\Util\UserStorage.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Scripts\LookingGlass\Systems\LKGDisplaySystem.cs" />
-    <Compile Include="Assets\LKG\LookingGlass\Scripts\LookingGlass\Recording\QuiltCaptureOverrideSettings.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Scripts\LookingGlass\LKG-Toolkit\Toolkit-API\Implementations\ConsoleLogger.cs" />
+    <Compile Include="Assets\LKG\LookingGlass\Scripts\LookingGlass\Recording\QuiltCaptureOverrideSettings.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Scripts\LookingGlass\LKG-Toolkit Implementations\UnityHttpSender.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Scripts\LookingGlass\LKG-Toolkit\Toolkit-API\Bridge\EventListeners\MonitorEvents.cs" />
     <Compile Include="Assets\LKG\LookingGlass\Scripts\LookingGlass\Util\ScreenRectUtility.cs" />

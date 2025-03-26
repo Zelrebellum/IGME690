@@ -1,477 +1,408 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1742216534879094, "dur":98, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742216534879273, "dur":52914, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742216534932205, "dur":335, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742216534932567, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1742216534932625, "dur":1743, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742216534934752, "dur":132, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/level2" }}
-,{ "pid":12345, "tid":0, "ts":1742216534935055, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":0, "ts":1742216534935242, "dur":152, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":0, "ts":1742216534935399, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1742216534935866, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534935953, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534936351, "dur":161, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534937048, "dur":133, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534937392, "dur":203, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534937608, "dur":123, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534937798, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534938340, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534938582, "dur":265, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534938864, "dur":103, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534939048, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534939548, "dur":266, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534940058, "dur":140, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534940480, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534940625, "dur":264, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/LookingGlass.Demos.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534941147, "dur":332, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534941558, "dur":100, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534941903, "dur":229, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534942397, "dur":134, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742216534942822, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1742216534934448, "dur":8729, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742216534943180, "dur":270753, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742216535213934, "dur":449, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742216535214800, "dur":2594, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1742216534936364, "dur":7042, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742216534944350, "dur":663, "ph":"X", "name": "File",  "args": { "detail":"Library\\Bee\\Playerf9202739-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1742216534943423, "dur":1908, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742216534945332, "dur":6800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742216534952418, "dur":540, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1742216534952245, "dur":718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1742216534952965, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742216535012678, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1742216535014950, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742216535015049, "dur":4516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1742216535019629, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742216535019807, "dur":7679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1742216535027534, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742216535027607, "dur":7759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1742216535035413, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742216535035557, "dur":8217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1742216535043841, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742216535043938, "dur":6695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1742216535050681, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742216535050774, "dur":6693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1742216535057517, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742216535057825, "dur":5368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1742216535063296, "dur":6833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1742216535070171, "dur":143725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1742216534938478, "dur":5994, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1742216534944474, "dur":7677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1742216534952185, "dur":918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1742216534953105, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1742216534953414, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1742216535056305, "dur":6755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1742216535063153, "dur":3077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1742216535066285, "dur":8058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level1" }}
-,{ "pid":12345, "tid":2, "ts":1742216535074386, "dur":139562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1742216534939673, "dur":5671, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1742216534945346, "dur":6794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1742216534952167, "dur":755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1742216534952925, "dur":573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1742216535053227, "dur":9804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1742216535063105, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1742216535063211, "dur":5747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1742216535069056, "dur":144904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216534939425, "dur":5816, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216534945242, "dur":7089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216534952337, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1742216534952733, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216535001414, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1742216535003750, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216535003871, "dur":5349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/LookingGlass.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742216535009272, "dur":430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216535009756, "dur":5949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742216535015775, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216535015944, "dur":6462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742216535022482, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216535022843, "dur":6905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742216535029793, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216535029882, "dur":9214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742216535039133, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216535039612, "dur":9829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742216535049487, "dur":561, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216535055506, "dur":279, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216535050077, "dur":5721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742216535055844, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742216535056085, "dur":8945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742216535065111, "dur":8715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level2.resS" }}
-,{ "pid":12345, "tid":4, "ts":1742216535073870, "dur":140103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1742216534936032, "dur":7225, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1742216534943274, "dur":8738, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1742216534952068, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":5, "ts":1742216534952378, "dur":1064, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1742216534953467, "dur":270, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1742216534953766, "dur":26326, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":5, "ts":1742216534980098, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1742216534980608, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534980777, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\FFmpegOut.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534980888, "dur":1613, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534982504, "dur":298, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Hjg.Pngcs.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534982804, "dur":629, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534983436, "dur":702, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534984140, "dur":290, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534984432, "dur":1061, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534985496, "dur":769, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534986269, "dur":556, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534986828, "dur":492, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\LookingGlass.Demos.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534987323, "dur":512, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\NativeFilePicker.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534987838, "dur":766, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534988606, "dur":218, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\GraphQLClient.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534988830, "dur":471, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\LookingGlass.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534989303, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534989466, "dur":440, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\WebSocketSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534989908, "dur":425, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Assets\\LKG\\LookingGlass\\Plugins\\PNGCS\\ICSharpCode.SharpZipLib.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534990336, "dur":1261, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@2.0.0\\Runtime\\AOT\\Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534991648, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1742216534991845, "dur":492, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerf9202739-inputdata.json" }}
-,{ "pid":12345, "tid":5, "ts":1742216534953464, "dur":39036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1742216534993024, "dur":157, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1742216534994127, "dur":207906, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1742216535205621, "dur":6905, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1742216535205620, "dur":6909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1742216535212559, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1742216534940685, "dur":4795, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1742216534945481, "dur":6761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1742216534952355, "dur":580, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":6, "ts":1742216534952245, "dur":693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1742216534952940, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1742216535025589, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1742216535028322, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1742216535028530, "dur":8603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1742216535037205, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1742216535037481, "dur":10023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1742216535047558, "dur":601, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1742216535057442, "dur":179, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1742216535048186, "dur":9451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1742216535057943, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1742216535058273, "dur":9216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1742216535067555, "dur":7491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1742216535075108, "dur":138847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216534936184, "dur":7142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216534943342, "dur":1715, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216534945059, "dur":6995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216534952135, "dur":433, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":7, "ts":1742216534952070, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":7, "ts":1742216534952573, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216535000695, "dur":2597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":7, "ts":1742216535003356, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216535003519, "dur":5222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/WebSocketSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742216535008790, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742216535008788, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742216535008865, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216535009017, "dur":6532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742216535015638, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216535015936, "dur":5805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742216535021790, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216535022066, "dur":7286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742216535029405, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216535029580, "dur":9380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742216535039012, "dur":490, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216535039526, "dur":8635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742216535049012, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216535049176, "dur":6579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742216535055829, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742216535056098, "dur":7194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742216535063376, "dur":7122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/resources.assets" }}
-,{ "pid":12345, "tid":7, "ts":1742216535070536, "dur":143411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216534936911, "dur":6512, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216534943431, "dur":1711, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216534945144, "dur":7218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216534952363, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1742216534952857, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216534975812, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216534969592, "dur":6345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1742216534976119, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216534976116, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216534976180, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216534979455, "dur":13173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216534992676, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216534993091, "dur":3946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216534997079, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216534997215, "dur":5506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216535002769, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216535002888, "dur":3855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/ICSharpCode.SharpZipLib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216535006777, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216535006971, "dur":5570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216535012587, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216535012945, "dur":4573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/FFmpegOut.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216535017566, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216535017646, "dur":7756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216535025469, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216535025535, "dur":6811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216535032431, "dur":574, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216535043789, "dur":95, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216535033036, "dur":10865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216535044010, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216535050331, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216535044199, "dur":6228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216535050519, "dur":383, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216535050932, "dur":9267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742216535061233, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742216535061294, "dur":4996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1742216535066341, "dur":8141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level0.resS" }}
-,{ "pid":12345, "tid":8, "ts":1742216535074543, "dur":139350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1742216534937084, "dur":6401, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1742216534943506, "dur":2106, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1742216534945613, "dur":6588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1742216534952255, "dur":1232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1742216534952205, "dur":1287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1742216534953495, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1742216535056480, "dur":6415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1742216535062942, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1742216535063069, "dur":5517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1742216535068662, "dur":145294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1742216534937488, "dur":6515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1742216534944022, "dur":2121, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1742216534946144, "dur":6068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1742216534952217, "dur":1266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1742216534953484, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1742216535054357, "dur":8069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1742216535062482, "dur":6069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1742216535068610, "dur":145288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216534937241, "dur":6387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216534944332, "dur":871, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216534943655, "dur":2461, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216534946117, "dur":6234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216534952374, "dur":436, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1742216534952353, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1742216534952815, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216534958106, "dur":6055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1742216534964306, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216534964302, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216534964607, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216534965415, "dur":5746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216534971236, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":11, "ts":1742216534971234, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy.exe" }}
-,{ "pid":12345, "tid":11, "ts":1742216534971347, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216534971443, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy.exe" }}
-,{ "pid":12345, "tid":11, "ts":1742216534975681, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":11, "ts":1742216534978109, "dur":6094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":11, "ts":1742216534984411, "dur":8137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216534992710, "dur":3067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216534995814, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216534995913, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216534999282, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216534999447, "dur":5130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216535004609, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216535004834, "dur":5454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/GraphQLClient.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216535010330, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216535010459, "dur":5377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216535015934, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216535016293, "dur":5926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216535022360, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216535022838, "dur":6350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216535029243, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216535029465, "dur":18812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216535052394, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742216535052622, "dur":14422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742216535067135, "dur":9861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1742216535077036, "dur":136928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742216534937721, "dur":6399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742216534944139, "dur":1531, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742216534945672, "dur":6555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742216534952232, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1742216534953017, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742216535014488, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1742216535016677, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742216535016944, "dur":7813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1742216535024810, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742216535024897, "dur":5978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1742216535030925, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742216535031000, "dur":22722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1742216535053777, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742216535053899, "dur":11684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1742216535065699, "dur":7745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level1.resS" }}
-,{ "pid":12345, "tid":12, "ts":1742216535073478, "dur":140493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216534937916, "dur":6242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216534944178, "dur":1271, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216534945449, "dur":6617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216534952074, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":13, "ts":1742216534952518, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216534985926, "dur":6192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":13, "ts":1742216534992297, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216534994443, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216534994528, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216534997945, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216534998041, "dur":5282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216535003388, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216535003643, "dur":3930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216535007620, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216535007701, "dur":5515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216535013264, "dur":517, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216535013836, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216535017610, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216535017686, "dur":8049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216535025836, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216535025944, "dur":7692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216535033687, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216535033877, "dur":9429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216535043360, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216535043642, "dur":563, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216535044209, "dur":4544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216535052395, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216535052533, "dur":6154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216535058734, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742216535058864, "dur":8663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742216535067582, "dur":7338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":13, "ts":1742216535074961, "dur":139008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216534938318, "dur":6104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216534944435, "dur":472, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216534944908, "dur":7139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216534952189, "dur":365, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":14, "ts":1742216534952158, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":14, "ts":1742216534952559, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216534986674, "dur":169, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216534986849, "dur":6238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":14, "ts":1742216534993269, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216534993388, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":14, "ts":1742216534996744, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216534996818, "dur":5731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":14, "ts":1742216535002626, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216535002823, "dur":2487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":14, "ts":1742216535005365, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216535005484, "dur":5339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/LookingGlass.Demos.dll" }}
-,{ "pid":12345, "tid":14, "ts":1742216535010864, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216535010975, "dur":4650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Hjg.Pngcs.dll" }}
-,{ "pid":12345, "tid":14, "ts":1742216535015680, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216535015914, "dur":5752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1742216535021748, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216535022058, "dur":6400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1742216535028504, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216535028586, "dur":8070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1742216535036914, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216535037328, "dur":8886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1742216535046259, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216535046359, "dur":5502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1742216535051922, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216535051993, "dur":8513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1742216535060608, "dur":2745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":14, "ts":1742216535069272, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742216535063479, "dur":5881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level3.resS" }}
-,{ "pid":12345, "tid":14, "ts":1742216535069437, "dur":144488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742216534938693, "dur":5867, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742216534944561, "dur":7478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742216534952090, "dur":1162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742216535026129, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/app.info" }}
-,{ "pid":12345, "tid":15, "ts":1742216535028187, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742216535028536, "dur":8003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742216535036589, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742216535036827, "dur":8430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742216535045302, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742216535045581, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742216535049376, "dur":632, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742216535050070, "dur":5695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742216535055807, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742216535056024, "dur":5454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742216535061537, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":15, "ts":1742216535063714, "dur":6559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level3" }}
-,{ "pid":12345, "tid":15, "ts":1742216535070314, "dur":143637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1742216534939025, "dur":6137, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1742216534945163, "dur":7029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1742216534952195, "dur":961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":16, "ts":1742216534953158, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1742216535060836, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1742216535052124, "dur":8785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":16, "ts":1742216535061080, "dur":5724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":16, "ts":1742216535066862, "dur":7904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level0" }}
-,{ "pid":12345, "tid":16, "ts":1742216535074805, "dur":139178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1742216534939386, "dur":5805, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1742216534945191, "dur":6902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1742216534952146, "dur":785, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":17, "ts":1742216534952098, "dur":837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":17, "ts":1742216534952937, "dur":408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1742216535041696, "dur":293, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1742216535041997, "dur":20353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":17, "ts":1742216535062630, "dur":5452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":17, "ts":1742216535068119, "dur":145800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216534940476, "dur":4932, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216534945409, "dur":6650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216534952070, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":18, "ts":1742216534952495, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216534957095, "dur":7081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":18, "ts":1742216534964254, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":18, "ts":1742216534964506, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216534965515, "dur":3861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":18, "ts":1742216534969460, "dur":270, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216534969456, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216534969738, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216534970191, "dur":19409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216534989693, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216534992530, "dur":3593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216534996159, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216534996279, "dur":5645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216535001970, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216535002285, "dur":2989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216535005335, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216535005431, "dur":5912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/NativeFilePicker.Runtime.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216535011387, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216535011498, "dur":5572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216535017117, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216535017244, "dur":7819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216535025112, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216535025360, "dur":6304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216535031737, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216535055128, "dur":397, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216535032087, "dur":23456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216535055704, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1742216535056245, "dur":11365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1742216535067648, "dur":146279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216534939861, "dur":5516, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216534945378, "dur":6735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216534952147, "dur":758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":19, "ts":1742216534952907, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216534971795, "dur":4279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":19, "ts":1742216534976221, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216534987632, "dur":85, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216534979568, "dur":8173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216534987895, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216534989653, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216534989736, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216534992848, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216534993094, "dur":3253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216534996377, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216534996568, "dur":3564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535000166, "dur":532, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216535000732, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535004777, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216535004883, "dur":5496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535010424, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216535010733, "dur":5405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535016180, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216535016549, "dur":6491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535023093, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216535023208, "dur":6653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535029910, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216535029980, "dur":8973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535039005, "dur":480, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216535039508, "dur":8372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535047932, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216535048157, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535051191, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1742216535051359, "dur":7971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535059372, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535059370, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535059565, "dur":30974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":19, "ts":1742216535090570, "dur":123376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1742216534940315, "dur":5080, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1742216534945396, "dur":6763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1742216534952206, "dur":794, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":20, "ts":1742216534952160, "dur":842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":20, "ts":1742216534953003, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1742216535024548, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":20, "ts":1742216535026371, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1742216535026469, "dur":8775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1742216535035302, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1742216535035547, "dur":9138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1742216535044736, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1742216535049462, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1742216535044821, "dur":4701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1742216535049615, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1742216535050101, "dur":5535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1742216535055685, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1742216535056005, "dur":9101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1742216535065186, "dur":7821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level2" }}
-,{ "pid":12345, "tid":20, "ts":1742216535073046, "dur":140917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742216535221242, "dur":1848, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1742756062252306, "dur":40595, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742756062292915, "dur":370, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742756062293364, "dur":56, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1742756062293420, "dur":1384, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742756062295039, "dur":106, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/level1" }}
+,{ "pid":12345, "tid":0, "ts":1742756062295316, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1742756062296179, "dur":203, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062296441, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062296497, "dur":163, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062296848, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062296993, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062297150, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062297270, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062297481, "dur":145, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062297664, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062298037, "dur":193, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062298324, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062298428, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062298608, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062298849, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062298982, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062299267, "dur":153, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062299872, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062299989, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062300193, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/GraphQLClient.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062300704, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062300844, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062300948, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062301050, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062301131, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062301213, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062301329, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062301536, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062301600, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742756062301965, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1742756062302203, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1742756062294857, "dur":7708, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742756062302569, "dur":177231, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742756062479801, "dur":196, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742756062479998, "dur":65, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742756062480063, "dur":130, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742756062480220, "dur":57, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742756062480510, "dur":1967, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1742756062295622, "dur":7178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742756062302830, "dur":1274, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742756062304105, "dur":7218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742756062311323, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1742756062311454, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742756062311581, "dur":1275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742756062312864, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742756062312862, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742756062313122, "dur":701, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742756062313849, "dur":298, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Ultraleap.Tracking.Locomotion.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742756062313846, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Locomotion.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742756062364263, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Locomotion.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742756062365807, "dur":114105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742756062295559, "dur":7097, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742756062302671, "dur":1529, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742756062304200, "dur":6988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742756062311189, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1742756062311468, "dur":2289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742756062313797, "dur":281, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Ultraleap.Tracking.PhysicalHands.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742756062313782, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.PhysicalHands.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742756062363635, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.PhysicalHands.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742756062365644, "dur":114220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742756062297099, "dur":7123, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742756062304223, "dur":6736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742756062310988, "dur":1550, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1742756062310961, "dur":1580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1742756062312543, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742756062312757, "dur":420, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Ultraleap.Tracking.ImageDistort.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742756062312754, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.ImageDistort.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742756062335485, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742756062318365, "dur":17213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.ImageDistort.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742756062335676, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1742756062335673, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1742756062336005, "dur":11446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1742756062347686, "dur":9296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1742756062357295, "dur":122484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062296089, "dur":7178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062303273, "dur":1614, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062304888, "dur":5945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062310861, "dur":413, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1742756062310844, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1742756062311277, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062311463, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1742756062311694, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062311924, "dur":1564, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062313505, "dur":1251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742756062313502, "dur":1257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742756062314760, "dur":1326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062316137, "dur":947, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062317122, "dur":1655, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062318802, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742756062318798, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742756062318858, "dur":983, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062319888, "dur":1493, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062321422, "dur":1292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062322755, "dur":1730, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062324524, "dur":834, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062325397, "dur":890, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742756062326288, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742756062326394, "dur":13796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1742756062340820, "dur":13211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1742756062354140, "dur":125758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742756062295638, "dur":7190, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742756062302839, "dur":1037, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742756062303877, "dur":7356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742756062311260, "dur":488, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1742756062311235, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1742756062311752, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742756062311951, "dur":1039, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742756062312992, "dur":67, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742756062313066, "dur":1177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\GraphQLClient.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742756062313063, "dur":1181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/GraphQLClient.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742756062314245, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742756062314428, "dur":191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Ultraleap.Tracking.Aggregation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742756062314425, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Aggregation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742756062316044, "dur":19784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Aggregation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742756062336089, "dur":5373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1742756062341619, "dur":13488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1742756062355217, "dur":124591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062295346, "dur":7291, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062303450, "dur":551, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
+,{ "pid":12345, "tid":6, "ts":1742756062302655, "dur":1878, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062304534, "dur":6401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062310937, "dur":1632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1742756062312571, "dur":807, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062313380, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1742756062313462, "dur":945, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742756062313436, "dur":973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742756062314411, "dur":627, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062315062, "dur":950, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062316054, "dur":1022, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062317106, "dur":1337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062318445, "dur":85, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742756062318539, "dur":608, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062319194, "dur":1656, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062320898, "dur":905, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062321836, "dur":1152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062323012, "dur":1169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062324207, "dur":1204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742756062325430, "dur":35602, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\UnityPlugin-develop\\UnityPlugin-develop\\Packages\\Tracking\\Core\\Runtime\\Plugins\\x86_64\\LeapC.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742756062325427, "dur":35608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Plugins/x86_64/LeapC.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742756062361259, "dur":12485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Plugins/x86_64/LeapC.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742756062373772, "dur":106034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742756062294967, "dur":7649, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742756062302633, "dur":8185, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742756062315236, "dur":2954, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":7, "ts":1742756062318198, "dur":391, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1742756062318610, "dur":40853, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1742756062359808, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerf9202739-inputdata.json" }}
+,{ "pid":12345, "tid":7, "ts":1742756062318195, "dur":41976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1742756062360604, "dur":60, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742756062361247, "dur":112122, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1742756062476448, "dur":1083, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1742756062476447, "dur":1086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1742756062477552, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1742756062295707, "dur":7137, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062302860, "dur":1326, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062304187, "dur":6811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062310999, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1742756062311135, "dur":557, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062311708, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742756062311760, "dur":782, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062312581, "dur":802, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062313384, "dur":98, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742756062313488, "dur":2823, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742756062313485, "dur":2828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742756062316314, "dur":1156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062317502, "dur":1334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062318862, "dur":1629, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062320529, "dur":1143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062321692, "dur":1040, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062322757, "dur":1292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062324082, "dur":1584, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742756062325703, "dur":11742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1742756062337605, "dur":14668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1742756062352329, "dur":127554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062295901, "dur":7251, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062303161, "dur":1483, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062304645, "dur":6238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062310885, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1742756062311140, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062311237, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1742756062311346, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062311428, "dur":429, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742756062311417, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742756062311859, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062311963, "dur":666, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062312640, "dur":530, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062313172, "dur":76, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742756062313255, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\NativeFilePicker.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742756062313252, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/NativeFilePicker.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742756062313555, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062313840, "dur":2117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742756062313837, "dur":2123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742756062315962, "dur":1177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062317173, "dur":1980, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062319195, "dur":1125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062320372, "dur":969, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062321401, "dur":1302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062322732, "dur":1625, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062324387, "dur":1137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742756062325543, "dur":1491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\UnityPlugin-develop\\UnityPlugin-develop\\Packages\\Tracking\\OpenXR\\Runtime\\Plugins\\x64\\UltraleapOpenXRUnity.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742756062325541, "dur":1496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Plugins/x86_64/UltraleapOpenXRUnity.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742756062336665, "dur":15744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Plugins/x86_64/UltraleapOpenXRUnity.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742756062352498, "dur":127369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062296333, "dur":7042, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062303384, "dur":1284, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062304669, "dur":6385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062311062, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1742756062311356, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062311437, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":10, "ts":1742756062311432, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy.exe" }}
+,{ "pid":12345, "tid":10, "ts":1742756062311548, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062311722, "dur":2074, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062313812, "dur":798, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742756062313810, "dur":802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742756062314613, "dur":364, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062315011, "dur":920, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062315961, "dur":1020, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062317008, "dur":1275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062318300, "dur":734, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062319062, "dur":1198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062320288, "dur":1065, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062321405, "dur":812, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062322252, "dur":816, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062323106, "dur":846, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062323994, "dur":1246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062325266, "dur":812, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742756062326127, "dur":44499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1742756062370652, "dur":109151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062296682, "dur":7030, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062303720, "dur":1026, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062304747, "dur":6083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062310868, "dur":299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1742756062310844, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1742756062311170, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062311259, "dur":407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1742756062311258, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1742756062311669, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062311840, "dur":1022, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062313041, "dur":2006, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\LookingGlass.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742756062312966, "dur":2082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/LookingGlass.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742756062315050, "dur":1154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062316215, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742756062316212, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742756062316383, "dur":1560, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062317966, "dur":1086, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062319080, "dur":1674, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062320778, "dur":807, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062321607, "dur":932, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062322560, "dur":845, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062323442, "dur":893, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062324350, "dur":1046, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062325431, "dur":706, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062337226, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742756062326261, "dur":11053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1742756062337465, "dur":12513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1742756062350111, "dur":6924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1742756062357365, "dur":122567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742756062296924, "dur":7239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742756062304164, "dur":6869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742756062311043, "dur":363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":12, "ts":1742756062311034, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1742756062311408, "dur":1158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742756062312597, "dur":748, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742756062313353, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Ultraleap.Tracking.HandRecorder.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742756062313351, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.HandRecorder.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742756062341807, "dur":6391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.HandRecorder.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742756062348298, "dur":7357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1742756062355808, "dur":124184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742756062297169, "dur":7077, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742756062304247, "dur":6851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742756062311099, "dur":666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1742756062311766, "dur":494, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742756062312289, "dur":378, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742756062312676, "dur":754, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Ultraleap.Tracking.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742756062312674, "dur":758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742756062316536, "dur":20306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742756062336971, "dur":13277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1742756062350316, "dur":129583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742756062297940, "dur":6363, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742756062304304, "dur":7095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742756062311416, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742756062311406, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742756062311605, "dur":561, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742756062312183, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742756062312309, "dur":697, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742756062313006, "dur":76, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742756062313088, "dur":927, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742756062313085, "dur":932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742756062314018, "dur":756, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742756062314791, "dur":389, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742756062314788, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742756062335489, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742756062317834, "dur":17761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742756062335727, "dur":23734, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1742756062335724, "dur":23741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1742756062359507, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1742756062362105, "dur":117696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062297656, "dur":6796, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062304453, "dur":6524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062310979, "dur":1893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1742756062312875, "dur":543, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062313420, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1742756062313506, "dur":312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742756062313476, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742756062313822, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062314174, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\FFmpegOut.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742756062314171, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/FFmpegOut.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742756062314444, "dur":424, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062314890, "dur":1045, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062315965, "dur":432, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062316418, "dur":1450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062317903, "dur":1356, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062319284, "dur":989, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062320299, "dur":936, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062321252, "dur":568, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062321843, "dur":816, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062322689, "dur":1393, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062324107, "dur":1434, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062325563, "dur":406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742756062325560, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742756062325974, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062326298, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742756062326355, "dur":11182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1742756062337656, "dur":12783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level2" }}
+,{ "pid":12345, "tid":15, "ts":1742756062350505, "dur":129400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062298377, "dur":5925, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062304302, "dur":6526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062310855, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062311149, "dur":1131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062312323, "dur":524, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062312858, "dur":730, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\WebSocketSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742756062312857, "dur":732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/WebSocketSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742756062313590, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062313782, "dur":1184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742756062313779, "dur":1188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742756062314968, "dur":942, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062315929, "dur":1374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062317319, "dur":1043, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062318377, "dur":629, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062319043, "dur":1836, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062320916, "dur":552, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062321482, "dur":1242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062322747, "dur":596, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062323374, "dur":1769, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062325187, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742756062325681, "dur":11584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":16, "ts":1742756062337388, "dur":14238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/level3.resS" }}
+,{ "pid":12345, "tid":16, "ts":1742756062351685, "dur":128088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1742756062298116, "dur":6210, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1742756062304327, "dur":7298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1742756062311649, "dur":555, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1742756062312220, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1742756062312344, "dur":955, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1742756062313315, "dur":299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Ultraleap.Tracking.Controllers.dll" }}
+,{ "pid":12345, "tid":17, "ts":1742756062313313, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Controllers.dll" }}
+,{ "pid":12345, "tid":17, "ts":1742756062345574, "dur":5913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Controllers.dll" }}
+,{ "pid":12345, "tid":17, "ts":1742756062351604, "dur":128172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1742756062298639, "dur":5645, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1742756062304284, "dur":6620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1742756062310917, "dur":1960, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":18, "ts":1742756062310904, "dur":1975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":18, "ts":1742756062312880, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1742756062313264, "dur":242, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\LookingGlass.Demos.dll" }}
+,{ "pid":12345, "tid":18, "ts":1742756062313262, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/LookingGlass.Demos.dll" }}
+,{ "pid":12345, "tid":18, "ts":1742756062313509, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1742756062313818, "dur":379, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Hjg.Pngcs.dll" }}
+,{ "pid":12345, "tid":18, "ts":1742756062313817, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Hjg.Pngcs.dll" }}
+,{ "pid":12345, "tid":18, "ts":1742756062314200, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1742756062314459, "dur":206, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Ultraleap.Tracking.UIInput.dll" }}
+,{ "pid":12345, "tid":18, "ts":1742756062314457, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.UIInput.dll" }}
+,{ "pid":12345, "tid":18, "ts":1742756062316968, "dur":18840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.UIInput.dll" }}
+,{ "pid":12345, "tid":18, "ts":1742756062335998, "dur":13243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":18, "ts":1742756062349635, "dur":7310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":18, "ts":1742756062357006, "dur":122972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1742756062298863, "dur":5424, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1742756062304288, "dur":6560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1742756062310849, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":19, "ts":1742756062310979, "dur":497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1742756062311496, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1742756062311639, "dur":973, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1742756062312651, "dur":580, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1742756062313248, "dur":323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Ultraleap.Tracking.Hands.dll" }}
+,{ "pid":12345, "tid":19, "ts":1742756062313245, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Hands.dll" }}
+,{ "pid":12345, "tid":19, "ts":1742756062343387, "dur":5821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.Hands.dll" }}
+,{ "pid":12345, "tid":19, "ts":1742756062349307, "dur":9701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":19, "ts":1742756062359143, "dur":120667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1742756062299173, "dur":5097, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1742756062304270, "dur":6817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1742756062311097, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.38f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1742756062311087, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1742756062311280, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1742756062311371, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1742756062311468, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1742756062311567, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1742756062311695, "dur":612, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1742756062312326, "dur":561, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1742756062313038, "dur":627, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\rosey\\source\\repos\\IGME690\\Semester Project\\Holotomy\\Library\\Bee\\PlayerScriptAssemblies\\Ultraleap.Tracking.HandRays.dll" }}
+,{ "pid":12345, "tid":20, "ts":1742756062313036, "dur":630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.HandRays.dll" }}
+,{ "pid":12345, "tid":20, "ts":1742756062347839, "dur":4393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Holotomy/Holotomy_Data/Managed/Ultraleap.Tracking.HandRays.dll" }}
+,{ "pid":12345, "tid":20, "ts":1742756062352296, "dur":127586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742756062484855, "dur":1348, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
