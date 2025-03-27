@@ -15,7 +15,7 @@ C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56247
+57789
 Successfully changed project path to: C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
 C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26844]  Target information:
+Player connection [19092]  Target information:
 
-Player connection [26844]  * "[IP] 129.21.90.55 [Port] 0 [Flags] 2 [Guid] 1861293695 [EditorId] 1861293695 [Version] 1048832 [Id] WindowsEditor(7,BoneCrusher) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19092]  * "[IP] 129.21.90.55 [Port] 0 [Flags] 2 [Guid] 1885140644 [EditorId] 1885140644 [Version] 1048832 [Id] WindowsEditor(7,BoneCrusher) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26844] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26844] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19092] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19092] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 5.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.38f1 (c5d5a7410213)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -72,19 +72,19 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006847 seconds.
-- Loaded All Assemblies, in  0.354 seconds
+Registered in 0.006410 seconds.
+- Loaded All Assemblies, in  0.347 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.271 seconds
-Domain Reload Profiling: 625ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.290 seconds
+Domain Reload Profiling: 637ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -92,26 +92,26 @@ Domain Reload Profiling: 625ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (110ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (125ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (272ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (291ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (209ms)
+		SetupLoadedEditorAssemblies (225ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (142ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			ProcessInitializeOnLoadAttributes (155ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,52 +119,52 @@ Domain Reload Profiling: 625ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.609 seconds
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.626 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.639 seconds
-Domain Reload Profiling: 1247ms
-	BeginReloadAssembly (142ms)
+- Finished resetting the current domain, in  0.694 seconds
+Domain Reload Profiling: 1319ms
+	BeginReloadAssembly (143ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (30ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (391ms)
-		LoadAssemblies (308ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (310ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (164ms)
-			TypeCache.Refresh (144ms)
-				TypeCache.ScanAssembly (130ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (640ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (139ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (695ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (501ms)
+		SetupLoadedEditorAssemblies (547ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (374ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (413ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (58.0 KB). Loaded Objects now: 3587.
-Memory consumption went from 120.5 MB to 120.4 MB.
-Total: 3.180100 ms (FindLiveObjects: 0.197200 ms CreateObjectMapping: 0.080000 ms MarkObjects: 2.793300 ms  DeleteObjects: 0.108300 ms)
+Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (57.6 KB). Loaded Objects now: 3589.
+Memory consumption went from 120.8 MB to 120.8 MB.
+Total: 3.024700 ms (FindLiveObjects: 0.197800 ms CreateObjectMapping: 0.088700 ms MarkObjects: 2.638900 ms  DeleteObjects: 0.098500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,215 +181,481 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 89135.638779 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.003811 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.938318 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(d642aae418e41b1418f4dee8ca1366bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(d642aae418e41b1418f4dee8ca1366bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '1bc67910ac3d7398e656c9ac02aea9a2') in 0.000558 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 42.497979 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(6f57494852982074680adce9536e58dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(6f57494852982074680adce9536e58dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '9fcdbbc64747c3ec11e142c494a66d4b') in 0.000492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.418687 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(69059271863068d4cba5968c1a4271b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(69059271863068d4cba5968c1a4271b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '33bf749046d70b6fcfffe1f40193c046') in 0.000482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.425413 seconds.
-  path: Assets/Looking Glass
-  artifactKey: Guid(7ef2bbf78db730c4baf25edd6bba51b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Looking Glass using Guid(7ef2bbf78db730c4baf25edd6bba51b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'd7b0bd6cd5c0b98769e98d2e7ef65eb1') in 0.000487 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.739596 seconds.
-  path: Assets/LeapMotion
-  artifactKey: Guid(443d3382600ef774f98e0023e09e4f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LeapMotion using Guid(443d3382600ef774f98e0023e09e4f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ead8a9903dfc1d8efcd1ff520e918b9e') in 0.000517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 56.712928 seconds.
-  path: Assets/Models
-  artifactKey: Guid(140bf54c74ea07d449c396edd47c9fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(140bf54c74ea07d449c396edd47c9fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '21dfad1ef6db1ddc2c89c3127b80305e') in 0.000655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.080047 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(aa10afd6f4ee38d45993d5a76ff64302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures using Guid(aa10afd6f4ee38d45993d5a76ff64302) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8b50a1c05783c4590994662d15aa6e6c') in 0.000795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 123.295723 seconds.
-  path: Assets/2D Assets
-  artifactKey: Guid(2ef85e97dce09484f9e92900f449560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets using Guid(2ef85e97dce09484f9e92900f449560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '420ec900bdc4fe44e28c13e6eca5ef0a') in 0.000550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 41.087653 seconds.
+  Time since last request: 95565.030240 seconds.
   path: Assets/2D Assets/BG Txt 1.PNG
-  artifactKey: Guid(f161823f57b25c94b80156f9068b340d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/BG Txt 1.PNG using Guid(f161823f57b25c94b80156f9068b340d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  artifactKey: Guid(023cd2aa67b88684c98214b08cb94f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/BG Txt 1.PNG using Guid(023cd2aa67b88684c98214b08cb94f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'eb0d21ce36382e6085d56b05b04ee800') in 0.091415 seconds
+ -> (artifact id: '37a1994e4de98c00b6c8a445892c1bc9') in 0.127772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 70.449586 seconds.
+  path: Assets/2D Assets/BG Txt 2.PNG
+  artifactKey: Guid(231ef609cea35684da4c17342daf106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/BG Txt 2.PNG using Guid(231ef609cea35684da4c17342daf106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f976ffa1f859359bb68fa5c8d504111a') in 0.029534 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000056 seconds.
+  Time since last request: 10.897845 seconds.
+  path: Assets/2D Assets/BG Txt 2.PNG
+  artifactKey: Guid(231ef609cea35684da4c17342daf106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/BG Txt 2.PNG using Guid(231ef609cea35684da4c17342daf106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a736a1aded7074f6aa00c7a2be57460f') in 0.034420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.848078 seconds.
   path: Assets/2D Assets/Label Txt.PNG
-  artifactKey: Guid(cfc6bdfd44cd0a544b780261b40d17da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/Label Txt.PNG using Guid(cfc6bdfd44cd0a544b780261b40d17da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  artifactKey: Guid(23ee622eae7483e428ce31e44d38573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Label Txt.PNG using Guid(23ee622eae7483e428ce31e44d38573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8b3a98e13fd0f0a3be1882f592c9bd74') in 0.032148 seconds
+ -> (artifact id: 'b0a3a64dfa98e4c344c78882e1996f55') in 0.024299 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 29.967179 seconds.
-  path: Assets/2D Assets/BG Txt 1.PNG
-  artifactKey: Guid(f161823f57b25c94b80156f9068b340d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/BG Txt 1.PNG using Guid(f161823f57b25c94b80156f9068b340d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 5.262517 seconds.
+  path: Assets/2D Assets/Label Txt.PNG
+  artifactKey: Guid(23ee622eae7483e428ce31e44d38573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Label Txt.PNG using Guid(23ee622eae7483e428ce31e44d38573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'a0e0d5d0f30a11a3d72a414cc47d0f6c') in 0.023606 seconds
+ -> (artifact id: '566cfb5ee99a54d93cd9c48e8c64e189') in 0.027412 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.466 seconds
+Refreshing native plugins compatible for Editor in 6.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 13.969 seconds
+Domain Reload Profiling: 15430ms
+	BeginReloadAssembly (560ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (140ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (649ms)
+		LoadAssemblies (944ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (38ms)
+				TypeCache.ScanAssembly (22ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (63ms)
+	FinalizeReload (13970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1828ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (291ms)
+			ProcessInitializeOnLoadAttributes (1447ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 7.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3612 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (4.1 MB). Loaded Objects now: 4040.
+Memory consumption went from 147.6 MB to 143.5 MB.
+Total: 5.425900 ms (FindLiveObjects: 0.330600 ms CreateObjectMapping: 0.136100 ms MarkObjects: 3.364600 ms  DeleteObjects: 1.593500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.744 seconds
+Refreshing native plugins compatible for Editor in 7.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.442 seconds
+Domain Reload Profiling: 4181ms
+	BeginReloadAssembly (782ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (96ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (738ms)
+		LoadAssemblies (816ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2443ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (210ms)
+			ProcessInitializeOnLoadAttributes (987ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Script is not up to date after domain reload: guid(db8bd236e67aa8f42be69a4e732686fa) path("Packages/com.unity.nuget.newtonsoft-json/Tests/Editor/SanityTests.cs") state(2)
+Script is not up to date after domain reload: guid(8c4bfcb5b17948478ccb955bccff9652) path("Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll") state(2)
+Script is not up to date after domain reload: guid(6c694cfdc33ae264fb33e0cd1c7e25cf) path("Packages/com.unity.nuget.newtonsoft-json/Runtime/AOT/Newtonsoft.Json.dll") state(2)
+Script is not up to date after domain reload: guid(e8a2e6265da3549468b4ccef3eb81e01) path("Packages/com.unity.nuget.newtonsoft-json/Runtime/Portable/Newtonsoft.Json.dll") state(2)
+Refreshing native plugins compatible for Editor in 6.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3613 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (4.1 MB). Loaded Objects now: 4046.
+Memory consumption went from 147.9 MB to 143.8 MB.
+Total: 6.752900 ms (FindLiveObjects: 0.342900 ms CreateObjectMapping: 0.178600 ms MarkObjects: 4.387700 ms  DeleteObjects: 1.841900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+IOException: Sharing violation on path C:\Users\rosey\AppData\Local\Temp\DefaultCompany\Holotomy\Preview Data.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <c0b7b90d34a54066a7234dad69255116>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <c0b7b90d34a54066a7234dad69255116>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <c0b7b90d34a54066a7234dad69255116>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <c0b7b90d34a54066a7234dad69255116>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <c0b7b90d34a54066a7234dad69255116>:0 
+  at LookingGlass.Editor.Preview.SavePreview (System.String filePath) [0x00024] in C:\Users\rosey\source\repos\IGME690\Semester Project\Holotomy\Assets\LookingGlass\Scripts\LookingGlass.Editor\Preview.cs:119 
+  at LookingGlass.Editor.Preview.OnBeforeAssemblyReload () [0x00001] in C:\Users\rosey\source\repos\IGME690\Semester Project\Holotomy\Assets\LookingGlass\Scripts\LookingGlass.Editor\Preview.cs:78 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <043e10ec4a0f4999a2729072194b9cfe>:0 
+
+(Filename: Assets/LookingGlass/Scripts/LookingGlass.Editor/Preview.cs Line: 119)
+
+- Loaded All Assemblies, in  0.712 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Attempting to connect to LKG Bridge at 3/27/2025 1:12:55 PM...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
+LookingGlass.LKGDisplaySystem:Reconnect ()
+LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
+LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
+LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
+LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.436 seconds
+Domain Reload Profiling: 2147ms
+	BeginReloadAssembly (316ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (74ms)
+				TypeCache.ScanAssembly (62ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (904ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (744ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (4.1 MB). Loaded Objects now: 4053.
+Memory consumption went from 148.1 MB to 144.0 MB.
+Total: 4.372900 ms (FindLiveObjects: 0.284200 ms CreateObjectMapping: 0.161500 ms MarkObjects: 2.883700 ms  DeleteObjects: 1.042300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 142.626195 seconds.
-  path: Assets/2D Assets/IMG_0437.PNG
-  artifactKey: Guid(1585c832f7181a24794579b180eeda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/IMG_0437.PNG using Guid(1585c832f7181a24794579b180eeda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c1eabba88eba9f9151794dd8fa2f4733') in 0.020427 seconds
+  Time since last request: 275.319488 seconds.
+  path: Assets/LookingGlass/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(319c0cf4cf9259d45b1b49e042b596dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LookingGlass/UniversalRenderPipelineAsset.asset using Guid(319c0cf4cf9259d45b1b49e042b596dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '17cafed68fb2d8b61035deb18631508f') in 0.003969 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/2D Assets/IMG_0439.PNG
-  artifactKey: Guid(438de1d7282efd5459cb01a73d6210f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/IMG_0439.PNG using Guid(438de1d7282efd5459cb01a73d6210f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6c7369c06a1fb3b07a190478ba8aaf65') in 0.026884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 134.787790 seconds.
-  path: Assets/2D Assets/IMG_0437.PNG
-  artifactKey: Guid(1585c832f7181a24794579b180eeda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/IMG_0437.PNG using Guid(1585c832f7181a24794579b180eeda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b2cfed82d72d2ed29df86c47c9db084e') in 0.013699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 684.224225 seconds.
-  path: Assets/Models/Lowpolies
-  artifactKey: Guid(1d4978901134de8419dbec181109c91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Lowpolies using Guid(1d4978901134de8419dbec181109c91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8f9b3ba3d12ddec0bbea00555fd88525') in 0.001159 seconds
+  Time since last request: 12.035570 seconds.
+  path: Assets/Looking Glass/LookingGlass/Extras
+  artifactKey: Guid(dee8a6a03de5aee49b8ce50556c417d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Looking Glass/LookingGlass/Extras using Guid(dee8a6a03de5aee49b8ce50556c417d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '60c787dbd77876e4dab2eb9ee6a646bc') in 0.000580 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 11.740648 seconds.
-  path: Assets/Models/Lowpolies/lowpoly_heart.fbx
-  artifactKey: Guid(6e781e171dcae3745a2c1b461ac80a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Lowpolies/lowpoly_heart.fbx using Guid(6e781e171dcae3745a2c1b461ac80a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '9036fe5b8198d891203dcfe3d9ed6e9d') in 0.565989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Received Prepare
+Assembly with name 'WebSocketSharp' already exists (Assets/Looking Glass/LookingGlass/Plugins/WebSocketSharp/WebSocketSharp.asmdef)
+Assembly with name 'WebSocketSharp' already exists (Assets/LookingGlass/Plugins/WebSocketSharp/WebSocketSharp.asmdef)
+Assembly with name 'FFmpegOut' already exists (Assets/Looking Glass/LookingGlass/Plugins/FFmpegOut/Runtime/FFmpegOut.asmdef)
+Assembly with name 'FFmpegOut' already exists (Assets/LookingGlass/Plugins/FFmpegOut/Runtime/FFmpegOut.asmdef)
+Assembly with name 'FFmpegOut.Editor' already exists (Assets/Looking Glass/LookingGlass/Plugins/FFmpegOut/Editor/FFmpegOut.Editor.asmdef)
+Assembly with name 'FFmpegOut.Editor' already exists (Assets/LookingGlass/Plugins/FFmpegOut/Editor/FFmpegOut.Editor.asmdef)
+Assembly with name 'LookingGlass' already exists (Assets/LookingGlass/Scripts/LookingGlass/LookingGlass.asmdef)
+Assembly with name 'LookingGlass' already exists (Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LookingGlass.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor.Tests' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/Tests/Editor/Unity.Postprocessing.Editor.Tests.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor.Tests' already exists (Assets/LookingGlass Post-Processing 3.2.2/Tests/Editor/Unity.Postprocessing.Editor.Tests.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/LookingGlass Post-Processing 3.2.2/PostProcessing/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime.Tests' already exists (Assets/LookingGlass Post-Processing 3.2.2/Tests/Runtime/Unity.Postprocessing.Runtime.Tests.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime.Tests' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/Tests/Runtime/Unity.Postprocessing.Runtime.Tests.asmdef)
+Assembly with name 'GraphQLClient.Editor' already exists (Assets/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor/GraphQLClient.Editor.asmdef)
+Assembly with name 'GraphQLClient.Editor' already exists (Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor/GraphQLClient.Editor.asmdef)
+Assembly with name 'GraphQLClient.Editor.Tests' already exists (Assets/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor.Tests/GraphQLClient.Editor.Tests.asmdef)
+Assembly with name 'GraphQLClient.Editor.Tests' already exists (Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor.Tests/GraphQLClient.Editor.Tests.asmdef)
+Assembly with name 'GraphQLClient' already exists (Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/GraphQLClient.asmdef)
+Assembly with name 'GraphQLClient' already exists (Assets/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/GraphQLClient.asmdef)
+Assembly with name 'Hjg.Pngcs' already exists (Assets/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Hjg.Pngcs.asmdef)
+Assembly with name 'Hjg.Pngcs' already exists (Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Hjg.Pngcs.asmdef)
+Assembly with name 'LookingGlass.Editor' already exists (Assets/LookingGlass/Scripts/LookingGlass.Editor/LookingGlass.Editor.asmdef)
+Assembly with name 'LookingGlass.Editor' already exists (Assets/Looking Glass/LookingGlass/Scripts/LookingGlass.Editor/LookingGlass.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/LookingGlass Post-Processing 3.2.2/PostProcessing/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'WebSocketSharp' already exists (Assets/Looking Glass/LookingGlass/Plugins/WebSocketSharp/WebSocketSharp.asmdef)
+Assembly with name 'WebSocketSharp' already exists (Assets/LookingGlass/Plugins/WebSocketSharp/WebSocketSharp.asmdef)
+Assembly with name 'FFmpegOut' already exists (Assets/Looking Glass/LookingGlass/Plugins/FFmpegOut/Runtime/FFmpegOut.asmdef)
+Assembly with name 'FFmpegOut' already exists (Assets/LookingGlass/Plugins/FFmpegOut/Runtime/FFmpegOut.asmdef)
+Assembly with name 'FFmpegOut.Editor' already exists (Assets/Looking Glass/LookingGlass/Plugins/FFmpegOut/Editor/FFmpegOut.Editor.asmdef)
+Assembly with name 'FFmpegOut.Editor' already exists (Assets/LookingGlass/Plugins/FFmpegOut/Editor/FFmpegOut.Editor.asmdef)
+Assembly with name 'LookingGlass' already exists (Assets/LookingGlass/Scripts/LookingGlass/LookingGlass.asmdef)
+Assembly with name 'LookingGlass' already exists (Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LookingGlass.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor.Tests' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/Tests/Editor/Unity.Postprocessing.Editor.Tests.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor.Tests' already exists (Assets/LookingGlass Post-Processing 3.2.2/Tests/Editor/Unity.Postprocessing.Editor.Tests.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/LookingGlass Post-Processing 3.2.2/PostProcessing/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime.Tests' already exists (Assets/LookingGlass Post-Processing 3.2.2/Tests/Runtime/Unity.Postprocessing.Runtime.Tests.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime.Tests' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/Tests/Runtime/Unity.Postprocessing.Runtime.Tests.asmdef)
+Assembly with name 'GraphQLClient.Editor' already exists (Assets/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor/GraphQLClient.Editor.asmdef)
+Assembly with name 'GraphQLClient.Editor' already exists (Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor/GraphQLClient.Editor.asmdef)
+Assembly with name 'GraphQLClient.Editor.Tests' already exists (Assets/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor.Tests/GraphQLClient.Editor.Tests.asmdef)
+Assembly with name 'GraphQLClient.Editor.Tests' already exists (Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor.Tests/GraphQLClient.Editor.Tests.asmdef)
+Assembly with name 'GraphQLClient' already exists (Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/GraphQLClient.asmdef)
+Assembly with name 'GraphQLClient' already exists (Assets/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/GraphQLClient.asmdef)
+Assembly with name 'Hjg.Pngcs' already exists (Assets/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Hjg.Pngcs.asmdef)
+Assembly with name 'Hjg.Pngcs' already exists (Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Hjg.Pngcs.asmdef)
+Assembly with name 'LookingGlass.Editor' already exists (Assets/LookingGlass/Scripts/LookingGlass.Editor/LookingGlass.Editor.asmdef)
+Assembly with name 'LookingGlass.Editor' already exists (Assets/Looking Glass/LookingGlass/Scripts/LookingGlass.Editor/LookingGlass.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/LookingGlass Post-Processing 3.2.2/PostProcessing/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'WebSocketSharp' already exists (Assets/Looking Glass/LookingGlass/Plugins/WebSocketSharp/WebSocketSharp.asmdef)
+Assembly with name 'WebSocketSharp' already exists (Assets/LookingGlass/Plugins/WebSocketSharp/WebSocketSharp.asmdef)
+Assembly with name 'FFmpegOut' already exists (Assets/Looking Glass/LookingGlass/Plugins/FFmpegOut/Runtime/FFmpegOut.asmdef)
+Assembly with name 'FFmpegOut' already exists (Assets/LookingGlass/Plugins/FFmpegOut/Runtime/FFmpegOut.asmdef)
+Assembly with name 'FFmpegOut.Editor' already exists (Assets/Looking Glass/LookingGlass/Plugins/FFmpegOut/Editor/FFmpegOut.Editor.asmdef)
+Assembly with name 'FFmpegOut.Editor' already exists (Assets/LookingGlass/Plugins/FFmpegOut/Editor/FFmpegOut.Editor.asmdef)
+Assembly with name 'LookingGlass' already exists (Assets/LookingGlass/Scripts/LookingGlass/LookingGlass.asmdef)
+Assembly with name 'LookingGlass' already exists (Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LookingGlass.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor.Tests' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/Tests/Editor/Unity.Postprocessing.Editor.Tests.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor.Tests' already exists (Assets/LookingGlass Post-Processing 3.2.2/Tests/Editor/Unity.Postprocessing.Editor.Tests.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Editor' already exists (Assets/LookingGlass Post-Processing 3.2.2/PostProcessing/Editor/Unity.Postprocessing.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime.Tests' already exists (Assets/LookingGlass Post-Processing 3.2.2/Tests/Runtime/Unity.Postprocessing.Runtime.Tests.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime.Tests' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/Tests/Runtime/Unity.Postprocessing.Runtime.Tests.asmdef)
+Assembly with name 'GraphQLClient.Editor' already exists (Assets/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor/GraphQLClient.Editor.asmdef)
+Assembly with name 'GraphQLClient.Editor' already exists (Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor/GraphQLClient.Editor.asmdef)
+Assembly with name 'GraphQLClient.Editor.Tests' already exists (Assets/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor.Tests/GraphQLClient.Editor.Tests.asmdef)
+Assembly with name 'GraphQLClient.Editor.Tests' already exists (Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient.Editor.Tests/GraphQLClient.Editor.Tests.asmdef)
+Assembly with name 'GraphQLClient' already exists (Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/GraphQLClient.asmdef)
+Assembly with name 'GraphQLClient' already exists (Assets/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/GraphQLClient.asmdef)
+Assembly with name 'Hjg.Pngcs' already exists (Assets/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Hjg.Pngcs.asmdef)
+Assembly with name 'Hjg.Pngcs' already exists (Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Hjg.Pngcs.asmdef)
+Assembly with name 'LookingGlass.Editor' already exists (Assets/LookingGlass/Scripts/LookingGlass.Editor/LookingGlass.Editor.asmdef)
+Assembly with name 'LookingGlass.Editor' already exists (Assets/Looking Glass/LookingGlass/Scripts/LookingGlass.Editor/LookingGlass.Editor.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Runtime/Unity.Postprocessing.Runtime.asmdef)
+Assembly with name 'Unity.Postprocessing.Runtime' already exists (Assets/LookingGlass Post-Processing 3.2.2/PostProcessing/Runtime/Unity.Postprocessing.Runtime.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Attempting to connect to LKG Bridge at 3/27/2025 1:13:21 PM...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
+LookingGlass.LKGDisplaySystem:Reconnect ()
+LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
+LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
+LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
+LookingGlass.UnityLKGSystems:.cctor () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.220 seconds
+Domain Reload Profiling: 1697ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1220ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (779ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (617ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (4.1 MB). Loaded Objects now: 4059.
+Memory consumption went from 148.0 MB to 143.9 MB.
+Total: 4.175300 ms (FindLiveObjects: 0.206100 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.877200 ms  DeleteObjects: 0.993500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/Lowpolies/lowpoly_lung_left.fbx
-  artifactKey: Guid(854af4b3900323740ae5c9dec58c542c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Lowpolies/lowpoly_lung_left.fbx using Guid(854af4b3900323740ae5c9dec58c542c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 8.538206 seconds.
+  path: Assets/Looking Glass/LookingGlass/Prefabs/3D Cursor.prefab
+  artifactKey: Guid(ce390992912124e7fb26694c0d9244c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Looking Glass/LookingGlass/Prefabs/3D Cursor.prefab using Guid(ce390992912124e7fb26694c0d9244c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'bc4840a027e8cd041df8da242641b68a') in 0.034665 seconds
+ -> (artifact id: 'f27a6d12f6192c4e753c39037a9adcd9') in 0.110173 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Models/Lowpolies/Lowpoly_lung_right.fbx
-  artifactKey: Guid(1bdbe2368c21692448e2dff96268ad00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Lowpolies/Lowpoly_lung_right.fbx using Guid(1bdbe2368c21692448e2dff96268ad00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '12079b49e754a794f2e1df46b6753dc2') in 0.033292 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/Lowpolies/lowpoly_stomach.fbx
-  artifactKey: Guid(5ae2a258b1b393544bc4e1aa26ce399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Lowpolies/lowpoly_stomach.fbx using Guid(5ae2a258b1b393544bc4e1aa26ce399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0b5decba67f175912998c3e758eaeb30') in 0.031149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Models/Lowpolies/lowpoly_liver.fbx
-  artifactKey: Guid(6731a753b69caf342baeeba7bdce7048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Lowpolies/lowpoly_liver.fbx using Guid(6731a753b69caf342baeeba7bdce7048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'dd26f15cf3fcb150b1a8fc45c09625f8') in 0.029629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 11
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
