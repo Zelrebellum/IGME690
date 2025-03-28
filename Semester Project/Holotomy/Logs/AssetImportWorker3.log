@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.38f1 (c5d5a7410213) revision 12965287'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 65425 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16088 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-53495
+54924
 Successfully changed project path to: C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
 C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11328]  Target information:
+Player connection [22508]  Target information:
 
-Player connection [11328]  * "[IP] 68.180.87.44 [Port] 0 [Flags] 2 [Guid] 2014252048 [EditorId] 2014252048 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NU660SS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22508]  * "[IP] 10.182.144.104 [Port] 0 [Flags] 2 [Guid] 4189142757 [EditorId] 4189142757 [Version] 1048832 [Id] WindowsEditor(7,BoneCrusher) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11328] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11328] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 31.73 ms, found 9 plugins.
+Player connection [22508] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22508] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 21.93 ms, found 11 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.38f1 (c5d5a7410213)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -64,54 +64,54 @@ Initialize engine version: 2022.3.38f1 (c5d5a7410213)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24e0)
     Vendor:   NVIDIA
-    VRAM:     8006 MB
-    Driver:   32.0.15.6094
+    VRAM:     8043 MB
+    Driver:   31.0.15.1770
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012643 seconds.
-- Loaded All Assemblies, in  0.528 seconds
+Registered in 0.009222 seconds.
+- Loaded All Assemblies, in  0.447 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.367 seconds
-Domain Reload Profiling: 893ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  0.357 seconds
+Domain Reload Profiling: 801ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (225ms)
-		LoadAssemblies (145ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (223ms)
-			TypeCache.Refresh (220ms)
-				TypeCache.ScanAssembly (197ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (153ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (368ms)
+	FinalizeReload (357ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (287ms)
+		SetupLoadedEditorAssemblies (281ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (195ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,15 +119,15 @@ Domain Reload Profiling: 893ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.975 seconds
-Refreshing native plugins compatible for Editor in 16.24 ms, found 9 plugins.
+- Loaded All Assemblies, in  0.978 seconds
+Refreshing native plugins compatible for Editor in 16.50 ms, found 11 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 3/27/2025 8:40:57 PM...
+Attempting to connect to LKG Bridge at 3/27/2025 9:45:23 PM...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -154,51 +154,50 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.541 seconds
-Domain Reload Profiling: 2509ms
-	BeginReloadAssembly (202ms)
+- Finished resetting the current domain, in  1.475 seconds
+Domain Reload Profiling: 2451ms
+	BeginReloadAssembly (196ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (16ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (642ms)
-		LoadAssemblies (442ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (507ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (313ms)
-			TypeCache.Refresh (274ms)
-				TypeCache.ScanAssembly (233ms)
-			ScanForSourceGeneratedMonoScriptInfo (30ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1542ms)
+		AnalyzeDomain (282ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (210ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1476ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1330ms)
+		SetupLoadedEditorAssemblies (1250ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (1150ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (995ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 25.83 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 14.72 ms, found 11 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4390 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 95 unused Assets / (1.6 MB). Loaded Objects now: 4826.
-Memory consumption went from 163.9 MB to 162.4 MB.
-Total: 8.154600 ms (FindLiveObjects: 0.938900 ms CreateObjectMapping: 0.809900 ms MarkObjects: 5.515400 ms  DeleteObjects: 0.888600 ms)
+Unloading 4665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 104 unused Assets / (1.7 MB). Loaded Objects now: 5097.
+Memory consumption went from 173.3 MB to 171.6 MB.
+Total: 6.163100 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.177600 ms MarkObjects: 5.012000 ms  DeleteObjects: 0.675900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -211,710 +210,96 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 14422.917395 seconds.
-  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_4.png
-  artifactKey: Guid(6fa5cf178eaaa5f42b820f636bb6e0bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_4.png using Guid(6fa5cf178eaaa5f42b820f636bb6e0bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c3f3fb228cdc7b9cfb629b25372d1c06') in 0.160706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_38.png
-  artifactKey: Guid(9660a4ca1ca8425408ac25c641932977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_38.png using Guid(9660a4ca1ca8425408ac25c641932977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3a2ba20a3bfc6f4055f305cca68233a2') in 0.030456 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png
-  artifactKey: Guid(02c0a84bd64c6f044954d8bde9b46ec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png using Guid(02c0a84bd64c6f044954d8bde9b46ec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4715bb1f1d1ff8bc21e3e2b4b465749c') in 0.028470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/SpectralLUTs/SpectralLut_PurpleGreen.tga
-  artifactKey: Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/SpectralLUTs/SpectralLut_PurpleGreen.tga using Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1ba29d80dad189659c52773de81a95de') in 0.030121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Input/HardwareButton.cs
-  artifactKey: Guid(c643fc0a4e6c0e14981418c031b68e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Input/HardwareButton.cs using Guid(c643fc0a4e6c0e14981418c031b68e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '31bba9425a38095aa1fcd465f71fdccd') in 0.026919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.hlsl
-  artifactKey: Guid(ad99a5d3138ea7e47a3b2a3051034642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.hlsl using Guid(ad99a5d3138ea7e47a3b2a3051034642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f675de1c2308f95bffacc9217eff28ae') in 0.027572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Textures/SkinTones/Skin Tone 1/Torso_surfacematerial1_Height.1001.png
-  artifactKey: Guid(7b741fbb9963c5840a8f216e61c35a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Textures/SkinTones/Skin Tone 1/Torso_surfacematerial1_Height.1001.png using Guid(7b741fbb9963c5840a8f216e61c35a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f8061f8023e1f643fe25ce77028feeaa') in 0.036750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_2.png
-  artifactKey: Guid(a469f920b21fc7c4fb5b950917ce2fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_2.png using Guid(a469f920b21fc7c4fb5b950917ce2fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c45a0119606a3f1ff96ec76cf1881266') in 0.026337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Shaders/Builtins/Dithering.hlsl
-  artifactKey: Guid(b17c8e94a77f9a24d80deb0464a28ddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Shaders/Builtins/Dithering.hlsl using Guid(b17c8e94a77f9a24d80deb0464a28ddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c574f9352bfa5f2cf30b414f4e048f7d') in 0.025473 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png
-  artifactKey: Guid(1d6958e30e40a254dbe5a54c573eeb3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png using Guid(1d6958e30e40a254dbe5a54c573eeb3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c6adebefbb1c94417df8864db4d34de6') in 0.024269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png
-  artifactKey: Guid(3c2f1fb7e4b66e74191b7c328ada52d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png using Guid(3c2f1fb7e4b66e74191b7c328ada52d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9b89d61cef913af008a3ffc4f2d0371c') in 0.028927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/macOS/MacWindowing.cs
-  artifactKey: Guid(d93bbf28b862d40fbb8fc306e6b5b28e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/macOS/MacWindowing.cs using Guid(d93bbf28b862d40fbb8fc306e6b5b28e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c43bb22175c232b3309479d6130d6ea1') in 0.019248 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Editor/Utils/CurveEditor.cs
-  artifactKey: Guid(ce0f0631fee52da41884853337cab99d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Editor/Utils/CurveEditor.cs using Guid(ce0f0631fee52da41884853337cab99d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8e8470667616bda82007882a7bbb6b4d') in 0.019355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/WebSocketSharp/Net/RequestStream.cs
-  artifactKey: Guid(164ded9d03f79e54c8a82305b5053209) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/WebSocketSharp/Net/RequestStream.cs using Guid(164ded9d03f79e54c8a82305b5053209) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd7681aa51e3f360d8a5a0262f9eb70fd') in 0.016261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Blocks/LookingGlassUser.cs
-  artifactKey: Guid(1caa89223e62576448f2230eda1974f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Blocks/LookingGlassUser.cs using Guid(1caa89223e62576448f2230eda1974f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '822e36a3e9577de0e827fdfb6aa1e439') in 0.014571 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_image_line_helper.html
-  artifactKey: Guid(62a2d8482ded3ef4dab37d9f49232c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_image_line_helper.html using Guid(62a2d8482ded3ef4dab37d9f49232c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd9123d271190c73a81f37125f00d8a6b') in 0.015307 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_b_k_g_d-members.html
-  artifactKey: Guid(c3436b4ce6734134e938c70e9be086d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_b_k_g_d-members.html using Guid(c3436b4ce6734134e938c70e9be086d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8d8af05bd72f12b2e9018b5415119500') in 0.013689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_o_f_f_s.html
-  artifactKey: Guid(c046fe54e7fce6f448ace91ad4bb9fb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_o_f_f_s.html using Guid(c046fe54e7fce6f448ace91ad4bb9fb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7f25a26e03a85fc4b875373a5a46bac8') in 0.015015 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_e_n_d.html
-  artifactKey: Guid(e657aed9a5d91a64880e82ae6451092d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_e_n_d.html using Guid(e657aed9a5d91a64880e82ae6451092d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b28daee8e85c8dc9fc55dd89182b7962') in 0.016897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_e_n_d-members.html
-  artifactKey: Guid(e22285ab276961d4ea9c1095eb8b58ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_e_n_d-members.html using Guid(e22285ab276961d4ea9c1095eb8b58ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a819c46160d46a5fc94a23e99cea0bcb') in 0.016167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_z_t_x_t.html
-  artifactKey: Guid(21219ddd8cad6a547a0c2fc08f11c563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_z_t_x_t.html using Guid(21219ddd8cad6a547a0c2fc08f11c563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '62aa6d781ba96ae06b5b62aaf1f63115') in 0.014805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_pngj_bad_crc_exception-members.html
-  artifactKey: Guid(c2517f408a067b140b97e5cb229c0e23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_pngj_bad_crc_exception-members.html using Guid(c2517f408a067b140b97e5cb229c0e23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'caf90229161d942014820c507e181f00') in 0.013967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_p_h_y_s-members.html
-  artifactKey: Guid(a1759c20eb505c84dabca22aa1a9d8b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_p_h_y_s-members.html using Guid(a1759c20eb505c84dabca22aa1a9d8b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '534759eb01ad910f12b33fbd00ff9b9c') in 0.014314 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_h_d_r.html
-  artifactKey: Guid(b4955350ab7657442ba9a3decc9c4638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_h_d_r.html using Guid(b4955350ab7657442ba9a3decc9c4638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '10ba2f62346929538be4b391aa63ea8a') in 0.013683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_z_t_x_t-members.html
-  artifactKey: Guid(7c00baffde97797488491a467f86e448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_z_t_x_t-members.html using Guid(7c00baffde97797488491a467f86e448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '09092a811fe1985ff3aab12aca82c40e') in 0.018217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_chunks_list_for_write.html
-  artifactKey: Guid(5289ed1203550654f87ad9565145e39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_chunks_list_for_write.html using Guid(5289ed1203550654f87ad9565145e39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e6ccb0312d7ae6dac778598f1bce9bc2') in 0.015209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_t_x_t-members.html
-  artifactKey: Guid(6d4e7d86dbabf3b48a8c7c722d58682b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_t_x_t-members.html using Guid(6d4e7d86dbabf3b48a8c7c722d58682b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '833ffa81d79a664b51967c7968b9858b') in 0.018036 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/classes.html
-  artifactKey: Guid(2b89b4a062d7bac47a40cea746d3eb6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/classes.html using Guid(2b89b4a062d7bac47a40cea746d3eb6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'af8471fd327e4918a9bca26e5cd8da54') in 0.019648 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_file_helper-members.html
-  artifactKey: Guid(e6a9e3aeda80cd94eb770ac3c17deefd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_file_helper-members.html using Guid(e6a9e3aeda80cd94eb770ac3c17deefd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '83ee83a3a5d4146f35feae7897cc88d3') in 0.026170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_pngj_output_exception-members.html
-  artifactKey: Guid(c469c0a61e63ca44baaf8c85371f2f29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_pngj_output_exception-members.html using Guid(c469c0a61e63ca44baaf8c85371f2f29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ddb620c6f6bc0187d6c0c31986d582fb') in 0.017151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_s_b_i_t-members.html
-  artifactKey: Guid(eb51c0da1afb4784fb06462206e4cb12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_s_b_i_t-members.html using Guid(eb51c0da1afb4784fb06462206e4cb12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c06273ff448fce864e19a1e4205e09be') in 0.018660 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_s_b_i_t.html
-  artifactKey: Guid(a3ab00fcb923d494ea64f3d05a83d00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_s_b_i_t.html using Guid(a3ab00fcb923d494ea64f3d05a83d00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '279dea6dbad8b55371bab1eeeb7b19b8') in 0.019615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_c_h_r_m.html
-  artifactKey: Guid(8ac64ae3383bd014881896bf5107a43b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_c_h_r_m.html using Guid(8ac64ae3383bd014881896bf5107a43b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3f192ca8cafd4a0fc3390f5dd06636f4') in 0.019156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Runtime/Effects/DepthOfField.cs
-  artifactKey: Guid(556797029e73b2347956b6579e77e05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Runtime/Effects/DepthOfField.cs using Guid(556797029e73b2347956b6579e77e05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1a099144f521b8ca742954123dffb146') in 0.011631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.155372 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_deinterlacer.html
-  artifactKey: Guid(5578058f6dde73440aaba8301d017a94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_deinterlacer.html using Guid(5578058f6dde73440aaba8301d017a94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bc7f546b6f754ff883d9754e117e625a') in 0.013926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x6f.html
-  artifactKey: Guid(9415c0e484e808d4aa31f9bf4a5f916b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x6f.html using Guid(9415c0e484e808d4aa31f9bf4a5f916b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a17cd9e2bcfc41e94cbea24942f5f26e') in 0.015323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/closed.png
-  artifactKey: Guid(1861a80bbf0e4d449ae2dfa3ef7c2212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/closed.png using Guid(1861a80bbf0e4d449ae2dfa3ef7c2212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6373fa0b7daebd11f8a0733890fbf1a4') in 0.030547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_writer-members.html
-  artifactKey: Guid(077820bf833f1c842920d825baca0e79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_writer-members.html using Guid(077820bf833f1c842920d825baca0e79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4b5f4f90cb6e16f2dc46b6339720f89e') in 0.015317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_zlib_1_1_deflate_compress_level-members.html
-  artifactKey: Guid(194d50ad9620ca746bbfdd38ecf52e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_zlib_1_1_deflate_compress_level-members.html using Guid(194d50ad9620ca746bbfdd38ecf52e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '89798e4f2f0ed4bd77b3153109a870cf') in 0.016365 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x62.html
-  artifactKey: Guid(7242f42f7984d6d41afcf3b82c490f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x62.html using Guid(7242f42f7984d6d41afcf3b82c490f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dd2c4e6f518dece0aab01ced56b3e93a') in 0.015789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x74.html
-  artifactKey: Guid(620079a1b071d044c9d34d6af1a3a870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x74.html using Guid(620079a1b071d044c9d34d6af1a3a870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '23964cc413d7e1866a62871d2100df16') in 0.015593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x70.html
-  artifactKey: Guid(f5db75ac2ef817b49bd164b46567e48e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x70.html using Guid(f5db75ac2ef817b49bd164b46567e48e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '733a773f5558cec499c0be3162cf01f1') in 0.015054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/ftv2vertline.png
-  artifactKey: Guid(8e428c4ca6976e242929a442b30a764b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/ftv2vertline.png using Guid(8e428c4ca6976e242929a442b30a764b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ce6fa0b531275e4436874a53518c4bdb') in 0.023713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/ftv2folderclosed.png
-  artifactKey: Guid(b4bfa87d09c65db4093c414f529c922e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/ftv2folderclosed.png using Guid(b4bfa87d09c65db4093c414f529c922e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c241a1b9a1763ee516d3d995e2e11807') in 0.025066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_zlib_1_1_adler32.html
-  artifactKey: Guid(a27aedbb12d38644692b48fab0b5596e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_zlib_1_1_adler32.html using Guid(a27aedbb12d38644692b48fab0b5596e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fba9663e1339532923f1e2ea82f353ba') in 0.014402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dynsections.js
-  artifactKey: Guid(84a69cf50082d2446b3bea3a939d3505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dynsections.js using Guid(84a69cf50082d2446b3bea3a939d3505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'af7e32009ae0824e39dc8f8e4c1ae3b2') in 0.014037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dir_07e73fb754cfe8f4105d329e9ca6b863.html
-  artifactKey: Guid(acf5fae32715ce24381a9bd924b1a6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dir_07e73fb754cfe8f4105d329e9ca6b863.html using Guid(acf5fae32715ce24381a9bd924b1a6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '39f232300fa92106f62791899ca1d0da') in 0.013817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x66.html
-  artifactKey: Guid(9cc0669fe55179148b853211dcb37268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x66.html using Guid(9cc0669fe55179148b853211dcb37268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '589eab187da00d61b685ebad4e335178') in 0.014546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x72.html
-  artifactKey: Guid(bfbd6b333dd98e74f831c65809378a24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x72.html using Guid(bfbd6b333dd98e74f831c65809378a24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0968b06643fac21280d8ee0bd86a9708') in 0.014457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/doxygen.png
-  artifactKey: Guid(69264f976c45a0d409a7dcc825210b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/doxygen.png using Guid(69264f976c45a0d409a7dcc825210b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cc1e2fb30e8f252344a372df99b93d3a') in 0.025897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_i_dat_chunk_input_stream_1_1_idat_chunk_info.html
-  artifactKey: Guid(6c4337d01b47cbc4384f1be47466b913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_i_dat_chunk_input_stream_1_1_idat_chunk_info.html using Guid(6c4337d01b47cbc4384f1be47466b913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd6c7ed66f83373b4e91c7288b27a62bf') in 0.014460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x64.html
-  artifactKey: Guid(56d8893d8beef1a44b2a28fb650b565d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x64.html using Guid(56d8893d8beef1a44b2a28fb650b565d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9124fa22ea2c7e579b554f86d7c39a88') in 0.015156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dir_1b9ac3b170fffcdd28e62d8bb45cbfb6.html
-  artifactKey: Guid(72ce2377401f7f94aa46e4e9a963d52a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dir_1b9ac3b170fffcdd28e62d8bb45cbfb6.html using Guid(72ce2377401f7f94aa46e4e9a963d52a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b41b47b1512e317cb5095065c80d61d3') in 0.016691 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x71.html
-  artifactKey: Guid(8c99fe537c853c64981baa8da68c4945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x71.html using Guid(8c99fe537c853c64981baa8da68c4945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3dd4097fa85e4d13fcfe62b6635bee10') in 0.015078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.135099 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/namespace_ar_1_1_com.html
-  artifactKey: Guid(adc0f024347cd7e49b63f637c4441560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/namespace_ar_1_1_com.html using Guid(adc0f024347cd7e49b63f637c4441560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f5a91833dbb95c3e9676daebd13a98ad') in 0.014038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Zlib/DeflateCompressLevel.cs
-  artifactKey: Guid(0ec27f44a7bd5da43b350f06be3f0a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Zlib/DeflateCompressLevel.cs using Guid(0ec27f44a7bd5da43b350f06be3f0a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9f122bd33c11cc339194ba4a6be50b0d') in 0.016093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Device/QuiltSettings.cs
-  artifactKey: Guid(7b2fd88cfdaa5a849a20d68ee53cc981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Device/QuiltSettings.cs using Guid(7b2fd88cfdaa5a849a20d68ee53cc981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8d8a1fdc6b7413b0e0764f160c4755ad') in 0.015657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkHIST.cs
-  artifactKey: Guid(dcef2678a5ebbc8439b8dbbd3430ee9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkHIST.cs using Guid(dcef2678a5ebbc8439b8dbbd3430ee9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cb8af2df8d706f98a2f9577c5f0ec06a') in 0.015984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/OnSubscriptionCanceled.cs
-  artifactKey: Guid(fc79693e55923d04ba34f1f874db8a71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/OnSubscriptionCanceled.cs using Guid(fc79693e55923d04ba34f1f874db8a71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '69709270df48655910a1df961ca39849') in 0.018918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkIHDR.cs
-  artifactKey: Guid(bb26d4af7dab0bc4f9f1028a799ac4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkIHDR.cs using Guid(bb26d4af7dab0bc4f9f1028a799ac4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '98677b8f8435c51e0300412bbb2bad83') in 0.015468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/Playlist.cs
-  artifactKey: Guid(f1c41dcaf06e5e24db2aa6316ffbd58a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/Playlist.cs using Guid(f1c41dcaf06e5e24db2aa6316ffbd58a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0fedb2bdc986c3e2497dcbe4bd2ecc6c') in 0.015061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/tab_b.png
-  artifactKey: Guid(84a8cfcf0e7d7bd40bf1d0031131f82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/tab_b.png using Guid(84a8cfcf0e7d7bd40bf1d0031131f82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7052b72a056559bd07cf5ca60aa8bacd') in 0.027438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkGAMA.cs
-  artifactKey: Guid(1c387780e6df473489dadbeffb518a87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkGAMA.cs using Guid(1c387780e6df473489dadbeffb518a87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '446507fe2c09e3092e0dd08604456b5c') in 0.019200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Blocks/Responses/UserData.cs
-  artifactKey: Guid(3457958ba132b9d4bbcb8e9b6bf784b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Blocks/Responses/UserData.cs using Guid(3457958ba132b9d4bbcb8e9b6bf784b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8e23e4123a8f2b4cbc9ea8a46744d4b8') in 0.017210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/ChunkCopyBehaviour.cs
-  artifactKey: Guid(ddb71e62e7c795042b8ba3d2fa2fd70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/ChunkCopyBehaviour.cs using Guid(ddb71e62e7c795042b8ba3d2fa2fd70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '601c970a211f3ae2d8696342b43db236') in 0.014674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/GraphQLEvent.cs
-  artifactKey: Guid(2f79f6ed04a7de5479938dddda6e335b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/GraphQLEvent.cs using Guid(2f79f6ed04a7de5479938dddda6e335b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '32619bc0360333efefd5debba5f186a5') in 0.017135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/tab_h.png
-  artifactKey: Guid(2d959c460e4a9004b8750d46187ebf0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/tab_h.png using Guid(2d959c460e4a9004b8750d46187ebf0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cd29bb1a3feb2b043377f2f8deabe8d0') in 0.021954 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/OnSubscriptionDataReceived.cs
-  artifactKey: Guid(3901b92efdc040c448f7efd8745093ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/OnSubscriptionDataReceived.cs using Guid(3901b92efdc040c448f7efd8745093ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '93ad5021ef5e40dfc4bef85177688387') in 0.016570 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkSBIT.cs
-  artifactKey: Guid(d33efab72c96e604f8a2c45d531694aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkSBIT.cs using Guid(d33efab72c96e604f8a2c45d531694aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '506611bdf9252357b852ad74348ce776') in 0.019729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Zlib/AZlibInputStream.cs
-  artifactKey: Guid(9edfc3cd9b48dda44b988244efcb1175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Zlib/AZlibInputStream.cs using Guid(9edfc3cd9b48dda44b988244efcb1175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '59f657a7c0287ba2273ab654cd309436') in 0.017115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Device/SubpixelCell.cs
-  artifactKey: Guid(c738189a92d3fdf4e97171592b55295c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Device/SubpixelCell.cs using Guid(c738189a92d3fdf4e97171592b55295c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4861be4b314e06840ad4e8630abf44f5') in 0.013220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Implementations/DefaultHttpSender.cs
-  artifactKey: Guid(3f1b73cca8a88b94a9cf501ca72cc4b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Implementations/DefaultHttpSender.cs using Guid(3f1b73cca8a88b94a9cf501ca72cc4b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7f6d29f6bc39416acfc58438f4b73883') in 0.014242 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/UnityWebRequests/UnityWebRequestExtensions.cs
-  artifactKey: Guid(f933dbbddc692dc468db666b928d0be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/UnityWebRequests/UnityWebRequestExtensions.cs using Guid(f933dbbddc692dc468db666b928d0be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e5d6c3764d7d525c9d96396752ca63eb') in 0.016209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/Data/LKGSettings.cs
-  artifactKey: Guid(f9eaa9a35693b8d42b4322fd1fa0a8c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/Data/LKGSettings.cs using Guid(f9eaa9a35693b8d42b4322fd1fa0a8c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1d41b50669a6685bc42a53a2b2d8d46e') in 0.014192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/WebSocketClient.cs
-  artifactKey: Guid(d9854f0028be52949b394cb5b70bacd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/WebSocketClient.cs using Guid(d9854f0028be52949b394cb5b70bacd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8c4d983a6c1d12d0397e5cc5a2cd2c73') in 0.014130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/ChunkPredicateId.cs
-  artifactKey: Guid(20f9b0527de24e94a9b75dee4cedf6a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/ChunkPredicateId.cs using Guid(20f9b0527de24e94a9b75dee4cedf6a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c76008b1bff853f1df71e028242b8c09') in 0.016161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/UnityWebRequests/NetworkErrorBehaviour.cs
-  artifactKey: Guid(8cbf9a240f585e24e82d951bf834cae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/UnityWebRequests/NetworkErrorBehaviour.cs using Guid(8cbf9a240f585e24e82d951bf834cae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '793819a3f55749d8b94e10fe0725bca5') in 0.024138 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/EventListeners/MonitorEvents.cs
-  artifactKey: Guid(100bc80ad0a36a5468083421b55ca68f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/EventListeners/MonitorEvents.cs using Guid(100bc80ad0a36a5468083421b55ca68f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1c015da8e64a70eb167a6e7a15421e74') in 0.021892 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.601 seconds
+Refreshing native plugins compatible for Editor in 20.16 ms, found 11 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Attempting to connect to LKG Bridge at 3/27/2025 9:45:54 PM...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
+LookingGlass.LKGDisplaySystem:Reconnect ()
+LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
+LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
+LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
+LookingGlass.UnityLKGSystems:.cctor () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.732 seconds
+Domain Reload Profiling: 2330ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (401ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1732ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (953ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 12.90 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4607 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (1.7 MB). Loaded Objects now: 5104.
+Memory consumption went from 161.5 MB to 159.8 MB.
+Total: 4.594700 ms (FindLiveObjects: 0.276600 ms CreateObjectMapping: 0.141600 ms MarkObjects: 3.702300 ms  DeleteObjects: 0.472800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
