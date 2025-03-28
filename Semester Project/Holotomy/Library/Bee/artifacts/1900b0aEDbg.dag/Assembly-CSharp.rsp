@@ -412,6 +412,7 @@
 "Assets/Samples/Ultraleap Tracking Preview/7.2.0/Preview Examples/UI Input Examples/Scripts/UI/SliderVolume.cs"
 "Assets/Samples/Ultraleap Tracking Preview/7.2.0/Preview Examples/UI Input Examples/Scripts/UI/ToggleToggler.cs"
 "Assets/Samples/Ultraleap Tracking Preview/7.2.0/Preview Examples/XRControllerSupport/ControllerModelEnableDisable.cs"
+"Assets/Scripts/MaterialToggle.cs"
 "Assets/Scripts/SceneManager.cs"
 -langversion:9.0
 /deterministic
