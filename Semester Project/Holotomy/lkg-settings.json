@@ -1,0 +1,6 @@
+{
+    "loggingFlags": "All",
+    "queryingLoggingFlags": "None",
+    "enableHologramDebugging": false,
+    "skipUserGameViews": false
+}

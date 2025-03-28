@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.38f1 (c5d5a7410213) revision 12965287'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16088 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 65425 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-57789
+53495
 Successfully changed project path to: C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
 C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11752]  Target information:
+Player connection [11328]  Target information:
 
-Player connection [11752]  * "[IP] 129.21.90.55 [Port] 0 [Flags] 2 [Guid] 1540365415 [EditorId] 1540365415 [Version] 1048832 [Id] WindowsEditor(7,BoneCrusher) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11328]  * "[IP] 68.180.87.44 [Port] 0 [Flags] 2 [Guid] 2014252048 [EditorId] 2014252048 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NU660SS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11752] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11752] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 10.37 ms, found 3 plugins.
+Player connection [11328] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11328] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 31.73 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.38f1 (c5d5a7410213)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -64,54 +64,54 @@ Initialize engine version: 2022.3.38f1 (c5d5a7410213)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24e0)
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
     Vendor:   NVIDIA
-    VRAM:     8043 MB
-    Driver:   31.0.15.1770
+    VRAM:     8006 MB
+    Driver:   32.0.15.6094
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007811 seconds.
-- Loaded All Assemblies, in  0.346 seconds
+Registered in 0.012643 seconds.
+- Loaded All Assemblies, in  0.528 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.265 seconds
-Domain Reload Profiling: 611ms
-	BeginReloadAssembly (113ms)
+- Finished resetting the current domain, in  0.367 seconds
+Domain Reload Profiling: 893ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (134ms)
-		LoadAssemblies (112ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (145ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (132ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (197ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (265ms)
+	FinalizeReload (368ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (207ms)
+		SetupLoadedEditorAssemblies (287ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (143ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,15 +119,15 @@ Domain Reload Profiling: 611ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.676 seconds
-Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.975 seconds
+Refreshing native plugins compatible for Editor in 16.24 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 3/27/2025 1:13:26 PM...
+Attempting to connect to LKG Bridge at 3/27/2025 8:40:57 PM...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -144,914 +144,777 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
 
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.888 seconds
-Domain Reload Profiling: 1562ms
-	BeginReloadAssembly (142ms)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.541 seconds
+Domain Reload Profiling: 2509ms
+	BeginReloadAssembly (202ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (453ms)
-		LoadAssemblies (356ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (642ms)
+		LoadAssemblies (442ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (140ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (888ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1542ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (742ms)
+		SetupLoadedEditorAssemblies (1330ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (606ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (1150ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 25.83 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3628 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (1.5 MB). Loaded Objects now: 4071.
-Memory consumption went from 145.6 MB to 144.0 MB.
-Total: 3.503300 ms (FindLiveObjects: 0.201600 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.939700 ms  DeleteObjects: 0.266100 ms)
+Unloading 4390 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (1.6 MB). Loaded Objects now: 4826.
+Memory consumption went from 163.9 MB to 162.4 MB.
+Total: 8.154600 ms (FindLiveObjects: 0.938900 ms CreateObjectMapping: 0.809900 ms MarkObjects: 5.515400 ms  DeleteObjects: 0.888600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/Decorators.cs: ede5280c433de832e48c0d8e1271e84c -> 4533f6715dc3f8cdabbd37ff77d1dad7
-  custom:scripting/monoscript/fileName/WebHeaderCollection.cs: 2de49369b0d48f5821aebcb82ac53bc8 -> cffedb85df89fc7306747efdf0484bd4
-  custom:scripting/monoscript/fileName/OutputFolder.cs: 599a3d1e02ab25761eac370f10e442d4 -> 605e1d41841a36ae1d9d68d1fff603b1
-  custom:scripting/monoscript/fileName/GlobalSettings.cs: dacf95f57ad14e66eadf1758fd89512a -> e5eb35b80bdfaee4ead1e1630fd77998
-  custom:scripting/monoscript/fileName/PostProcessEffectBaseEditor.cs: c27a4a383a108a4af073005bf88059c8 -> 972bdf00f442be0d879dcb6868e25c8e
-  custom:scripting/monoscript/fileName/PostProcessRenderContext.cs: dbf8ea613dacf10bd2159828975cb183 -> 9e034c8bf7d42a1d6c2d4339915eccb0
-  custom:scripting/monoscript/fileName/ChunkPredicateEquiv.cs: 629553a5dbc1d8b2cdeac741122c5657 -> 4bab99f4069e23ad375e1364579e6cda
-  custom:scripting/monoscript/fileName/RenderStackDrawer.cs: bb35520d2e8eb6ed3f4908d1f128fee8 -> 123f45773d903f92f5c3326a51c4371c
-  custom:scripting/monoscript/fileName/UnityImitatingClearFlags.cs: d80c2a6e6a2f85ecd7e10c84caf95afe -> 9f609e4f45c184e9557b8e4880efb78c
-  custom:scripting/monoscript/fileName/CRC32.cs: b7979983743bdb0f4ae7b49aaf2e998a -> 2a4611d9153ed6450c783c3f5cc1eecc
-  custom:scripting/monoscript/fileName/PngjOutputException.cs: b48bc846c913eb0f854ecf56959b5247 -> d2027220b6a272148bd0864eddd4d901
-  custom:scripting/monoscript/fileName/LKGSettingsBuildPostProcessor.cs: d294d8bb7fadeb9cd5dc02376f76a59c -> 034f3cb4c9525c0880fd964c418e6c62
-  custom:scripting/monoscript/fileName/Spline.cs: 5b4ec7feea3859f5f136ddbfc3c941cc -> 7876820de12ed89d33ad838af99a030e
-  custom:scripting/monoscript/fileName/ColorGrading.cs: 01694180370dc3498814b255df26ca5e -> ef67493fb3cf9676ba5f25862510a595
-  custom:scripting/monoscript/fileName/Monitor.cs: b9566fb46ff8884702d979b21acdffaa -> e0eb5d32b3aade2e0ce8680b00ac2b78
-  custom:scripting/monoscript/fileName/ScreenshotProgress.cs: 7b7918bc38cdac301976be9a3085aa17 -> 1d9c300dc83220ea969a7e677c8e4ebc
-  custom:scripting/monoscript/fileName/WebSocketClient.cs: 4b770b3b3a28f9c673e7db450cda62f3 -> 1d50a0e99fc4086095e46d1142ac8543
-  custom:scripting/monoscript/fileName/PngChunkCHRM.cs: 7d30933892eac909fcfd605da1d3416f -> 028974f8bfbac89eac7dd731fb82b75a
-  custom:scripting/monoscript/fileName/LookingGlassWebRequests.cs: 6cd824c969ee4a2f3c0d131194f07e9d -> 81d1ed6b5045454a3924010f9aefb75d
-  custom:scripting/monoscript/fileName/AZlibOutputStream.cs: d9b7dac82211252022021e5e2530a6a8 -> 49622ca42fc5b1c17bc36dba4a4d466d
-  custom:scripting/monoscript/fileName/TemporalAntialiasing.cs: b8093f44206c344c578dc8376dbe095e -> 71e40fdab49d34f4e07f83936454d904
-  custom:scripting/monoscript/fileName/PngChunkHIST.cs: 88bdad9658d963321e6402c56b820b44 -> 0baf42bc0a977ddd237338abc8da97cc
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/ChunkRaw.cs: f976e135a1a4a576cd92b8f90de77bf5 -> f39dd152e4cfaecbe9378be5e4b4ae83
-  custom:scripting/monoscript/fileName/AmbientOcclusion.cs: 70c14f29a65c17d7f7b9a91c4d4797f4 -> 7a27923f9312611f0b2898a72e3ee96a
-  custom:scripting/monoscript/fileName/GraphQLEvent.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/FrameRateController.cs: a2cbbe6b46e58730ef0c5e24d40c712e -> 78b390edc53b2a57cbfd4e2d0e4cfa34
-  custom:scripting/monoscript/fileName/OutputFolderDrawer.cs: 076de5519b4e79c233beac03707f1e6f -> a8f6f91a0a60b921dddfb084978ac4de
-  custom:scripting/monoscript/fileName/PayloadData.cs: 0aeea42ef8385e66ad8df1d647699e6d -> 3934f5166f545990ecba6cbf0a6b7f04
-  custom:scripting/monoscript/fileName/DualMonitorApplicationManager.cs: bda48c9ac3be783eba842a8599a374db -> 16a6bdc3e991c9209f4989e6de824bcb
-  custom:scripting/monoscript/fileName/AccessTokenResponse.cs: 868777f7f204219030cc6852fb82188a -> e2fb6581ecd15736fcee6bda38c8d170
-  custom:scripting/monoscript/fileName/PostProcessDebugLayer.cs: 05f57e4a92727076be4ff183e466302e -> 6d8a99809398beddf11f92dfbb0e6ad4
-  custom:scripting/monoscript/fileName/OpenInFileBrowser.cs: 7f0a3b03395ae58a407792adfc25ae59 -> e0255e44820fe43581d33ee5d3f16092
-  custom:scripting/monoscript/fileName/ColorUtilities.cs: e7a89a1b4024dadbd04347f487c102f6 -> 47918ebfa890b947a816b80444ee2882
-  custom:scripting/monoscript/fileName/ChunkPredicateId.cs: ab0175f5fb711bfe5442de25c609be76 -> 1ff1c9892fa5cdc3c4c475f451aee22d
-  custom:scripting/monoscript/fileName/ChunkedRequestStream.cs: 3c1272117913c9dfaea534308a8906e5 -> 9f81c19997c5808ae3c8cce49fe401bf
-  custom:scripting/monoscript/fileName/PngChunkITXT.cs: 1fea4be8a9c772c34aa637ac1d01a2c6 -> 82928d1d7dc86759ee01c9c8c4f8a97b
-  custom:scripting/monoscript/fileName/ParameterOverride.cs: e6b9758052eee05429de39903f55f625 -> 5475497db741ca919df708e5019e593d
-  custom:scripting/monoscript/fileName/PngChunkSBIT.cs: b2581825de6b109090dc004084108c2a -> 64fdf90633659c0ab75d8ab9b7804fd9
-  custom:scripting/monoscript/fileName/OSMonitorUtil.cs: 9d7cfbeb65adda99679e8be80f2e25f0 -> 9920dccd162e5964119b8ca11156116c
-  custom:scripting/monoscript/fileName/TextureLerper.cs: 40343c1c92e636c60113bf12f5bc7226 -> 973e800795f77d61d647ea0c3f0cf284
-  custom:scripting/monoscript/fileName/HttpListenerRequest.cs: 88baf91e443b4e74b6c622ef046d025c -> 1513c022f2d94369500a50d56b30877a
-  custom:scripting/monoscript/fileName/PluginSemanticVersion.cs: 32cf70648c83c0f0eaca604572f862f3 -> 5680f89780911a210bf47e067f898c51
-  custom:scripting/monoscript/fileName/CloseEventArgs.cs: 72d97719933d23181a74eaf1a2ff4697 -> 668e4ab65d3062c1d2824010f4124aeb
-  custom:scripting/monoscript/fileName/InterProcessCommunicator.cs: f3c60932cab6f16672d220b7d9e6063c -> 7f590065fdc1f0a4c1e0de786c01e90f
-  custom:scripting/monoscript/fileName/RuntimePreviewInternal.cs: c60fef5ece526cf971f85f7218b6b4b1 -> be7f057f533e2a3192ecb70ae6b59ace
-  custom:scripting/monoscript/fileName/Vignette.cs: 0ed63bdca07141fa891d5f0b205cca48 -> e0b99ac31b7575ef776e7be56647abb0
-  custom:scripting/monoscript/fileName/DepthOfFieldEditor.cs: a00f2d537b96046c665ddf3e4c2e8e81 -> 64cce655bf722c851048e2ebbf401a7b
-  custom:scripting/monoscript/fileName/DefaultPostProcessEffectEditor.cs: 98fc8b18a7f99c27652261f33ce86292 -> 06a1d8fcea7725e08b95f21cc15fd0a1
-  custom:scripting/monoscript/fileName/Ext.cs: 7754937819b1be5b8c0661554117783b -> 9399b8797932edcdc74b9d630bf225ad
-  custom:scripting/monoscript/fileName/ImageLines.cs: cf84e39401f3217479361231681925a6 -> eeb59217c32b32ab9be1e8793def84d6
-  custom:scripting/monoscript/fileName/PostProcessLayer.cs: f0cebbf99d4805fb589e2ec90c9c5818 -> aa288976158dcd4c24041d5304f25d07
-  custom:scripting/monoscript/fileName/HologramCameraEvents.cs: b335b1ef49f97820c346e7cd8fcffa6d -> a88371c2b246143bf5f212546cafa800
-  custom:scripting/monoscript/fileName/ILKGToolkitBootstrapper.cs: be3b687c878cc9984c9d83c273f818ec -> 4784c3712fb46a670f25b50800d5050a
-  custom:scripting/monoscript/fileName/WebSocketSessionManager.cs: 6fb112674947df766c331841c399a195 -> 948278ded0ede8df14c648722c9662e8
-  custom:scripting/monoscript/fileName/ConfigurationSettings.cs: 18911d5f55451b7300d4c47b29008b68 -> 49b5a038c2cbc18769ba35db4604983d
-  custom:scripting/monoscript/fileName/CalibrationExtensions.cs: 3ad2a802752e5a4b16440b20d7f206b4 -> 6de12902a627f19d919d839af84cc970
-  custom:scripting/monoscript/fileName/HttpServer.cs: 4203144d112400e2c3070115dfe51073 -> aa140d591ef8d02c4048bc85620f83fe
-  custom:scripting/monoscript/fileName/OnGraphQLRequestStarted.cs: 069fede71dda4199b16af8644f0c4fe0 -> 28d12e3892ca21f555487ee0d015e49c
-  custom:scripting/monoscript/fileName/LKGDeviceTemplate.cs: b5de91023d7537f1a32e0819628fdbe0 -> 97ae30db6c74da52c78dc0b1c986396c
-  custom:scripting/monoscript/fileName/SectionGUILayout.cs: 6003040582bd02cc1f939e385a1375a3 -> 4545347932ff3fa5c7c5ef392c151275
-  custom:scripting/monoscript/fileName/GameViewSizeInfo.cs: 33d14d2d798dc19a2e5100ae1e156935 -> 481790dd981368a0bd10613c79437f34
-  custom:scripting/monoscript/fileName/MaxAttribute.cs: 43f14fde7a0ff3abe41bbd16ea3cc398 -> d661645ab8c724f24b3e19978e87b44c
-  custom:scripting/monoscript/fileName/ChunkPredicateId2.cs: 1cc70182f53081c0248c94ea62d42cc0 -> 9445799a647ca30dcacd595280c0d1e3
-  custom:scripting/monoscript/fileName/LKGSettingsSystem.cs: 0e5d11343f20f29f1b4e42b8021629e9 -> f2a6eadba6d3b13c338d0c516f6fcb6f
-  custom:scripting/monoscript/fileName/URPPackageDetector.cs: 528984a2d206b32a4796b96286c17582 -> 654c6a08b9a18b347abe751b634fb3f7
-  custom:scripting/monoscript/fileName/HttpListenerPrefix.cs: 6e0f2307a004e9b363365b3836c5171e -> 43ddb9f63482ef3d7f765a0228482a71
-  custom:scripting/monoscript/fileName/PostProcessDebugEditor.cs: 2cf65bc20483c2cdb63467d3c5c3c787 -> 1a0488d8742bf880cc7334e53e2cc73d
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/SerializedParameterOverride.cs: 26e891868793710e9db42e3e04d51fc9 -> 5e4deaf96895d013d32a8e84ec179f8e
-  custom:scripting/monoscript/fileName/MeshUtilities.cs: 0612a3daedf6dea6e659a8c74d114b85 -> dc5356b699afd34cf9728f4d65b476a0
-  custom:scripting/monoscript/fileName/HologramData.cs: 84b39d9a4c76173f9e61f34bc4c5cd57 -> 714524ee0041d018bf9f685c559d2b13
-  custom:scripting/monoscript/fileName/AmbientOcclusionEditor.cs: 723e2fdfc8be370efeb84376f93ba97f -> 61e5422c29b8f52188d508eb7d382167
-  custom:scripting/monoscript/fileName/UserData.cs: d340cd6d45f42246b548564022669a59 -> b2a834a56052f0b5ef07c3bc4b25380c
-  custom:scripting/monoscript/fileName/GraphQLHttpHandler.cs: 16d797441024c0d4b1a9bf60e0cb3317 -> 44de6e61912a64ef8f0406858ac37dc7
-  custom:scripting/monoscript/fileName/PngChunkSPLT.cs: 2b6ae1e240eb25bef8fe2bb872d11ec2 -> f1108c29b31c79c65ca25bc40528b84a
-  custom:scripting/monoscript/fileName/FastApproximateAntialiasing.cs: 5b28409ee6c03dc63fdc4a201da26b50 -> bf5588b2deec2689a812a7d2eacd9bd5
-  custom:scripting/monoscript/fileName/PngjExceptionInternal.cs: 52402ee025284937db75ccb843d8b54a -> 3271d73025d29957b621bf5ffebe1770
-  custom:scripting/monoscript/fileName/FilterWriteStrategy.cs: 722c421e2a68ea8b5e7154b558b99efc -> ef81c6f55ce0ca571d96c0fa17355d91
-  custom:scripting/monoscript/fileName/HttpRequestEventArgs.cs: cd8f641bf305e8f5fadc8e8d3f87e991 -> 682e323d43b29e406aeec780a1f106c6
-  custom:scripting/monoscript/fileName/MotionBlur.cs: e0840a7b2701bef0b642f01f55dbfaa7 -> 823914e335803785a19e5990c6ab2911
-  custom:scripting/monoscript/fileName/SimpleDOF.cs: 791e024ffefb3c2618ba271e9374d1a7 -> 1aeeb3d80e04b6722d496c431b97ee08
-  custom:scripting/monoscript/fileName/QuiltSettingsDrawer.cs: fec5ff268cde501d9c644ca40111c175 -> 5b96a3737a558fe63bd61f804710ea84
-  custom:scripting/monoscript/fileName/EditorUpdates.cs: 3269f095ebc589036e8d02bb0a7441bf -> 144fd7959d89fbb3037cbbf4e91d1198
-  custom:scripting/monoscript/fileName/ImageInfo.cs: 8b9248a0ef47b3f42286e566e5cc098e -> 1833a5301c844e6809bf56fbc0eca7a6
-  custom:scripting/monoscript/fileName/DefineSetter.cs: 8d3113a96a82d6d603ee2d11f6c37cc8 -> 292ba08e52064b1a72f8d4bb04301dd3
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/MultiViewRendering.cs: 96e8fd1716c3ab5c0700272d0b12b002 -> 20eb71c685f7188eb2c6fca93657405c
-  custom:scripting/monoscript/fileName/ShaderIDs.cs: 9d9b23b03bb5e57daf95443ee5ba4ea7 -> 96024f1f873475da65a783f1404f9117
-  custom:scripting/monoscript/fileName/PostProcessEditorTests.cs: 297f89c3bd717563711e1bc9cae1c91e -> 35902ddcdcab40b691bb966a7b5bc064
-  custom:scripting/monoscript/fileName/NetworkCredential.cs: c345adc253dede3fb7098082d1c0da37 -> 9d386b4a63b2738f439fe57f805016a8
-  custom:scripting/monoscript/fileName/CookieException.cs: 289bd2fd1310e2edfc6784d321ef3ee8 -> 53ce7fc5669ef2cb818e8810996a1179
-  custom:scripting/monoscript/fileName/PostProcessEditorAttribute.cs: 6e3bcb8a5c5ef1b5dc644947d9179919 -> 672a58b4d5bab60112487a31c361c481
-  custom:scripting/monoscript/fileName/PngChunkSRGB.cs: 277733146b73f2476f509f4cc457bab4 -> a911b8c45deadd07c64e39bfdb64d001
-  custom:scripting/monoscript/fileName/RawImageUpdater.cs: 4744bfb2d0dff12a9a812dcb522604ce -> 9ee46742872b63f41609ce188fb86820
-  custom:scripting/monoscript/fileName/LensDistortionEditor.cs: b0af4264deeee92ec36a01444042f0ad -> dee045d29944d55e8040435a58a7ce90
-  custom:scripting/monoscript/fileName/PluginVersionAsset.cs: 4c5d103d4b7676bba7d1b45cded92b51 -> 6fbb2556bc0c36f579f792e32a332aaf
-  custom:scripting/monoscript/fileName/MultiViewRenderer.cs: c648b78e22d10929ab4de04f27c264dc -> a3740dd1b50cf19c7ab5d1b921999c1c
-  custom:scripting/monoscript/fileName/DefaultHttpSender.cs: 17c4b37dd89b98bbc2e6913b200b21de -> 5170e715308e4f2fa8708c8b621f032c
-  custom:scripting/monoscript/fileName/OSWindowUtil.cs: 0f10542905803abb33a0141d899e7a45 -> a0f8e598977f7364357b326a31b63008
-  custom:scripting/monoscript/fileName/MotionBlurEditor.cs: 33b9c8994938ce643cd329fc459c7fba -> 3bd8d3e7e9a7ea94beb2e5517b62d27b
-  custom:scripting/monoscript/fileName/Dithering.cs: a961b49b2d85a45b8ae8d210152dd160 -> 3014fffaa718d0ad6dd2c7bb7956ed46
-  custom:scripting/monoscript/fileName/UnityHttpSender.cs: 40becf6fc4f77c473b89b848313076f0 -> d439fb97ba8e5dd75efbe3331cc145ac
-  custom:scripting/monoscript/fileName/BridgeConnectionHTTP.cs: 8046a180370caa6ccada64b41f40ad28 -> 0dba1a3606fda6f80fa983f86c3da7a5
-  custom:scripting/monoscript/fileName/Calibration.cs: ec3ecb1ae62542827263746958b8ebbd -> 93fa8513fdad92147f2da8a6f6cbf665
-  custom:scripting/monoscript/fileName/LKGDeviceTemplateSystem.cs: 62c15e217584ffb5a4f83cfcddfaa7c8 -> ab04ba784778f76efd8ed5ff9bf542d9
-  custom:scripting/monoscript/fileName/EndPointManager.cs: 12443dae1b45e409324f01e203191ba2 -> 3100e662aaee69fa49889aa0274b9f41
-  custom:scripting/monoscript/fileName/DecoratorAttribute.cs: 4545c9b9ce4188ac2b49a7d2ce8de3ac -> be5bd39119e1a41ea1a019fdb3818a3f
-  custom:scripting/monoscript/fileName/Util.cs: 9fc12418cce46900ca18dfb0e7052f63 -> a388580dbd9380d12de7695f4a2fa70c
-  custom:scripting/monoscript/fileName/HologramCameraTypes.cs: c1db92cc636ca2966bd127235134c562 -> d880d82dff0dec16c3eb4db384e0749d
-  custom:scripting/monoscript/fileName/GraphQLField.cs: 686647b2d89d94ce1bd70b8f19cc8315 -> e04623677de1c4b2bca9544a087a9177
-  custom:scripting/monoscript/fileName/HologramEmulation.cs: de020487f7af3aac9d63fcf36dbcfeda -> 5358d016445d4c25633eed96a8729a07
-  custom:scripting/monoscript/fileName/DisplayNameAttribute.cs: 7e79472c7070854c57e77578c210191f -> 935a6ac504eb8a852fba40cbcae9292c
-  custom:scripting/monoscript/fileName/WindowsOSMonitor.cs: 8eef89276a01b545054cb4103e16d50f -> 17cffb374f95c5b63c9757a641fc48b5
-  custom:scripting/monoscript/fileName/DualMonitorApplicationBaseIPC.cs: 249d5b16fb4a3a6b441106d574cbce0e -> c647cc895c9b1820798f9a75e053c73c
-  custom:scripting/monoscript/fileName/HologramUICamera.cs: b89ea75aab4497ebca8dbbf7b4ac334f -> 53a9dcd5de443f62fba428e473763029
-  custom:scripting/monoscript/fileName/CameraCapture.cs: 1635f6826de57f00dd539a8a639810e3 -> 280f6062d4acde0b8fb5a9f4e2e8514b
-  custom:scripting/monoscript/fileName/PostProcessEffectSettings.cs: 7eb188255deea06b412922ffdd98491a -> 2ab9d33170e863b1a9c8a9079cdd12aa
-  custom:scripting/monoscript/fileName/TargetedPropertyDrawer.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/RenderPipelineUtil.cs: 709efb493f104e67526d13b5fed5f22f -> 9a7d2fe6b7fe851d11d3b79d25c68777
-  custom:scripting/monoscript/fileName/Fog.cs: ad7cfdebdd6f8870a189a074140caa7d -> 07e271953e2bcf8513b6a72a2737e767
-  custom:scripting/monoscript/fileName/PostProcessManager.cs: 3a72d6b0da9b8b54155ae9529d6f01ca -> 28ef7780d543a8111635e1f5051383d0
-  custom:scripting/monoscript/fileName/SemanticVersion.cs: 30f2fb4432bd477c3307389160fc6399 -> b8a94c055bb144b32ab1bdf0b9fedc7b
-  custom:scripting/monoscript/fileName/PluginVersionAssetEditor.cs: 0af0e1a222a192079ec0142b390e7e0a -> 311441fdeb0cbbe23b34634b6c10e707
-  custom:scripting/monoscript/fileName/ReadOnlyFieldDrawer.cs: 2acbc3c61d6517541a90c11c32990f6e -> bb3f1109d811a902200798678f5c9e87
-  custom:scripting/monoscript/fileName/HttpConnection.cs: b06dcb794e9f46135cb0c1d99511f11c -> e769c395c8f34d1176511bf894a5b3a7
-  custom:scripting/monoscript/fileName/FFmpegPipe.cs: bd7debc81b348584449411944eaf81e7 -> 4eef901acd9ba01c1cea41be2d984fe2
-  custom:scripting/monoscript/fileName/PngChunkICCP.cs: ee0b086886da9ad763a72478615ff24c -> ec6394e9f1f2e51a403772125040fa80
-  custom:scripting/monoscript/fileName/VolumeFactory.cs: 8dd6a11d973b8bb1335cb963aae69e8b -> cc77136700c9e1ff894d234886ccb852
-  custom:scripting/monoscript/fileName/ChunkStream.cs: fdd8c370b3e00ab97071bee6dc9671b3 -> 19c292118b80429000b1296eeb5ac369
-  custom:scripting/monoscript/fileName/RenderStep.cs: 0febecd89d7214823a8123c8f6f51c89 -> 0c1f7596bc9b56911b020d5e77459911
-  custom:scripting/monoscript/fileName/RenderStepDrawer.cs: 6d6883c377f5d91e1fd9f829f2c945c7 -> 718770ecc1adc63bb990be00320fc299
-  custom:scripting/monoscript/fileName/InputManager.cs: 4a51454c42aa6531542b35df72095ea0 -> 2b78591f3d3df4607c726111c62a5d0f
-  custom:scripting/monoscript/fileName/UnityLKGSystems.cs: cc88dd4a436a3aff937929610b1de42f -> ae16a2aa8fe1bfae12627184de0d4476
-  custom:scripting/monoscript/fileName/PngDeinterlacer.cs: 3502ef906a760fb88a28b6aee06e6036 -> abe0d3f7de869e33214c889bae199204
-  custom:scripting/monoscript/fileName/WebSocketContext.cs: 2586b9b86d1a2446a72d68dbf2c596bf -> 14d6715b85ace5f372467b49c91f342b
-  custom:scripting/monoscript/fileName/InputExtensions.cs: 6f437e0254a009cf18d9093e4e8c4272 -> afacf3d00aad7eaee7f3d2871106b701
-  custom:scripting/monoscript/fileName/UnityWebRequestExtensions.cs: 589635cf1cae1639c135fab53a40ba99 -> 7591e8b8f4efbf409b3497517a32fd5c
-  custom:scripting/monoscript/fileName/HologramCameraProperties.cs: e4f89d9f22f791b27719d01c683922de -> ebdb929ca52c820c444e28a5094da139
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/AZlibInputStream.cs: 3357dc9cf6f2d03e9a3d27f4d04619f9 -> e306b51c28c0b8cfdbc3cc467f269a16
-  custom:scripting/monoscript/fileName/CameraCaptureEditor.cs: 378d731a7a9bd69e583d18da1df71c94 -> 51fcaae8f64eb3c4ed4d690bdbaf3bc7
-  custom:scripting/monoscript/fileName/PostProcessEvent.cs: fcf85d64822a0731b415e7a595d27108 -> 8fb6e54ff2cf1a8be7ecdd01fbdd78f8
-  custom:scripting/monoscript/fileName/TrackballAttribute.cs: 623a93fff088354a7523e4895340b80e -> 8dea8f77de7bd03137cc578af1ea6656
-  custom:scripting/monoscript/fileName/lightFlicker.cs: 12f04a2ddc0b6e2ea29f4c2d71c3865e -> b30ee4ed1bff8e9d2392a25ff6895252
-  custom:scripting/monoscript/fileName/HttpVersion.cs: 0b3e5a84d40d6b1cc814cc482ad4cf6b -> 5850ba3620d3cd34ad275ea9aa25a927
-  custom:scripting/monoscript/fileName/UnityLogger.cs: 3197028e43a354639454d45998d9be38 -> c3d607dc2afb7aa550bce36d3af472e0
-  custom:scripting/monoscript/fileName/LKGDeviceTypeDrawer.cs: 1605e456b8069befb033dce885b9a6ff -> 9006a66ddd4192a2d3495644db9990e4
-  custom:scripting/monoscript/fileName/ImageLineHelper.cs: 949d8e7f6f33dc4153592799ba5bd073 -> c4f08743f27ee26a76bb224183220999
-  custom:scripting/monoscript/fileName/PropertyGroup.cs: 105a121381f47ed0187da6e7eadbdbfc -> 30648456580cc02930fcbea27585b9f8
-  custom:scripting/monoscript/fileName/Cookie.cs: 08d24bd59c6d01238615081293f6ef4d -> 2ebe2ad824d69dfebd443ace2e9e11b4
-  custom:scripting/monoscript/fileName/TrackballDecorator.cs: 1e61f647359a6ec49a49cb9116aad0aa -> 6a2b6c747937d12d8d81be8f5b21fbd2
-  custom:scripting/monoscript/fileName/MultiScaleVO.cs: 5eeaee4eaf3b028aca387dc89c40edc0 -> d4c4732956ffb536e016475d75f04c43
-  custom:scripting/monoscript/fileName/PngChunkIDAT.cs: 381f1c79e3bc3a2643d0cfefde96c51a -> e5b765f01455f4420a5840d1c124f409
-  custom:scripting/monoscript/fileName/CubeLutAssetFactory.cs: 526decd9b174929ce2cc32c53e719062 -> db1961888d7cabf6be94b37e3b663de4
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/PngChunk.cs: a68dab5c917966e925187a7568df2dab -> f35815ae552d26005e3a42ceb2a8f144
-  custom:scripting/monoscript/fileName/ChunksListForWrite.cs: f33b68492080c0563909cb3860309b10 -> b1c235630454a3a42937d54008bb8f16
-  custom:scripting/monoscript/fileName/DisplayInfo.cs: cf2d54a86daeb32579889b4df503d1e2 -> 648620a646358d5c2d4f339603fbc867
-  custom:scripting/monoscript/fileName/UPMUtility.cs: 7d888c76f128cf6119492a30b38321a3 -> ea87c1ab25ff936c4eb1779c17208f83
-  custom:scripting/monoscript/fileName/ScreenRectUtility.cs: 8e17917ba34fb39131ec61296b421462 -> ffc0361b152a477da65b308624bf1df8
-  custom:scripting/monoscript/fileName/ExternalCalibrationFile.cs: 8d9b77b9f50db62bb3c361c0a8ce013a -> 27d987db5ea77ce02af309460aba9408
-  custom:scripting/monoscript/fileName/HttpResponse.cs: 7d81b3b915743fa09bd0d2d68d02fa7a -> 89df5547aa4a314c0325fa523722e054
-  custom:scripting/monoscript/fileName/CleanupPostProcessorBuild.cs: 399b9795ca14b51d285b024893e5eb97 -> 5917f3ac152b49239386d47dc5806542
-  custom:scripting/monoscript/fileName/HologramCameraEditor.cs: eb9b376935f72648befcfa720b0b44cf -> 08c5e3a759b410b7e722d28b1331a092
-  custom:scripting/monoscript/fileName/PostProcessVolumeEditor.cs: 9e0e77ad520ae6fa0cc5942516d38ef4 -> 7aae71821512dcac422c45dc773293c3
-  custom:scripting/monoscript/fileName/ReadBufferState.cs: 44828c7a34e5949dea76fb7b2e88cfe6 -> 6bec5c33d0c38970a096804dc9a0a109
-  custom:scripting/monoscript/fileName/PngIDatChunkOutputStream.cs: 21c92b64ebb2e5bda1ef1b1b6b8cc2a4 -> 70a1a7897b2134333070a0c8095ef678
-  custom:scripting/monoscript/fileName/PngChunkBKGD.cs: 1278accec4a6eb05689dda297f9e3933 -> 08226cc9966ca989717ce8db9e788961
-  custom:scripting/monoscript/fileName/UnityBuildWindowUtil.cs: 5aa9ac392c0f98ca521ba75d9b77a486 -> 19cf8d4b34250777618d0d6c5a1d4619
-  custom:scripting/monoscript/fileName/ZlibOutputStreamIs.cs: a0f9567d536eaea1bf16762f807a245f -> 1f9add5010ab8435d6e8c68f6b141de5
-  custom:scripting/monoscript/fileName/ChromaticAberration.cs: 41d7cbc23f1b289345a4cf930247e1b7 -> 4d59e57f8324f5f986e16678ed451410
-  custom:scripting/monoscript/fileName/PngjInputException.cs: 47f8e9df2c9014ae82d0521a0c64e40c -> a5beff752150ff2a0221a0b67d56587f
-  custom:scripting/monoscript/fileName/PngWriter.cs: 37c5ebecb34fa9bcf4961d01e1ab2ced -> 3d9bb8e950bf8300f548957a0436fdde
-  custom:scripting/monoscript/fileName/Blitter.cs: 8724538d000fefbc9315a4ca79f4b1bd -> ed3791af096ee7e6c5ff5b832ef2c774
-  custom:scripting/monoscript/fileName/VignetteEditor.cs: 16c1f5982848e3d8fb942611368bbf33 -> 345736fc911c5e8ab23e579751a40e4a
-  custom:scripting/monoscript/fileName/Styling.cs: 99099dd711caf0e31ed18af66582d4ca -> d1c4aa14ff93670753edfbb93fc91bfe
-  custom:scripting/monoscript/fileName/PostProcessEffectRendererExtensions.cs: 97aa49210d54339b4a798b283550785a -> e953624d113e7e1739c702512603957d
-  custom:scripting/monoscript/fileName/ErrorEventArgs.cs: a09010f8d76e06b0e500f189acbbed95 -> b2d8b40bdf3fde1d74a32237ea0766e0
-  custom:scripting/monoscript/fileName/GraphQLAPI.cs: a059a95e2abfdc65cb5082c119f601d3 -> a8708eebad8e28f67e81a8c032703b0c
-  custom:scripting/monoscript/fileName/HttpListenerResponse.cs: cb12f2e068557202d108706e0154e47c -> b5e2793f5caf767c9c8198c48675c41c
-  custom:scripting/monoscript/fileName/CreateQuiltHologramArgs.cs: 8e5ec596091e347d143d393a87f29ed5 -> bc12fdb00b9e7c4e116d5fd2e71fb0fe
-  custom:scripting/monoscript/fileName/HttpHeaderInfo.cs: 3dfe195980f104b224649605f819b3ae -> c3bbf43ad8d70866b4bfb6d0c7240e9e
-  custom:scripting/monoscript/fileName/EndPointListener.cs: 231bc050f1c692cb7d0769efaf7e43c5 -> 6dab00225efa65708629a81c5304c9b2
-  custom:scripting/monoscript/fileName/HttpListenerWebSocketContext.cs: 835f188932248e12de2cd2eecf6e4393 -> 9113f42f1c95e5fdd3cd0ed63e7e2789
-  custom:scripting/monoscript/fileName/ProgressiveOutputStream.cs: 92ddbb71117721e689dc550511de1534 -> 558115af9c055dc2ad6f85028dab7512
-  custom:scripting/monoscript/fileName/PostProcessingRuntimeTests.cs: 1519957518549ced90e0724e72f80042 -> 98fced520f477a8f96285f0d9ea20504
-  custom:scripting/monoscript/fileName/GraphAPIEditor.cs: 677d722c0674614d13b10332e943a70d -> 07bfc1bd2874fbbedef33bb5b1d0b5dc
-  custom:scripting/monoscript/fileName/ScalableAO.cs: e1da8d851abf0ce67b43ce3f82f69e9c -> 2f29d71d59b754086c809cfee1cdce34
-  custom:scripting/monoscript/fileName/PngMetadata.cs: 72bb2886cb814c06d3a909535ab87344 -> 5fad478f1448b28f07e3a0a4bfaaf1fc
-  custom:scripting/monoscript/fileName/HttpListenerAsyncResult.cs: 2f5d3dd771f49bf50c01c796c34ae8c2 -> cb43cd9f1bb92ade607eea0d9b8df48b
-  custom:scripting/monoscript/fileName/PostProcessLayerEditor.cs: f09410ed2f400f07cd48a49af2cc3f16 -> d16de665ece05cd6e27dcc8d7bac4b9a
-  custom:scripting/monoscript/fileName/DualMonitorApplicationManagerEditor.cs: da1ca4cf8d65d48667c7100bf0107876 -> 9cf51aac7bbc6e480aecd1a92f4ee589
-  custom:scripting/monoscript/fileName/ManualPreviewSettings.cs: 2090cf8b79d974d607fdf5aa7baf4502 -> 10550c6480878df39d3f7fa79fc12c9a
-  custom:scripting/monoscript/fileName/MinMaxAttribute.cs: a26336d7b77be24e89954d75172b8511 -> a4b6ac8a4377612c7135a60f905792f1
-  custom:scripting/monoscript/fileName/UISetup.cs: b079eb2138db8337261b3bd030d150ce -> 1a4a2a169d91cb362407a1fa504058c3
-  custom:scripting/monoscript/fileName/ImageLine.cs: e90353bd3f8a95066465c9824e354f27 -> 53285f1238a813702b429cac665139f0
-  custom:scripting/monoscript/fileName/ChunkHelper.cs: 7eacc0148d770eeaf326ceca9d84e5e2 -> cd5b0174c99af72857a09bda354e9e05
-  custom:scripting/monoscript/fileName/Cursor3D.cs: 48bcc3dfda157a65ebe860829be9a5c6 -> d3f448e5d3e1007b0b0cde3eb82530ae
-  custom:scripting/monoscript/fileName/WebSocketServiceManager.cs: eac3645fc6de48d21685740872eb9698 -> 0aabf07095220946b66a5cdb47031c9b
-  custom:scripting/monoscript/fileName/HologramDebugSnapshots.cs: b07afc167f8076b4009ad6f6f5513166 -> fdaba4429b1150b2f53ece7d2e74d820
-  custom:scripting/monoscript/fileName/Chunk.cs: 8643d4519e13c3e1cd3fb247f889de11 -> 905a40f7e80dc45060226e43519e97c8
-  custom:scripting/monoscript/fileName/SubpixelMorphologicalAntialiasing.cs: 6b0ba83ca76a925544e8af3173ae7a37 -> 02dcb8839824addec278047da0509aea
-  custom:scripting/monoscript/fileName/PngCsUtils.cs: dea164d70c11c8e446eb7f29bdd0e975 -> 6b4e244110b9fab7faf1e7939f6ccd82
-  custom:scripting/monoscript/fileName/ScreenRect.cs: 22f39e55a76c30806dd2589ebc1b0bbb -> 5a9cbf486dbcea04a2541070278e4906
-  custom:scripting/monoscript/fileName/PngChunkTextVar.cs: 2f8e5bb8158fdff15c1a10010bfe9737 -> 608c5db86a23772f09f793008a6432a6
-  custom:scripting/monoscript/fileName/BaseEditor.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/HologramCameraGroupFields.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ShaderPropertyId.cs: 7f3b7fab7080ed77b1ae2f045300e030 -> fa3e181493554c7d2c5ea8e8dc4bb402
-  custom:scripting/monoscript/fileName/QuiltRecordingHelper.cs: 67eb9a2f67a82585c51cc70b2f053055 -> de1c83d09ebbd8b9fe860e12258cebb3
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/OrbitControl.cs: dec11c00df352d1702492e0a041134c6 -> f30323e5422041b2296e0cd954bf7f29
-  custom:scripting/monoscript/fileName/PngChunkIHDR.cs: 3d5678b06b48f0ade19b7c17ef717a31 -> a4510069302c928aeed84603b8cc926c
-  custom:scripting/monoscript/fileName/PngChunkMultiple.cs: 328139f1cbbdf01ba6711e510c8c9816 -> 7c6a6db3fd5ac047a509983365adce22
-  custom:scripting/monoscript/fileName/PngjException.cs: 55c2726845811542e12906e0808d5a14 -> 976bcfea1f800dcb9dc87b78898a7236
-  custom:scripting/monoscript/fileName/OnSubscriptionDataReceived.cs: 54e321944dc844d78ea57da5017e0c12 -> 73678c30cdf4e0629081434a62ae74de
-  custom:scripting/monoscript/fileName/BlockUploaderEditor.cs: 6acf1a17557bca696d6c28f647220ff1 -> eb66342a4bee161eeb5117f7390ec4aa
-  custom:scripting/monoscript/fileName/OnSubscriptionCanceled.cs: ec8de4e6500d0e05b62f3559bdcdc58a -> fd82a0505585c6ea760df507e4ea66a3
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/Display.cs: f234b4602dec5ece544284cbe1910922 -> e5c63124e003d9458e1b83f3ab3424e4
-  custom:scripting/monoscript/fileName/QuiltScreenshot.cs: d950dc738f2ce3914af04a5f73594cfb -> 2662fe93de27e024a4c8b85d423f8723
-  custom:scripting/monoscript/fileName/QuiltCaptureEditor.cs: 494053181aee0ef0c7c4c398e11504d7 -> f9b98b33025df1ac1ec39d93c7479011
-  custom:scripting/monoscript/fileName/BlockUploader.cs: 9f072823e8841fe2c51a3cdf26857e39 -> 23adbcc1b72c90b30e9e59f9a967f5dc
-  custom:scripting/monoscript/fileName/WebSocketBehavior.cs: 296e4f719e1b825a08b405920fabc083 -> 8b4ff2818621cfb296b0e9d21b2db524
-  custom:scripting/monoscript/fileName/SerializableVersion.cs: 63a9c86a8c0f514f245814a1c6a73aec -> cfe052e4259e4d332d3d1105121fa7a9
-  custom:scripting/monoscript/fileName/GameViewExtensions.cs: 6f21b1e3cfadeaf61fd01c56efefbc79 -> 70e20e40459b3a3bfe859c470d94b51f
-  custom:scripting/monoscript/fileName/SubpixelCell.cs: add50801caa7282028c88c61ac534b5c -> 956eeb49a76763015be4f002048d72c9
-  custom:scripting/monoscript/fileName/MessageEventArgs.cs: fd452c4401c59789ac825f9310b76176 -> 6a0fd1a0c417cee0f7cc02105457d75f
-  custom:scripting/monoscript/fileName/QuiltFilterMode.cs: 13334f679287b33a8b35231084f2fbf1 -> 60e9219bf9d1eff83838ec8783bc3a65
-  custom:scripting/monoscript/fileName/PngjUnsupportedException.cs: 2117498a525343a3d19a05c73ffffc0e -> f48556415c49ddfd80ac06c1aa55e658
-  custom:scripting/monoscript/fileName/AutoScriptExecutionOrderer.cs: f93890d6562131915ff97470255c2b94 -> eb67a6125438072c09491e4f18f28103
-  custom:scripting/monoscript/fileName/S3UploadResponse.cs: 160c6670c08eb86db79999137c84f19b -> 3a1a9b7f3f8500fffe3e6c5406597ba3
-  custom:scripting/monoscript/fileName/PngChunkZTXT.cs: 7fe0589002c71a486ee8b76a19ced0cc -> 0dc799edda781ca12e27c7ed19b901d8
-  custom:scripting/monoscript/fileName/HttpStreamAsyncResult.cs: 654e277ff0082d44a083bb8d1a59da15 -> 2c9a99e20b53d34f8a7c008ac2efca30
-  custom:scripting/monoscript/fileName/HttpListener.cs: 702c82bf262953b66996be4fbb468924 -> c5a4eb9ca6c9e66f95521c2d7737e480
-  custom:scripting/monoscript/fileName/ClientSslConfiguration.cs: 32ef940797f4ea5f1fb97ff2e8dcf897 -> 0816cd64d8249eea99889aec0734c7be
-  custom:scripting/monoscript/fileName/QueryStringCollection.cs: 72c5f600a240f26ba1cc6da1ad31008b -> a0bb3ec343a6c8fc4d879e8e6d8bf2ac
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/PngjBadCrcException.cs: 8df11b0f8146ea7165c39afb1fbee6dc -> 6f9cc292e23b7b63617d49369a7e4af7
-  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: c7fd2588a02bf9fa6db148b65ac2b5cb -> 3043bf57519b71f64b7a6de970c2487b
-  custom:scripting/monoscript/fileName/PngChunkSingle.cs: 5606fc1e0c9081a3bfdd335ea47c2d70 -> 6099a77c99ceff5c7367a487758eca66
-  custom:scripting/monoscript/fileName/Logger.cs: bd70fcddfd05b080a19cba70e02e0f8e -> 475c8b3f696c1bd631da98a3ca8aa025
-  custom:scripting/monoscript/fileName/QuiltPreset.cs: e3377a454a9e8a3d4e72f23896b38503 -> 56bc05086187b9e3339bc5029f9a609e
-  custom:scripting/monoscript/fileName/PostProcessEffectRenderer.cs: 2197e27d63876c112d973ead902a5d05 -> 577c5acf8157ecea944bb95c8c6d9a95
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/TextureFormatUtilities.cs: 997cbc2c9fc80470b938f5bfb6123fc1 -> ba58c57cfaabc0f8201a9ca6902fcb23
-  custom:scripting/monoscript/fileName/PostProcessVolume.cs: 22e155f8ed32db75b505e1a1f61b7d7f -> 3883cef4be0567c54caf457a416a2095
-  custom:scripting/monoscript/fileName/IWebSocketSession.cs: 5e7d950d7140c78159af4ad1e51bcfc4 -> 59a220593397dda3d0d150b8508feb9d
-  custom:scripting/monoscript/fileName/Parameters.cs: 14230e8cdedd4975ee56deb4406ead13 -> b02ce9f7f36f38e254175f632d6d4c7c
-  custom:scripting/monoscript/fileName/LightMeterMonitor.cs: 42c44476e48ddc3c68da6bdd494d16b4 -> a897ae0c731cb153281aea9ecd0efb03
-  custom:scripting/monoscript/fileName/AuthenticationChallenge.cs: 4a8e6115ff5ba191b8a7b16ec34fd29a -> e50df9044ced819f0f03f9875821fbc8
-  custom:scripting/monoscript/fileName/ILKGDeviceTemplateSystem.cs: bad8b38c1180eb7693b1f2a7a15b851d -> 33f03e8b6cc161a598d467163fd49297
-  custom:scripting/monoscript/fileName/GraphQLJsonUtility.cs: fab7386d73694dcd50b6d7a65edb47b6 -> 5de293081ecd981cd66449553b4c3fb0
-  custom:scripting/monoscript/fileName/WebSocketServiceHost.cs: 6e2684a5eca6dee698597d2eed40d4a8 -> cdafdf3a8c839a3a7166ed5281adf47e
-  custom:scripting/monoscript/fileName/LogData.cs: 557308c688838366fe1305cf46a430da -> 2afac359dce177edb844a2d261b3f3e4
-  custom:scripting/monoscript/fileName/ColorGradingEditor.cs: 37d5c7147d80559da8c906081bdcec45 -> 25838050e3e1f12ef51713a5dcf60349
-  custom:scripting/monoscript/fileName/AttributeDecorator.cs: b9dcb54f9b851383982d0cc3704abe4f -> 39b465f08cd0a5df82fc2ef70b766ca2
-  custom:scripting/monoscript/fileName/QuiltRecordingSettings.cs: 6b67ee08faf8acc286d4c118b8512d6a -> 0bbcd21338b44d19c8779d1591672ced
-  custom:scripting/monoscript/fileName/AutoExposureEditor.cs: a27d4d12d83f842c3aa31213b830c14c -> dfd15824649ea346b717bc72a871d75b
-  custom:scripting/monoscript/fileName/QuiltCaptureOverrideSettings.cs: f271620fdf714c5ce124043837b4ee90 -> 967d9943dd6c1f42332c9ac4c0ae0567
-  custom:scripting/monoscript/fileName/LensDistortion.cs: 66135f074da9e18bcc1a92d6f2b5b219 -> b7963bb1da21ba484a7b59b9f6ea3aec
-  custom:scripting/monoscript/fileName/MenuItemUtil.cs: 8e811ef2b4ad415cc95b21a711a181c1 -> b73662f18e942030ce211897aa5d3d4e
-  custom:scripting/monoscript/fileName/Playlist.cs: e7fdc373023795f8487f908b3b5a8f56 -> bec6440f011ceea84b5107f2cb22292b
-  custom:scripting/monoscript/fileName/BlockUploadProgress.cs: 1126c93d8787a524e991bfdb975ffd36 -> a1eae29986517c67193ad2b26d78f119
-  custom:scripting/monoscript/fileName/ResourceAssetFactory.cs: d9f2dbfa14e0da613757e0ec008af0fa -> bf6acc988648d854bb3c5751325d0d0a
-  custom:scripting/monoscript/fileName/PngChunkPLTE.cs: e6d1917998a32f8e6ad080d1fea151db -> a0e1572b96b214562c393dcdc0327ac6
-  custom:scripting/monoscript/fileName/ZlibInputStreamIs.cs: c0a15bbb1a1e7eca0d0c53a0672dfd41 -> 56a9b2d946b3f7c8510bef4363c6879d
-  custom:scripting/monoscript/fileName/PostProcessProfileEditor.cs: 6ad442474231ea92bb0db5fae0075c0a -> 1dcd55858a4126cb33b0f2de53c74fbe
-  custom:scripting/monoscript/fileName/EditorGUILayoutHelper.cs: 058e8653d4b64967f91d9d928726070d -> 83ef9935b8620c90fa289d1a91990945
-  custom:scripting/monoscript/fileName/SerializedPropertyExtensions.cs: f2c6c0b12d93b1d46dc646e17ac5c487 -> b015e7a8eee3650e0b2b9bb9c46bcd4f
-  custom:scripting/monoscript/fileName/PostProcessDebug.cs: 7eaea524c1c10a0012bb5e538d05f3fe -> a653e9b773649e7452b035b4ce1dae82
-  custom:scripting/monoscript/fileName/PostProcessAttribute.cs: cb280c7fd1de1d476ef2dc63d2a663fb -> e125947bf72ce7382f3b16f75797c897
-  custom:scripting/monoscript/fileName/OverrideLKGDisplay.cs: 52ec12ede3338783c43a7ab6be42edc4 -> 3ccb456a789ea46275df29144aed9e33
-  custom:scripting/monoscript/fileName/PngChunkTRNS.cs: 056506f2f185abd8076a85596872bf9d -> 58fa6c9339e5a9b0c0ec2642c6e57a38
-  custom:scripting/monoscript/fileName/HologramCameraPostProcessSetup.cs: 2a3f3976be25c31d9b17db48d85e1544 -> 233f3952c2965838ba0b88f6cd9ec5fe
-  custom:scripting/monoscript/fileName/PngChunkTEXT.cs: 1b73039ff968dee72d224489858e5abc -> 987ae6f5ee0cb269d9e1ec3efb735165
-  custom:scripting/monoscript/fileName/HttpListenerContext.cs: b2a6c32a62f28f9b4543aa6a5876d177 -> 5d14166dcc23de04bc997277a4aa5e1a
-  custom:scripting/monoscript/fileName/MacWindowing.cs: 236d95972886d658d9384fad53ca7d33 -> 4e1fc6b97e6e0feeb1347b2ff7ab6c8d
-  custom:scripting/monoscript/fileName/Grain.cs: 9625cc62a978a9450aa19c2797b9072f -> 43f09a87a88d9937fbb9c4dbf3d5508e
-  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 684f9fd8dfc6a27bdc6406df3a89e1d2 -> 6fd024409d6e9db8d4c2c4e26430c2ad
-  custom:scripting/monoscript/fileName/HelpMessage.cs: fa4bb9d6796efdc31e4b023098d81881 -> 91556195beb071e70e86062a61eac04c
-  custom:scripting/monoscript/fileName/UnityImitatingClearFlagsDrawer.cs: 5e87b0575ce2573a76da06c993f29f77 -> 28c33bfd478677e061e7f399210dc048
-  custom:scripting/monoscript/fileName/PostProcessProfile.cs: c8a1422d0346f1492ecb09491b9c312c -> f6dc030e2e953b2ed0eca334cce5d5cf
-  custom:scripting/monoscript/fileName/ChunkPredicate.cs: 0a48f01484d329b66b9865f4273ab13a -> d420f367b3f0004c17188e1da0009d4c
-  custom:scripting/monoscript/fileName/EditorPropertyGroup.cs: 3a23c6597e373f844ff99fdaf44ee497 -> 602fb4c37431fd8dbccb27ae17ac7faf
-  custom:scripting/monoscript/fileName/OnGraphQLRequestEnded.cs: 0f94b3317fdedc54f52985e06a57e2ce -> 6c67f126f69a24d6a7660d3cdc3cae66
-  custom:scripting/monoscript/fileName/PreviewWindow.cs: 7aa52f4068b6b9e0b7cafce2a991d0ae -> 65d1963cc4524186bf2b7800897b4b48
-  custom:scripting/monoscript/fileName/Adler32.cs: 49025fcf8397dc1d71d0add3c344d3ee -> e7e920164b9e6e445e4ee90e538241bc
-  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 91f5913fd6f99dcd1dfbaa265df0defa -> e1a745f8669439cf60479c832410ec48
-  custom:scripting/monoscript/fileName/PathUtil.cs: c83a5283621197c52f97c3bccc04b79c -> 108ddcb649a9ed20cac99d0e8094bd7b
-  custom:scripting/monoscript/fileName/HttpBase.cs: f491f78b1d78fbfc4b9b30434d2a040b -> 06a009d3e93a2956a0736d6578ddc3f6
-  custom:scripting/monoscript/fileName/ProfileFactory.cs: 2f365acde0d5c7f60696a6eafdfbd994 -> f835845dfebfed501813f60a1cb006a3
-  custom:scripting/monoscript/fileName/PostProcessEffectEditor.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/WindowsOSWindow.cs: 7344645902d13420dde177ea922b5729 -> 84d7ce214b98e1abc7e1c164f717fb40
-  custom:scripting/monoscript/fileName/FFmpegSession.cs: fa3e3d1c118658e0927be09e8a9575ba -> b8298529439fe7b92a0697ce9dd0566b
-  custom:scripting/monoscript/fileName/OptimizationProperties.cs: 1aaba3ca4b1a53c75f4f2f8db04421ce -> 68f1898bdb976ae104b56f564f051734
-  custom:scripting/monoscript/fileName/UnityLKGToolkitBootstrapper.cs: b380277c7ac3c6978c6db9bb977129fa -> 62a6689c8e66a625912cbc046a5cc1d4
-  custom:scripting/monoscript/fileName/HttpRequest.cs: 41c6e531a944e6544a0c6eefc35cb100 -> fce0afd4d7af731ed6dfe8f40831a0ad
-  custom:scripting/monoscript/fileName/HttpListenerPrefixCollection.cs: 03e218c89e3aa6291df9373913430e0a -> 5ced04bb9c49c0ba17b8694afe5ed954
-  custom:scripting/monoscript/fileName/CubeLutAssetImporter.cs: ffb1d922131fb466a39dd9fe05d5869e -> 5e94ca4c74dad11cc8880f33d0ba9efb
-  custom:scripting/monoscript/fileName/GraphQLQuery.cs: dd2c1619fb6c9188c04f30e65755993d -> 7d6f5479507190fce71701cf851daaf3
-  custom:scripting/monoscript/fileName/PostProcessBundle.cs: ace9608d50a1b35f869d33919661cd32 -> f610f855c8ae8b896b5084e85ede373e
-  custom:scripting/monoscript/fileName/HologramViewInterpolationExtensions.cs: 61b215344f7d1dd6bfe81cf68b18d0b4 -> 85689eb653cd6b5c8115ada61d3b7ede
-  custom:scripting/monoscript/fileName/PngChunkOFFS.cs: 3b79bfd7f99282044c461937b21b2943 -> 5c95b32791b944e6aed94788669f0901
-  custom:scripting/monoscript/fileName/ScreenSpaceReflectionsEditor.cs: a9bb6a28deb1b9c7706df61f6faef593 -> 59c13ba25de6098e70bafe8be94f609a
-  custom:scripting/monoscript/fileName/LookingGlassGUIUtility.cs: 906e1c46ffe97e51c5614df5a1d083c1 -> 59739474dd95d4f4150328f05387a6b2
-  custom:scripting/monoscript/fileName/UserStorage.cs: 7523ed1199b95e99462689787fcb300b -> 357f7d297eb9c5ed9a38832a167c86f6
-  custom:scripting/monoscript/fileName/LKGDisplaySystem.cs: 403445df52c49dacd95e32560b343b2a -> e98e285374439102bd71d86a63cebb3a
-  custom:scripting/monoscript/fileName/HttpUtility.cs: bc41248e4db7453cedcc7607017940de -> 1e28f0fe73f6d21ab8ee7a7ed3642c92
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Orchestration.cs: 6999725cce00ad0d85ab10ce40abb895 -> 83d685dc52136df79fd26310459faeeb
-  custom:scripting/monoscript/fileName/LookingGlassUser.cs: f38d9d71ace490558fcac9e3d4c9f5ff -> bbb9cb661132bc435f02c6259322c06b
-  custom:scripting/monoscript/fileName/SyncedVideoPlayerCollection.cs: d81bf2302cb92729d5fa1f017d6b22f0 -> 12f6c4c30ac5969e969aaa871ce3970e
-  custom:scripting/monoscript/fileName/RuntimeUtilities.cs: 70c252a7419631d9d305461dd1aa8d7f -> 76964d36e50cc48cfa29643bdde8d9a5
-  custom:scripting/monoscript/fileName/ILogger.cs: ac87683025ddf044c44a5d379970b3e7 -> 61b50736af85924eebdba15682750e31
-  custom:scripting/monoscript/fileName/MobileDMAController.cs: 181a11077697ace9bbe5820f4fc9abd9 -> 276ba7d52175cbeda0d3192358ce8d8b
-  custom:scripting/monoscript/fileName/Bloom.cs: 2882ad9e83a43f1436dee449667e4c84 -> 6f6d579a64201b97313a62a1e91b3575
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/SemanticVersionDrawer.cs: 2c1700364caf78debbbe09b376dc432e -> ee124ae483d81c59bb58e62fddfaef97
-  custom:scripting/monoscript/fileName/AutoExposure.cs: 1c74eb0840a7e17c7f8bf3f12653e6cd -> 0e7c21b17f53209ee8c5c61ab59d7835
-  custom:scripting/monoscript/fileName/FrameRateControllerEditor.cs: b7d5fd5f7bcb826f0dab201535b4817a -> 5e5b2078fb68eaacd4a8cdb2eae36838
-  custom:scripting/monoscript/fileName/WebSocketFrame.cs: 87d500e01ea4c86ef46a281a505d189b -> 6f5e07a032f395fb7009907d94ce54ec
-  custom:scripting/monoscript/fileName/QuiltPresetDrawer.cs: 3c5f7eb1125eb03154046c40adc06f9b -> db636f52e07f410f4aaf5daa296ccb16
-  custom:scripting/monoscript/fileName/ServiceLocator.cs: f8748a769efaa8de3f6b4ad09cf0a873 -> aebe562d1c145f24ab201b14a09e86b3
-  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: f91a6d3bb9b6dee29639c1ed6eb8e005 -> cb70c6437b976f01b752cd219cc47f32
-  custom:scripting/monoscript/fileName/FileHelper.cs: 6ce459302292a36159bb34d674485cc3 -> 26e10de885e3b19352482d5a60b1953b
-  custom:scripting/monoscript/fileName/OAuthDeviceCodeResponse.cs: fdfa9fed7d8d14d00b91b4cbc0c70bf7 -> fa337cac3522d964c64206eb69e6c540
-  custom:scripting/monoscript/fileName/WebSocketException.cs: 602c7847797c8fef2d3e6c161c6ed746 -> c25f69d808d0c0f249f95a5178c1dfcd
-  custom:scripting/monoscript/fileName/RecorderTiming.cs: 2b717987ec3a797826d591765b8e2e49 -> 7bde9bfc0845dd6bc1e3aa0c038e2a98
-  custom:scripting/monoscript/fileName/CookieCollection.cs: 30db5c7874ef355adfcda1180ee89fee -> efb3120e641393e933dbbe387b06abb7
-  custom:scripting/monoscript/fileName/FreePortFinder.cs: 998af4dd7867dfc1e7fb322be40baa7b -> 8d7e182ddf40ef0f8cc62ca77b455f02
-  custom:scripting/monoscript/fileName/PropertySheetFactory.cs: 4501b060a075f967f779b627c8bc15ea -> cfc4667cc03e44252fafe18d99f24b25
-  custom:scripting/monoscript/fileName/IHttpSender.cs: 6ec14a70dfdc24736adee9183a3c9d8b -> d709b30101c10bd732bbcb9b8a9caf29
-  custom:scripting/monoscript/fileName/GraphQLJsonUtilityTests.cs: 070c33065a4eda3d22c0297e9e4b1066 -> a09f1835d54e1b44f83ec732cf1d044f
-  custom:scripting/monoscript/fileName/EditorUtilities.cs: f840f111cc5cdd03cc9bd0ad0f61e042 -> 53a52fb113757c42f9c516115bd845ca
-  custom:scripting/monoscript/fileName/PngIDatChunkInputStream.cs: 89d15e374afacb14661da7b1a226f48b -> 0dfce19530587db8ba114cb24f0a9474
-  custom:scripting/monoscript/fileName/MonitorEvents.cs: 7e3d0254ae06e3398b19dd14dc10d605 -> 8e6e1e8ea61d8add7beff2b8e1571d15
-  custom:scripting/monoscript/fileName/HaltonSeq.cs: 549b52d813bc28fb77b8c4ead126d0b5 -> a7590e55d6fae5328a1c395a2473d0cf
-  custom:scripting/monoscript/fileName/AssetUtil.cs: 96c77cbe694819c75f4f74747f517301 -> 5c189c8a1f178af7d5d6aec4d67a8469
-  custom:scripting/monoscript/fileName/MustBeLoggedInException.cs: cc2c274fb00f3e245f24bd59bc740687 -> a3d2a4dc92014345065ad7c71205ac9c
-  custom:scripting/monoscript/fileName/OnSubscriptionHandshakeComplete.cs: 5ea84302ee220f3d58c9823f62b5336b -> 989d1df99559d0448241fc1ad230da63
-  custom:scripting/monoscript/fileName/AuthenticationResponse.cs: 5ed25501acc12d4b8444dd91eb0fecb0 -> ee5c442dd670a194c642361b006da2d3
-  custom:scripting/monoscript/fileName/MinAttribute.cs: 57093c1f4ab3e377715a000742fcc0e6 -> a3e7473301291585f4cca024ce307406
-  custom:scripting/monoscript/fileName/PngChunkIEND.cs: 216875605c0d63b7cb5481376e98cf1b -> 447188113042f29ac323e951d4775b07
-  custom:scripting/monoscript/fileName/HttpBasicIdentity.cs: b65607a449d53cf22fe136c261c0a304 -> d3dd27c505dbeb4e3b2040b6c6c69a10
-  custom:scripting/monoscript/fileName/PngChunkTIME.cs: 49c3513bce962fda73feb664dfccad6e -> 5a8ec7c783e8b703d0396a14f4bdfa98
-  custom:scripting/monoscript/fileName/PngHelperInternal.cs: 1080135b53334f19a43ebb0af0716b17 -> bda9efe7ec0345f4f0c6e27bad1bb4eb
-  custom:scripting/monoscript/fileName/HologramCameraGizmos.cs: e0540c467f0453074d466c2e12b9b6de -> 0b066e57610802de5949862cf148d713
-  custom:scripting/monoscript/fileName/JObjectExtensions.cs: d79686bb430371ccebecd5ecdc33ea9b -> e0c3f1fcdbc556dc880dcdfac201adc3
-  custom:scripting/monoscript/fileName/MediaMetadataPair.cs: 77a0012bf7a54724b0a386abe0a0af1a -> 630290b875d58bc7d8055ff2082b2fb8
-  custom:scripting/monoscript/fileName/DepthOfField.cs: 5090e8288419eee81a3246455d370f70 -> d62178d8b5619f59fcdd6d24617ef5fd
-  custom:scripting/monoscript/fileName/HttpDigestIdentity.cs: fbdcb19407462c977d4aed316ae74f41 -> 8baa22e624a5ec496d176bc739241522
-  custom:scripting/monoscript/fileName/QuiltSettings.cs: 6d41e35ddaeb1a0ebde3a38fdb2de0d1 -> a97e4fb309a83139ed9da1787bbda272
-  custom:scripting/monoscript/fileName/ChunksList.cs: b258bf28f8db98d43bdbdb2e83ad7dc2 -> 9cd116424fe1c23334923b8aa74035df
-  custom:scripting/monoscript/fileName/WebSocket.cs: c9b1be0b79bccbebaee2bd48744e1875 -> cdc692b6556faa4178daa39b9cfdab3e
-  custom:scripting/monoscript/fileName/ResponseStream.cs: 2583c5073b9dcd9cc11370772b61875c -> 7f98b22ef36c337ecdd31b928c403f12
-  custom:scripting/monoscript/fileName/BloomEditor.cs: 35b910539ba0cb21bff23b5b64577d0c -> c341bb26b40744c3a5c2a142ac3e1051
-  custom:scripting/monoscript/fileName/PackageDependencyUtil.cs: 0829c91d05a30b427e08461dfdfd13f8 -> 4f7676a99d46b4afa6620592797b1efe
-  custom:scripting/monoscript/fileName/PngChunkPHYS.cs: b8b5c8e3ad18c7447e7dbfd6d538e86e -> 62f77ff8d67c048a3d69c6980143db83
-  custom:scripting/monoscript/fileName/UnityNewtonsoftJSONSerializer.cs: 50c03272d1744e24ad4ab5c96743bb03 -> 2d463c8f875e327c0de43d373f8224c9
-  custom:scripting/monoscript/fileName/WaveformMonitor.cs: 62da09385a9bef2df7871f6685a13201 -> 609651ee3f98f206575f684e9cce655d
-  custom:scripting/monoscript/fileName/ZlibStreamFactory.cs: da21c63722daae94616aaa866fe3d9f3 -> f5a9e45ba35bbb677bec49ce30e633f0
-  custom:scripting/monoscript/fileName/HableCurve.cs: f6e25a6a0d90ba64ed27ed275b2819c7 -> f244b24d6e7c556a2de06e25b0bbf4c1
-  custom:scripting/monoscript/fileName/PngReader.cs: a6e50d10ec678d6c82b38436373bab22 -> 0a09063c428f715b3175a5cceb415d71
-  custom:scripting/monoscript/fileName/LKGDeviceType.cs: a38f412912caf84a5122f4b8d4a80307 -> 064efe874f41a8b1201dc2f1b93013bf
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ConsoleLogger.cs: af358150c61c02d9f9c8eb51d2c4948b -> 375a2eaa0854fe1772ca15c6d31868b8
-  custom:scripting/monoscript/fileName/WebSocketServer.cs: 16879481f88d04aa8298954351a2a8bd -> 2b25b73591710ad866fcc051e6a166e6
-  custom:scripting/monoscript/fileName/PngChunkSTER.cs: 0b1c422555471aedbc1f4f101adbaba9 -> c06496617973bbcd5525a2ca82081d5f
-  custom:scripting/monoscript/fileName/PropertySheet.cs: fa3e05291d604f3e71bcdaa07d7c5219 -> e6bb03169eca9d33ea794a47ad6ce213
-  custom:scripting/monoscript/fileName/DeflateCompressLevel.cs: 97d9a48e21b7aed86a919c55ad4c7362 -> d317ce39cc937ebb557e59719ae46966
-  custom:scripting/monoscript/fileName/PngChunkSkipped.cs: 65983842144f9043b078e0cb7d21c10b -> 6e4627a7477c4940e781723121337266
-  custom:scripting/monoscript/fileName/RequestStream.cs: ad101a44fe5051f2302d5a29fea9479c -> 1a6f8a9d71a215100b9d87e0f5c538ab
-  custom:scripting/monoscript/fileName/TargetPool.cs: 3b88f83fb7d266b0947af64da4b5455c -> 6d29560228134c933c12fb1c113fb6ef
-  custom:scripting/monoscript/fileName/LKGSettings.cs: ba3a7a0dd36b7d9b4d4835eaeaca85ad -> 3009a2a0aa428e7adfd7447e992e18be
-  custom:scripting/monoscript/fileName/HttpListenerException.cs: 15357cfad818d07dd55da0742604a0c8 -> 2550fd428b7edb03381ec5057894f399
-  custom:scripting/monoscript/fileName/LogHistogram.cs: 676770e3b45498ad431b433ebe94bad4 -> bab913d888834a1a8572eb834acec97c
-  custom:scripting/monoscript/fileName/ScreenSpaceReflections.cs: ba9598a2b6cdc018e272614d3bf58f6e -> 8afa07200328ddfcb2536d4180c62536
-  custom:scripting/monoscript/fileName/ServerSslConfiguration.cs: a5693be4ae9d41217b2d9e55179e756b -> 2c7fdf22b856553365dd884d7387de0f
-  custom:scripting/monoscript/fileName/HologramCameraDebugging.cs: 15c2d12779204ffda4e234cfa12ea143 -> 06faa6dea4e41d062a466455dbc3131a
-  custom:scripting/monoscript/fileName/PngChunkGAMA.cs: 335413ade5fa79c8ebb74fa223a9857a -> a99abe13868599116384ba02398d6704
-  custom:scripting/monoscript/fileName/TcpListenerWebSocketContext.cs: edf729cdb89679fcc05390c6cc1ec735 -> 2fc03b7afb811c81f4a0381b9bcdbf0e
-  custom:scripting/monoscript/fileName/ReadOnlyField.cs: 4231e44a5ef39312d5148c08b24855eb -> 2f8f330c74c90c67665c76c53abc6560
-  custom:scripting/monoscript/fileName/Preview.cs: 86d2b4bf90c25f982202e58aa27641f2 -> 39080e97423b1222cde73976185ef6b8
-  custom:scripting/monoscript/fileName/ChunkCopyBehaviour.cs: a59d736b9bb4f936ba8cd2614a468749 -> b89b0a145f8f1691d33f4a51d72789bb
-  custom:scripting/monoscript/fileName/CurveEditor.cs: db1adc469358a69fa6d575a82de0db44 -> f5e872b2a5a6427a1785818cb10d95d1
-  custom:scripting/monoscript/fileName/EditorFocusUtility.cs: e82906e200b50ad782eb2cdddb87bd56 -> 94a45e45d55b33829569440a9de179e3
-  custom:scripting/monoscript/fileName/WebSocketServiceHost`1.cs: 6e2684a5eca6dee698597d2eed40d4a8 -> cdafdf3a8c839a3a7166ed5281adf47e
-  custom:scripting/monoscript/fileName/ComputeShaderEditorVersions.cs: 2bc67673279f6f71da53bffdebce3cfc -> aafca68020985b3ae1b7c216ce95b000
-  custom:scripting/monoscript/fileName/PngChunkUNKNOWN.cs: 08357e5f7defd59a607f38a371474e2f -> 6421496cc46d40a047b048533bf1fa86
-  custom:scripting/monoscript/fileName/PostProcessResources.cs: bf2fe15d9b913b4bf0ba09c6ba6d580e -> 5089c17a701ba9b714a1f3d25fb9a9b0
-  custom:scripting/monoscript/fileName/EffectListEditor.cs: d93d71c2279c5d937b11628c8627bd78 -> 1ecdb4094d9e64024d6eb7725a86197b
-  custom:scripting/monoscript/fileName/QuiltCapture.cs: 51d054a985e943dad1a4cf0b70f3a349 -> a699d51a79a7e3bfa01f1a05ef897a0e
-  custom:scripting/monoscript/fileName/FFmpegPreset.cs: 5bda92349481e822f3c3c2a66535bf2e -> 803a2e676fb047c17d899b433adef9a4
-  custom:scripting/monoscript/fileName/RenderStack.cs: ecf59704ac05436bbb0a5e41327c3c70 -> 52fdd5046e488be71293f7dfe3394062
-  custom:scripting/monoscript/fileName/LKGToolkitController.cs: 4e48a70a4e0eb0d3aa5a37040ab43991 -> 94378a13c181f9a267aedcc7fbf3a4f8
-  custom:scripting/monoscript/fileName/Introspection.cs: d761856ea2aa18b19ddfaa4a8f196674 -> 89d0a2fd2ab824a46e39496e3809979b
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.667 seconds
-Refreshing native plugins compatible for Editor in 5.52 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 3/27/2025 1:14:56 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.921 seconds
-Domain Reload Profiling: 2585ms
-	BeginReloadAssembly (281ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (82ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (314ms)
-		LoadAssemblies (399ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1921ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (856ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (707ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3581 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.5 MB). Loaded Objects now: 4077.
-Memory consumption went from 135.2 MB to 133.7 MB.
-Total: 3.463200 ms (FindLiveObjects: 0.287600 ms CreateObjectMapping: 0.114400 ms MarkObjects: 2.779500 ms  DeleteObjects: 0.280600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/Decorators.cs: ede5280c433de832e48c0d8e1271e84c -> 4533f6715dc3f8cdabbd37ff77d1dad7
-  custom:scripting/monoscript/fileName/WebHeaderCollection.cs: 2de49369b0d48f5821aebcb82ac53bc8 -> cffedb85df89fc7306747efdf0484bd4
-  custom:scripting/monoscript/fileName/OutputFolder.cs: 599a3d1e02ab25761eac370f10e442d4 -> 605e1d41841a36ae1d9d68d1fff603b1
-  custom:scripting/monoscript/fileName/GlobalSettings.cs: dacf95f57ad14e66eadf1758fd89512a -> e5eb35b80bdfaee4ead1e1630fd77998
-  custom:scripting/monoscript/fileName/PostProcessEffectBaseEditor.cs: c27a4a383a108a4af073005bf88059c8 -> 972bdf00f442be0d879dcb6868e25c8e
-  custom:scripting/monoscript/fileName/PostProcessRenderContext.cs: dbf8ea613dacf10bd2159828975cb183 -> 9e034c8bf7d42a1d6c2d4339915eccb0
-  custom:scripting/monoscript/fileName/ChunkPredicateEquiv.cs: 629553a5dbc1d8b2cdeac741122c5657 -> 4bab99f4069e23ad375e1364579e6cda
-  custom:scripting/monoscript/fileName/RenderStackDrawer.cs: bb35520d2e8eb6ed3f4908d1f128fee8 -> 123f45773d903f92f5c3326a51c4371c
-  custom:scripting/monoscript/fileName/UnityImitatingClearFlags.cs: d80c2a6e6a2f85ecd7e10c84caf95afe -> 9f609e4f45c184e9557b8e4880efb78c
-  custom:scripting/monoscript/fileName/CRC32.cs: b7979983743bdb0f4ae7b49aaf2e998a -> 2a4611d9153ed6450c783c3f5cc1eecc
-  custom:scripting/monoscript/fileName/PngjOutputException.cs: b48bc846c913eb0f854ecf56959b5247 -> d2027220b6a272148bd0864eddd4d901
-  custom:scripting/monoscript/fileName/LKGSettingsBuildPostProcessor.cs: d294d8bb7fadeb9cd5dc02376f76a59c -> 034f3cb4c9525c0880fd964c418e6c62
-  custom:scripting/monoscript/fileName/Spline.cs: 5b4ec7feea3859f5f136ddbfc3c941cc -> 7876820de12ed89d33ad838af99a030e
-  custom:scripting/monoscript/fileName/ColorGrading.cs: 01694180370dc3498814b255df26ca5e -> ef67493fb3cf9676ba5f25862510a595
-  custom:scripting/monoscript/fileName/Monitor.cs: b9566fb46ff8884702d979b21acdffaa -> e0eb5d32b3aade2e0ce8680b00ac2b78
-  custom:scripting/monoscript/fileName/ScreenshotProgress.cs: 7b7918bc38cdac301976be9a3085aa17 -> 1d9c300dc83220ea969a7e677c8e4ebc
-  custom:scripting/monoscript/fileName/WebSocketClient.cs: 4b770b3b3a28f9c673e7db450cda62f3 -> 1d50a0e99fc4086095e46d1142ac8543
-  custom:scripting/monoscript/fileName/PngChunkCHRM.cs: 7d30933892eac909fcfd605da1d3416f -> 028974f8bfbac89eac7dd731fb82b75a
-  custom:scripting/monoscript/fileName/LookingGlassWebRequests.cs: 6cd824c969ee4a2f3c0d131194f07e9d -> 81d1ed6b5045454a3924010f9aefb75d
-  custom:scripting/monoscript/fileName/AZlibOutputStream.cs: d9b7dac82211252022021e5e2530a6a8 -> 49622ca42fc5b1c17bc36dba4a4d466d
-  custom:scripting/monoscript/fileName/TemporalAntialiasing.cs: b8093f44206c344c578dc8376dbe095e -> 71e40fdab49d34f4e07f83936454d904
-  custom:scripting/monoscript/fileName/PngChunkHIST.cs: 88bdad9658d963321e6402c56b820b44 -> 0baf42bc0a977ddd237338abc8da97cc
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/ChunkRaw.cs: f976e135a1a4a576cd92b8f90de77bf5 -> f39dd152e4cfaecbe9378be5e4b4ae83
-  custom:scripting/monoscript/fileName/AmbientOcclusion.cs: 70c14f29a65c17d7f7b9a91c4d4797f4 -> 7a27923f9312611f0b2898a72e3ee96a
-  custom:scripting/monoscript/fileName/GraphQLEvent.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/FrameRateController.cs: a2cbbe6b46e58730ef0c5e24d40c712e -> 78b390edc53b2a57cbfd4e2d0e4cfa34
-  custom:scripting/monoscript/fileName/OutputFolderDrawer.cs: 076de5519b4e79c233beac03707f1e6f -> a8f6f91a0a60b921dddfb084978ac4de
-  custom:scripting/monoscript/fileName/PayloadData.cs: 0aeea42ef8385e66ad8df1d647699e6d -> 3934f5166f545990ecba6cbf0a6b7f04
-  custom:scripting/monoscript/fileName/DualMonitorApplicationManager.cs: bda48c9ac3be783eba842a8599a374db -> 16a6bdc3e991c9209f4989e6de824bcb
-  custom:scripting/monoscript/fileName/AccessTokenResponse.cs: 868777f7f204219030cc6852fb82188a -> e2fb6581ecd15736fcee6bda38c8d170
-  custom:scripting/monoscript/fileName/PostProcessDebugLayer.cs: 05f57e4a92727076be4ff183e466302e -> 6d8a99809398beddf11f92dfbb0e6ad4
-  custom:scripting/monoscript/fileName/OpenInFileBrowser.cs: 7f0a3b03395ae58a407792adfc25ae59 -> e0255e44820fe43581d33ee5d3f16092
-  custom:scripting/monoscript/fileName/ColorUtilities.cs: e7a89a1b4024dadbd04347f487c102f6 -> 47918ebfa890b947a816b80444ee2882
-  custom:scripting/monoscript/fileName/ChunkPredicateId.cs: ab0175f5fb711bfe5442de25c609be76 -> 1ff1c9892fa5cdc3c4c475f451aee22d
-  custom:scripting/monoscript/fileName/ChunkedRequestStream.cs: 3c1272117913c9dfaea534308a8906e5 -> 9f81c19997c5808ae3c8cce49fe401bf
-  custom:scripting/monoscript/fileName/PngChunkITXT.cs: 1fea4be8a9c772c34aa637ac1d01a2c6 -> 82928d1d7dc86759ee01c9c8c4f8a97b
-  custom:scripting/monoscript/fileName/ParameterOverride.cs: e6b9758052eee05429de39903f55f625 -> 5475497db741ca919df708e5019e593d
-  custom:scripting/monoscript/fileName/PngChunkSBIT.cs: b2581825de6b109090dc004084108c2a -> 64fdf90633659c0ab75d8ab9b7804fd9
-  custom:scripting/monoscript/fileName/OSMonitorUtil.cs: 9d7cfbeb65adda99679e8be80f2e25f0 -> 9920dccd162e5964119b8ca11156116c
-  custom:scripting/monoscript/fileName/TextureLerper.cs: 40343c1c92e636c60113bf12f5bc7226 -> 973e800795f77d61d647ea0c3f0cf284
-  custom:scripting/monoscript/fileName/HttpListenerRequest.cs: 88baf91e443b4e74b6c622ef046d025c -> 1513c022f2d94369500a50d56b30877a
-  custom:scripting/monoscript/fileName/PluginSemanticVersion.cs: 32cf70648c83c0f0eaca604572f862f3 -> 5680f89780911a210bf47e067f898c51
-  custom:scripting/monoscript/fileName/CloseEventArgs.cs: 72d97719933d23181a74eaf1a2ff4697 -> 668e4ab65d3062c1d2824010f4124aeb
-  custom:scripting/monoscript/fileName/InterProcessCommunicator.cs: f3c60932cab6f16672d220b7d9e6063c -> 7f590065fdc1f0a4c1e0de786c01e90f
-  custom:scripting/monoscript/fileName/RuntimePreviewInternal.cs: c60fef5ece526cf971f85f7218b6b4b1 -> be7f057f533e2a3192ecb70ae6b59ace
-  custom:scripting/monoscript/fileName/Vignette.cs: 0ed63bdca07141fa891d5f0b205cca48 -> e0b99ac31b7575ef776e7be56647abb0
-  custom:scripting/monoscript/fileName/DepthOfFieldEditor.cs: a00f2d537b96046c665ddf3e4c2e8e81 -> 64cce655bf722c851048e2ebbf401a7b
-  custom:scripting/monoscript/fileName/DefaultPostProcessEffectEditor.cs: 98fc8b18a7f99c27652261f33ce86292 -> 06a1d8fcea7725e08b95f21cc15fd0a1
-  custom:scripting/monoscript/fileName/Ext.cs: 7754937819b1be5b8c0661554117783b -> 9399b8797932edcdc74b9d630bf225ad
-  custom:scripting/monoscript/fileName/ImageLines.cs: cf84e39401f3217479361231681925a6 -> eeb59217c32b32ab9be1e8793def84d6
-  custom:scripting/monoscript/fileName/PostProcessLayer.cs: f0cebbf99d4805fb589e2ec90c9c5818 -> aa288976158dcd4c24041d5304f25d07
-  custom:scripting/monoscript/fileName/HologramCameraEvents.cs: b335b1ef49f97820c346e7cd8fcffa6d -> a88371c2b246143bf5f212546cafa800
-  custom:scripting/monoscript/fileName/ILKGToolkitBootstrapper.cs: be3b687c878cc9984c9d83c273f818ec -> 4784c3712fb46a670f25b50800d5050a
-  custom:scripting/monoscript/fileName/WebSocketSessionManager.cs: 6fb112674947df766c331841c399a195 -> 948278ded0ede8df14c648722c9662e8
-  custom:scripting/monoscript/fileName/ConfigurationSettings.cs: 18911d5f55451b7300d4c47b29008b68 -> 49b5a038c2cbc18769ba35db4604983d
-  custom:scripting/monoscript/fileName/CalibrationExtensions.cs: 3ad2a802752e5a4b16440b20d7f206b4 -> 6de12902a627f19d919d839af84cc970
-  custom:scripting/monoscript/fileName/HttpServer.cs: 4203144d112400e2c3070115dfe51073 -> aa140d591ef8d02c4048bc85620f83fe
-  custom:scripting/monoscript/fileName/OnGraphQLRequestStarted.cs: 069fede71dda4199b16af8644f0c4fe0 -> 28d12e3892ca21f555487ee0d015e49c
-  custom:scripting/monoscript/fileName/LKGDeviceTemplate.cs: b5de91023d7537f1a32e0819628fdbe0 -> 97ae30db6c74da52c78dc0b1c986396c
-  custom:scripting/monoscript/fileName/SectionGUILayout.cs: 6003040582bd02cc1f939e385a1375a3 -> 4545347932ff3fa5c7c5ef392c151275
-  custom:scripting/monoscript/fileName/GameViewSizeInfo.cs: 33d14d2d798dc19a2e5100ae1e156935 -> 481790dd981368a0bd10613c79437f34
-  custom:scripting/monoscript/fileName/MaxAttribute.cs: 43f14fde7a0ff3abe41bbd16ea3cc398 -> d661645ab8c724f24b3e19978e87b44c
-  custom:scripting/monoscript/fileName/ChunkPredicateId2.cs: 1cc70182f53081c0248c94ea62d42cc0 -> 9445799a647ca30dcacd595280c0d1e3
-  custom:scripting/monoscript/fileName/LKGSettingsSystem.cs: 0e5d11343f20f29f1b4e42b8021629e9 -> f2a6eadba6d3b13c338d0c516f6fcb6f
-  custom:scripting/monoscript/fileName/URPPackageDetector.cs: 528984a2d206b32a4796b96286c17582 -> 654c6a08b9a18b347abe751b634fb3f7
-  custom:scripting/monoscript/fileName/HttpListenerPrefix.cs: 6e0f2307a004e9b363365b3836c5171e -> 43ddb9f63482ef3d7f765a0228482a71
-  custom:scripting/monoscript/fileName/PostProcessDebugEditor.cs: 2cf65bc20483c2cdb63467d3c5c3c787 -> 1a0488d8742bf880cc7334e53e2cc73d
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/SerializedParameterOverride.cs: 26e891868793710e9db42e3e04d51fc9 -> 5e4deaf96895d013d32a8e84ec179f8e
-  custom:scripting/monoscript/fileName/MeshUtilities.cs: 0612a3daedf6dea6e659a8c74d114b85 -> dc5356b699afd34cf9728f4d65b476a0
-  custom:scripting/monoscript/fileName/HologramData.cs: 84b39d9a4c76173f9e61f34bc4c5cd57 -> 714524ee0041d018bf9f685c559d2b13
-  custom:scripting/monoscript/fileName/AmbientOcclusionEditor.cs: 723e2fdfc8be370efeb84376f93ba97f -> 61e5422c29b8f52188d508eb7d382167
-  custom:scripting/monoscript/fileName/UserData.cs: d340cd6d45f42246b548564022669a59 -> b2a834a56052f0b5ef07c3bc4b25380c
-  custom:scripting/monoscript/fileName/GraphQLHttpHandler.cs: 16d797441024c0d4b1a9bf60e0cb3317 -> 44de6e61912a64ef8f0406858ac37dc7
-  custom:scripting/monoscript/fileName/PngChunkSPLT.cs: 2b6ae1e240eb25bef8fe2bb872d11ec2 -> f1108c29b31c79c65ca25bc40528b84a
-  custom:scripting/monoscript/fileName/FastApproximateAntialiasing.cs: 5b28409ee6c03dc63fdc4a201da26b50 -> bf5588b2deec2689a812a7d2eacd9bd5
-  custom:scripting/monoscript/fileName/PngjExceptionInternal.cs: 52402ee025284937db75ccb843d8b54a -> 3271d73025d29957b621bf5ffebe1770
-  custom:scripting/monoscript/fileName/FilterWriteStrategy.cs: 722c421e2a68ea8b5e7154b558b99efc -> ef81c6f55ce0ca571d96c0fa17355d91
-  custom:scripting/monoscript/fileName/HttpRequestEventArgs.cs: cd8f641bf305e8f5fadc8e8d3f87e991 -> 682e323d43b29e406aeec780a1f106c6
-  custom:scripting/monoscript/fileName/MotionBlur.cs: e0840a7b2701bef0b642f01f55dbfaa7 -> 823914e335803785a19e5990c6ab2911
-  custom:scripting/monoscript/fileName/SimpleDOF.cs: 791e024ffefb3c2618ba271e9374d1a7 -> 1aeeb3d80e04b6722d496c431b97ee08
-  custom:scripting/monoscript/fileName/QuiltSettingsDrawer.cs: fec5ff268cde501d9c644ca40111c175 -> 5b96a3737a558fe63bd61f804710ea84
-  custom:scripting/monoscript/fileName/EditorUpdates.cs: 3269f095ebc589036e8d02bb0a7441bf -> 144fd7959d89fbb3037cbbf4e91d1198
-  custom:scripting/monoscript/fileName/ImageInfo.cs: 8b9248a0ef47b3f42286e566e5cc098e -> 1833a5301c844e6809bf56fbc0eca7a6
-  custom:scripting/monoscript/fileName/DefineSetter.cs: 8d3113a96a82d6d603ee2d11f6c37cc8 -> 292ba08e52064b1a72f8d4bb04301dd3
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/MultiViewRendering.cs: 96e8fd1716c3ab5c0700272d0b12b002 -> 20eb71c685f7188eb2c6fca93657405c
-  custom:scripting/monoscript/fileName/ShaderIDs.cs: 9d9b23b03bb5e57daf95443ee5ba4ea7 -> 96024f1f873475da65a783f1404f9117
-  custom:scripting/monoscript/fileName/PostProcessEditorTests.cs: 297f89c3bd717563711e1bc9cae1c91e -> 35902ddcdcab40b691bb966a7b5bc064
-  custom:scripting/monoscript/fileName/NetworkCredential.cs: c345adc253dede3fb7098082d1c0da37 -> 9d386b4a63b2738f439fe57f805016a8
-  custom:scripting/monoscript/fileName/CookieException.cs: 289bd2fd1310e2edfc6784d321ef3ee8 -> 53ce7fc5669ef2cb818e8810996a1179
-  custom:scripting/monoscript/fileName/PostProcessEditorAttribute.cs: 6e3bcb8a5c5ef1b5dc644947d9179919 -> 672a58b4d5bab60112487a31c361c481
-  custom:scripting/monoscript/fileName/PngChunkSRGB.cs: 277733146b73f2476f509f4cc457bab4 -> a911b8c45deadd07c64e39bfdb64d001
-  custom:scripting/monoscript/fileName/RawImageUpdater.cs: 4744bfb2d0dff12a9a812dcb522604ce -> 9ee46742872b63f41609ce188fb86820
-  custom:scripting/monoscript/fileName/LensDistortionEditor.cs: b0af4264deeee92ec36a01444042f0ad -> dee045d29944d55e8040435a58a7ce90
-  custom:scripting/monoscript/fileName/PluginVersionAsset.cs: 4c5d103d4b7676bba7d1b45cded92b51 -> 6fbb2556bc0c36f579f792e32a332aaf
-  custom:scripting/monoscript/fileName/MultiViewRenderer.cs: c648b78e22d10929ab4de04f27c264dc -> a3740dd1b50cf19c7ab5d1b921999c1c
-  custom:scripting/monoscript/fileName/DefaultHttpSender.cs: 17c4b37dd89b98bbc2e6913b200b21de -> 5170e715308e4f2fa8708c8b621f032c
-  custom:scripting/monoscript/fileName/OSWindowUtil.cs: 0f10542905803abb33a0141d899e7a45 -> a0f8e598977f7364357b326a31b63008
-  custom:scripting/monoscript/fileName/MotionBlurEditor.cs: 33b9c8994938ce643cd329fc459c7fba -> 3bd8d3e7e9a7ea94beb2e5517b62d27b
-  custom:scripting/monoscript/fileName/Dithering.cs: a961b49b2d85a45b8ae8d210152dd160 -> 3014fffaa718d0ad6dd2c7bb7956ed46
-  custom:scripting/monoscript/fileName/UnityHttpSender.cs: 40becf6fc4f77c473b89b848313076f0 -> d439fb97ba8e5dd75efbe3331cc145ac
-  custom:scripting/monoscript/fileName/BridgeConnectionHTTP.cs: 8046a180370caa6ccada64b41f40ad28 -> 0dba1a3606fda6f80fa983f86c3da7a5
-  custom:scripting/monoscript/fileName/Calibration.cs: ec3ecb1ae62542827263746958b8ebbd -> 93fa8513fdad92147f2da8a6f6cbf665
-  custom:scripting/monoscript/fileName/LKGDeviceTemplateSystem.cs: 62c15e217584ffb5a4f83cfcddfaa7c8 -> ab04ba784778f76efd8ed5ff9bf542d9
-  custom:scripting/monoscript/fileName/EndPointManager.cs: 12443dae1b45e409324f01e203191ba2 -> 3100e662aaee69fa49889aa0274b9f41
-  custom:scripting/monoscript/fileName/DecoratorAttribute.cs: 4545c9b9ce4188ac2b49a7d2ce8de3ac -> be5bd39119e1a41ea1a019fdb3818a3f
-  custom:scripting/monoscript/fileName/Util.cs: 9fc12418cce46900ca18dfb0e7052f63 -> a388580dbd9380d12de7695f4a2fa70c
-  custom:scripting/monoscript/fileName/HologramCameraTypes.cs: c1db92cc636ca2966bd127235134c562 -> d880d82dff0dec16c3eb4db384e0749d
-  custom:scripting/monoscript/fileName/GraphQLField.cs: 686647b2d89d94ce1bd70b8f19cc8315 -> e04623677de1c4b2bca9544a087a9177
-  custom:scripting/monoscript/fileName/HologramEmulation.cs: de020487f7af3aac9d63fcf36dbcfeda -> 5358d016445d4c25633eed96a8729a07
-  custom:scripting/monoscript/fileName/DisplayNameAttribute.cs: 7e79472c7070854c57e77578c210191f -> 935a6ac504eb8a852fba40cbcae9292c
-  custom:scripting/monoscript/fileName/WindowsOSMonitor.cs: 8eef89276a01b545054cb4103e16d50f -> 17cffb374f95c5b63c9757a641fc48b5
-  custom:scripting/monoscript/fileName/DualMonitorApplicationBaseIPC.cs: 249d5b16fb4a3a6b441106d574cbce0e -> c647cc895c9b1820798f9a75e053c73c
-  custom:scripting/monoscript/fileName/HologramUICamera.cs: b89ea75aab4497ebca8dbbf7b4ac334f -> 53a9dcd5de443f62fba428e473763029
-  custom:scripting/monoscript/fileName/CameraCapture.cs: 1635f6826de57f00dd539a8a639810e3 -> 280f6062d4acde0b8fb5a9f4e2e8514b
-  custom:scripting/monoscript/fileName/PostProcessEffectSettings.cs: 7eb188255deea06b412922ffdd98491a -> 2ab9d33170e863b1a9c8a9079cdd12aa
-  custom:scripting/monoscript/fileName/TargetedPropertyDrawer.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/RenderPipelineUtil.cs: 709efb493f104e67526d13b5fed5f22f -> 9a7d2fe6b7fe851d11d3b79d25c68777
-  custom:scripting/monoscript/fileName/Fog.cs: ad7cfdebdd6f8870a189a074140caa7d -> 07e271953e2bcf8513b6a72a2737e767
-  custom:scripting/monoscript/fileName/PostProcessManager.cs: 3a72d6b0da9b8b54155ae9529d6f01ca -> 28ef7780d543a8111635e1f5051383d0
-  custom:scripting/monoscript/fileName/SemanticVersion.cs: 30f2fb4432bd477c3307389160fc6399 -> b8a94c055bb144b32ab1bdf0b9fedc7b
-  custom:scripting/monoscript/fileName/PluginVersionAssetEditor.cs: 0af0e1a222a192079ec0142b390e7e0a -> 311441fdeb0cbbe23b34634b6c10e707
-  custom:scripting/monoscript/fileName/ReadOnlyFieldDrawer.cs: 2acbc3c61d6517541a90c11c32990f6e -> bb3f1109d811a902200798678f5c9e87
-  custom:scripting/monoscript/fileName/HttpConnection.cs: b06dcb794e9f46135cb0c1d99511f11c -> e769c395c8f34d1176511bf894a5b3a7
-  custom:scripting/monoscript/fileName/FFmpegPipe.cs: bd7debc81b348584449411944eaf81e7 -> 4eef901acd9ba01c1cea41be2d984fe2
-  custom:scripting/monoscript/fileName/PngChunkICCP.cs: ee0b086886da9ad763a72478615ff24c -> ec6394e9f1f2e51a403772125040fa80
-  custom:scripting/monoscript/fileName/VolumeFactory.cs: 8dd6a11d973b8bb1335cb963aae69e8b -> cc77136700c9e1ff894d234886ccb852
-  custom:scripting/monoscript/fileName/ChunkStream.cs: fdd8c370b3e00ab97071bee6dc9671b3 -> 19c292118b80429000b1296eeb5ac369
-  custom:scripting/monoscript/fileName/RenderStep.cs: 0febecd89d7214823a8123c8f6f51c89 -> 0c1f7596bc9b56911b020d5e77459911
-  custom:scripting/monoscript/fileName/RenderStepDrawer.cs: 6d6883c377f5d91e1fd9f829f2c945c7 -> 718770ecc1adc63bb990be00320fc299
-  custom:scripting/monoscript/fileName/InputManager.cs: 4a51454c42aa6531542b35df72095ea0 -> 2b78591f3d3df4607c726111c62a5d0f
-  custom:scripting/monoscript/fileName/UnityLKGSystems.cs: cc88dd4a436a3aff937929610b1de42f -> ae16a2aa8fe1bfae12627184de0d4476
-  custom:scripting/monoscript/fileName/PngDeinterlacer.cs: 3502ef906a760fb88a28b6aee06e6036 -> abe0d3f7de869e33214c889bae199204
-  custom:scripting/monoscript/fileName/WebSocketContext.cs: 2586b9b86d1a2446a72d68dbf2c596bf -> 14d6715b85ace5f372467b49c91f342b
-  custom:scripting/monoscript/fileName/InputExtensions.cs: 6f437e0254a009cf18d9093e4e8c4272 -> afacf3d00aad7eaee7f3d2871106b701
-  custom:scripting/monoscript/fileName/UnityWebRequestExtensions.cs: 589635cf1cae1639c135fab53a40ba99 -> 7591e8b8f4efbf409b3497517a32fd5c
-  custom:scripting/monoscript/fileName/HologramCameraProperties.cs: e4f89d9f22f791b27719d01c683922de -> ebdb929ca52c820c444e28a5094da139
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/AZlibInputStream.cs: 3357dc9cf6f2d03e9a3d27f4d04619f9 -> e306b51c28c0b8cfdbc3cc467f269a16
-  custom:scripting/monoscript/fileName/CameraCaptureEditor.cs: 378d731a7a9bd69e583d18da1df71c94 -> 51fcaae8f64eb3c4ed4d690bdbaf3bc7
-  custom:scripting/monoscript/fileName/PostProcessEvent.cs: fcf85d64822a0731b415e7a595d27108 -> 8fb6e54ff2cf1a8be7ecdd01fbdd78f8
-  custom:scripting/monoscript/fileName/TrackballAttribute.cs: 623a93fff088354a7523e4895340b80e -> 8dea8f77de7bd03137cc578af1ea6656
-  custom:scripting/monoscript/fileName/lightFlicker.cs: 12f04a2ddc0b6e2ea29f4c2d71c3865e -> b30ee4ed1bff8e9d2392a25ff6895252
-  custom:scripting/monoscript/fileName/HttpVersion.cs: 0b3e5a84d40d6b1cc814cc482ad4cf6b -> 5850ba3620d3cd34ad275ea9aa25a927
-  custom:scripting/monoscript/fileName/UnityLogger.cs: 3197028e43a354639454d45998d9be38 -> c3d607dc2afb7aa550bce36d3af472e0
-  custom:scripting/monoscript/fileName/LKGDeviceTypeDrawer.cs: 1605e456b8069befb033dce885b9a6ff -> 9006a66ddd4192a2d3495644db9990e4
-  custom:scripting/monoscript/fileName/ImageLineHelper.cs: 949d8e7f6f33dc4153592799ba5bd073 -> c4f08743f27ee26a76bb224183220999
-  custom:scripting/monoscript/fileName/PropertyGroup.cs: 105a121381f47ed0187da6e7eadbdbfc -> 30648456580cc02930fcbea27585b9f8
-  custom:scripting/monoscript/fileName/Cookie.cs: 08d24bd59c6d01238615081293f6ef4d -> 2ebe2ad824d69dfebd443ace2e9e11b4
-  custom:scripting/monoscript/fileName/TrackballDecorator.cs: 1e61f647359a6ec49a49cb9116aad0aa -> 6a2b6c747937d12d8d81be8f5b21fbd2
-  custom:scripting/monoscript/fileName/MultiScaleVO.cs: 5eeaee4eaf3b028aca387dc89c40edc0 -> d4c4732956ffb536e016475d75f04c43
-  custom:scripting/monoscript/fileName/PngChunkIDAT.cs: 381f1c79e3bc3a2643d0cfefde96c51a -> e5b765f01455f4420a5840d1c124f409
-  custom:scripting/monoscript/fileName/CubeLutAssetFactory.cs: 526decd9b174929ce2cc32c53e719062 -> db1961888d7cabf6be94b37e3b663de4
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/PngChunk.cs: a68dab5c917966e925187a7568df2dab -> f35815ae552d26005e3a42ceb2a8f144
-  custom:scripting/monoscript/fileName/ChunksListForWrite.cs: f33b68492080c0563909cb3860309b10 -> b1c235630454a3a42937d54008bb8f16
-  custom:scripting/monoscript/fileName/DisplayInfo.cs: cf2d54a86daeb32579889b4df503d1e2 -> 648620a646358d5c2d4f339603fbc867
-  custom:scripting/monoscript/fileName/UPMUtility.cs: 7d888c76f128cf6119492a30b38321a3 -> ea87c1ab25ff936c4eb1779c17208f83
-  custom:scripting/monoscript/fileName/ScreenRectUtility.cs: 8e17917ba34fb39131ec61296b421462 -> ffc0361b152a477da65b308624bf1df8
-  custom:scripting/monoscript/fileName/ExternalCalibrationFile.cs: 8d9b77b9f50db62bb3c361c0a8ce013a -> 27d987db5ea77ce02af309460aba9408
-  custom:scripting/monoscript/fileName/HttpResponse.cs: 7d81b3b915743fa09bd0d2d68d02fa7a -> 89df5547aa4a314c0325fa523722e054
-  custom:scripting/monoscript/fileName/CleanupPostProcessorBuild.cs: 399b9795ca14b51d285b024893e5eb97 -> 5917f3ac152b49239386d47dc5806542
-  custom:scripting/monoscript/fileName/HologramCameraEditor.cs: eb9b376935f72648befcfa720b0b44cf -> 08c5e3a759b410b7e722d28b1331a092
-  custom:scripting/monoscript/fileName/PostProcessVolumeEditor.cs: 9e0e77ad520ae6fa0cc5942516d38ef4 -> 7aae71821512dcac422c45dc773293c3
-  custom:scripting/monoscript/fileName/ReadBufferState.cs: 44828c7a34e5949dea76fb7b2e88cfe6 -> 6bec5c33d0c38970a096804dc9a0a109
-  custom:scripting/monoscript/fileName/PngIDatChunkOutputStream.cs: 21c92b64ebb2e5bda1ef1b1b6b8cc2a4 -> 70a1a7897b2134333070a0c8095ef678
-  custom:scripting/monoscript/fileName/PngChunkBKGD.cs: 1278accec4a6eb05689dda297f9e3933 -> 08226cc9966ca989717ce8db9e788961
-  custom:scripting/monoscript/fileName/UnityBuildWindowUtil.cs: 5aa9ac392c0f98ca521ba75d9b77a486 -> 19cf8d4b34250777618d0d6c5a1d4619
-  custom:scripting/monoscript/fileName/ZlibOutputStreamIs.cs: a0f9567d536eaea1bf16762f807a245f -> 1f9add5010ab8435d6e8c68f6b141de5
-  custom:scripting/monoscript/fileName/ChromaticAberration.cs: 41d7cbc23f1b289345a4cf930247e1b7 -> 4d59e57f8324f5f986e16678ed451410
-  custom:scripting/monoscript/fileName/PngjInputException.cs: 47f8e9df2c9014ae82d0521a0c64e40c -> a5beff752150ff2a0221a0b67d56587f
-  custom:scripting/monoscript/fileName/PngWriter.cs: 37c5ebecb34fa9bcf4961d01e1ab2ced -> 3d9bb8e950bf8300f548957a0436fdde
-  custom:scripting/monoscript/fileName/Blitter.cs: 8724538d000fefbc9315a4ca79f4b1bd -> ed3791af096ee7e6c5ff5b832ef2c774
-  custom:scripting/monoscript/fileName/VignetteEditor.cs: 16c1f5982848e3d8fb942611368bbf33 -> 345736fc911c5e8ab23e579751a40e4a
-  custom:scripting/monoscript/fileName/Styling.cs: 99099dd711caf0e31ed18af66582d4ca -> d1c4aa14ff93670753edfbb93fc91bfe
-  custom:scripting/monoscript/fileName/PostProcessEffectRendererExtensions.cs: 97aa49210d54339b4a798b283550785a -> e953624d113e7e1739c702512603957d
-  custom:scripting/monoscript/fileName/ErrorEventArgs.cs: a09010f8d76e06b0e500f189acbbed95 -> b2d8b40bdf3fde1d74a32237ea0766e0
-  custom:scripting/monoscript/fileName/GraphQLAPI.cs: a059a95e2abfdc65cb5082c119f601d3 -> a8708eebad8e28f67e81a8c032703b0c
-  custom:scripting/monoscript/fileName/HttpListenerResponse.cs: cb12f2e068557202d108706e0154e47c -> b5e2793f5caf767c9c8198c48675c41c
-  custom:scripting/monoscript/fileName/CreateQuiltHologramArgs.cs: 8e5ec596091e347d143d393a87f29ed5 -> bc12fdb00b9e7c4e116d5fd2e71fb0fe
-  custom:scripting/monoscript/fileName/HttpHeaderInfo.cs: 3dfe195980f104b224649605f819b3ae -> c3bbf43ad8d70866b4bfb6d0c7240e9e
-  custom:scripting/monoscript/fileName/EndPointListener.cs: 231bc050f1c692cb7d0769efaf7e43c5 -> 6dab00225efa65708629a81c5304c9b2
-  custom:scripting/monoscript/fileName/HttpListenerWebSocketContext.cs: 835f188932248e12de2cd2eecf6e4393 -> 9113f42f1c95e5fdd3cd0ed63e7e2789
-  custom:scripting/monoscript/fileName/ProgressiveOutputStream.cs: 92ddbb71117721e689dc550511de1534 -> 558115af9c055dc2ad6f85028dab7512
-  custom:scripting/monoscript/fileName/PostProcessingRuntimeTests.cs: 1519957518549ced90e0724e72f80042 -> 98fced520f477a8f96285f0d9ea20504
-  custom:scripting/monoscript/fileName/GraphAPIEditor.cs: 677d722c0674614d13b10332e943a70d -> 07bfc1bd2874fbbedef33bb5b1d0b5dc
-  custom:scripting/monoscript/fileName/ScalableAO.cs: e1da8d851abf0ce67b43ce3f82f69e9c -> 2f29d71d59b754086c809cfee1cdce34
-  custom:scripting/monoscript/fileName/PngMetadata.cs: 72bb2886cb814c06d3a909535ab87344 -> 5fad478f1448b28f07e3a0a4bfaaf1fc
-  custom:scripting/monoscript/fileName/HttpListenerAsyncResult.cs: 2f5d3dd771f49bf50c01c796c34ae8c2 -> cb43cd9f1bb92ade607eea0d9b8df48b
-  custom:scripting/monoscript/fileName/PostProcessLayerEditor.cs: f09410ed2f400f07cd48a49af2cc3f16 -> d16de665ece05cd6e27dcc8d7bac4b9a
-  custom:scripting/monoscript/fileName/DualMonitorApplicationManagerEditor.cs: da1ca4cf8d65d48667c7100bf0107876 -> 9cf51aac7bbc6e480aecd1a92f4ee589
-  custom:scripting/monoscript/fileName/ManualPreviewSettings.cs: 2090cf8b79d974d607fdf5aa7baf4502 -> 10550c6480878df39d3f7fa79fc12c9a
-  custom:scripting/monoscript/fileName/MinMaxAttribute.cs: a26336d7b77be24e89954d75172b8511 -> a4b6ac8a4377612c7135a60f905792f1
-  custom:scripting/monoscript/fileName/UISetup.cs: b079eb2138db8337261b3bd030d150ce -> 1a4a2a169d91cb362407a1fa504058c3
-  custom:scripting/monoscript/fileName/ImageLine.cs: e90353bd3f8a95066465c9824e354f27 -> 53285f1238a813702b429cac665139f0
-  custom:scripting/monoscript/fileName/ChunkHelper.cs: 7eacc0148d770eeaf326ceca9d84e5e2 -> cd5b0174c99af72857a09bda354e9e05
-  custom:scripting/monoscript/fileName/Cursor3D.cs: 48bcc3dfda157a65ebe860829be9a5c6 -> d3f448e5d3e1007b0b0cde3eb82530ae
-  custom:scripting/monoscript/fileName/WebSocketServiceManager.cs: eac3645fc6de48d21685740872eb9698 -> 0aabf07095220946b66a5cdb47031c9b
-  custom:scripting/monoscript/fileName/HologramDebugSnapshots.cs: b07afc167f8076b4009ad6f6f5513166 -> fdaba4429b1150b2f53ece7d2e74d820
-  custom:scripting/monoscript/fileName/Chunk.cs: 8643d4519e13c3e1cd3fb247f889de11 -> 905a40f7e80dc45060226e43519e97c8
-  custom:scripting/monoscript/fileName/SubpixelMorphologicalAntialiasing.cs: 6b0ba83ca76a925544e8af3173ae7a37 -> 02dcb8839824addec278047da0509aea
-  custom:scripting/monoscript/fileName/PngCsUtils.cs: dea164d70c11c8e446eb7f29bdd0e975 -> 6b4e244110b9fab7faf1e7939f6ccd82
-  custom:scripting/monoscript/fileName/ScreenRect.cs: 22f39e55a76c30806dd2589ebc1b0bbb -> 5a9cbf486dbcea04a2541070278e4906
-  custom:scripting/monoscript/fileName/PngChunkTextVar.cs: 2f8e5bb8158fdff15c1a10010bfe9737 -> 608c5db86a23772f09f793008a6432a6
-  custom:scripting/monoscript/fileName/BaseEditor.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/HologramCameraGroupFields.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ShaderPropertyId.cs: 7f3b7fab7080ed77b1ae2f045300e030 -> fa3e181493554c7d2c5ea8e8dc4bb402
-  custom:scripting/monoscript/fileName/QuiltRecordingHelper.cs: 67eb9a2f67a82585c51cc70b2f053055 -> de1c83d09ebbd8b9fe860e12258cebb3
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/OrbitControl.cs: dec11c00df352d1702492e0a041134c6 -> f30323e5422041b2296e0cd954bf7f29
-  custom:scripting/monoscript/fileName/PngChunkIHDR.cs: 3d5678b06b48f0ade19b7c17ef717a31 -> a4510069302c928aeed84603b8cc926c
-  custom:scripting/monoscript/fileName/PngChunkMultiple.cs: 328139f1cbbdf01ba6711e510c8c9816 -> 7c6a6db3fd5ac047a509983365adce22
-  custom:scripting/monoscript/fileName/PngjException.cs: 55c2726845811542e12906e0808d5a14 -> 976bcfea1f800dcb9dc87b78898a7236
-  custom:scripting/monoscript/fileName/OnSubscriptionDataReceived.cs: 54e321944dc844d78ea57da5017e0c12 -> 73678c30cdf4e0629081434a62ae74de
-  custom:scripting/monoscript/fileName/BlockUploaderEditor.cs: 6acf1a17557bca696d6c28f647220ff1 -> eb66342a4bee161eeb5117f7390ec4aa
-  custom:scripting/monoscript/fileName/OnSubscriptionCanceled.cs: ec8de4e6500d0e05b62f3559bdcdc58a -> fd82a0505585c6ea760df507e4ea66a3
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/Display.cs: f234b4602dec5ece544284cbe1910922 -> e5c63124e003d9458e1b83f3ab3424e4
-  custom:scripting/monoscript/fileName/QuiltScreenshot.cs: d950dc738f2ce3914af04a5f73594cfb -> 2662fe93de27e024a4c8b85d423f8723
-  custom:scripting/monoscript/fileName/QuiltCaptureEditor.cs: 494053181aee0ef0c7c4c398e11504d7 -> f9b98b33025df1ac1ec39d93c7479011
-  custom:scripting/monoscript/fileName/BlockUploader.cs: 9f072823e8841fe2c51a3cdf26857e39 -> 23adbcc1b72c90b30e9e59f9a967f5dc
-  custom:scripting/monoscript/fileName/WebSocketBehavior.cs: 296e4f719e1b825a08b405920fabc083 -> 8b4ff2818621cfb296b0e9d21b2db524
-  custom:scripting/monoscript/fileName/SerializableVersion.cs: 63a9c86a8c0f514f245814a1c6a73aec -> cfe052e4259e4d332d3d1105121fa7a9
-  custom:scripting/monoscript/fileName/GameViewExtensions.cs: 6f21b1e3cfadeaf61fd01c56efefbc79 -> 70e20e40459b3a3bfe859c470d94b51f
-  custom:scripting/monoscript/fileName/SubpixelCell.cs: add50801caa7282028c88c61ac534b5c -> 956eeb49a76763015be4f002048d72c9
-  custom:scripting/monoscript/fileName/MessageEventArgs.cs: fd452c4401c59789ac825f9310b76176 -> 6a0fd1a0c417cee0f7cc02105457d75f
-  custom:scripting/monoscript/fileName/QuiltFilterMode.cs: 13334f679287b33a8b35231084f2fbf1 -> 60e9219bf9d1eff83838ec8783bc3a65
-  custom:scripting/monoscript/fileName/PngjUnsupportedException.cs: 2117498a525343a3d19a05c73ffffc0e -> f48556415c49ddfd80ac06c1aa55e658
-  custom:scripting/monoscript/fileName/AutoScriptExecutionOrderer.cs: f93890d6562131915ff97470255c2b94 -> eb67a6125438072c09491e4f18f28103
-  custom:scripting/monoscript/fileName/S3UploadResponse.cs: 160c6670c08eb86db79999137c84f19b -> 3a1a9b7f3f8500fffe3e6c5406597ba3
-  custom:scripting/monoscript/fileName/PngChunkZTXT.cs: 7fe0589002c71a486ee8b76a19ced0cc -> 0dc799edda781ca12e27c7ed19b901d8
-  custom:scripting/monoscript/fileName/HttpStreamAsyncResult.cs: 654e277ff0082d44a083bb8d1a59da15 -> 2c9a99e20b53d34f8a7c008ac2efca30
-  custom:scripting/monoscript/fileName/HttpListener.cs: 702c82bf262953b66996be4fbb468924 -> c5a4eb9ca6c9e66f95521c2d7737e480
-  custom:scripting/monoscript/fileName/ClientSslConfiguration.cs: 32ef940797f4ea5f1fb97ff2e8dcf897 -> 0816cd64d8249eea99889aec0734c7be
-  custom:scripting/monoscript/fileName/QueryStringCollection.cs: 72c5f600a240f26ba1cc6da1ad31008b -> a0bb3ec343a6c8fc4d879e8e6d8bf2ac
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/PngjBadCrcException.cs: 8df11b0f8146ea7165c39afb1fbee6dc -> 6f9cc292e23b7b63617d49369a7e4af7
-  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: c7fd2588a02bf9fa6db148b65ac2b5cb -> 3043bf57519b71f64b7a6de970c2487b
-  custom:scripting/monoscript/fileName/PngChunkSingle.cs: 5606fc1e0c9081a3bfdd335ea47c2d70 -> 6099a77c99ceff5c7367a487758eca66
-  custom:scripting/monoscript/fileName/Logger.cs: bd70fcddfd05b080a19cba70e02e0f8e -> 475c8b3f696c1bd631da98a3ca8aa025
-  custom:scripting/monoscript/fileName/QuiltPreset.cs: e3377a454a9e8a3d4e72f23896b38503 -> 56bc05086187b9e3339bc5029f9a609e
-  custom:scripting/monoscript/fileName/PostProcessEffectRenderer.cs: 2197e27d63876c112d973ead902a5d05 -> 577c5acf8157ecea944bb95c8c6d9a95
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/TextureFormatUtilities.cs: 997cbc2c9fc80470b938f5bfb6123fc1 -> ba58c57cfaabc0f8201a9ca6902fcb23
-  custom:scripting/monoscript/fileName/PostProcessVolume.cs: 22e155f8ed32db75b505e1a1f61b7d7f -> 3883cef4be0567c54caf457a416a2095
-  custom:scripting/monoscript/fileName/IWebSocketSession.cs: 5e7d950d7140c78159af4ad1e51bcfc4 -> 59a220593397dda3d0d150b8508feb9d
-  custom:scripting/monoscript/fileName/Parameters.cs: 14230e8cdedd4975ee56deb4406ead13 -> b02ce9f7f36f38e254175f632d6d4c7c
-  custom:scripting/monoscript/fileName/LightMeterMonitor.cs: 42c44476e48ddc3c68da6bdd494d16b4 -> a897ae0c731cb153281aea9ecd0efb03
-  custom:scripting/monoscript/fileName/AuthenticationChallenge.cs: 4a8e6115ff5ba191b8a7b16ec34fd29a -> e50df9044ced819f0f03f9875821fbc8
-  custom:scripting/monoscript/fileName/ILKGDeviceTemplateSystem.cs: bad8b38c1180eb7693b1f2a7a15b851d -> 33f03e8b6cc161a598d467163fd49297
-  custom:scripting/monoscript/fileName/GraphQLJsonUtility.cs: fab7386d73694dcd50b6d7a65edb47b6 -> 5de293081ecd981cd66449553b4c3fb0
-  custom:scripting/monoscript/fileName/WebSocketServiceHost.cs: 6e2684a5eca6dee698597d2eed40d4a8 -> cdafdf3a8c839a3a7166ed5281adf47e
-  custom:scripting/monoscript/fileName/LogData.cs: 557308c688838366fe1305cf46a430da -> 2afac359dce177edb844a2d261b3f3e4
-  custom:scripting/monoscript/fileName/ColorGradingEditor.cs: 37d5c7147d80559da8c906081bdcec45 -> 25838050e3e1f12ef51713a5dcf60349
-  custom:scripting/monoscript/fileName/AttributeDecorator.cs: b9dcb54f9b851383982d0cc3704abe4f -> 39b465f08cd0a5df82fc2ef70b766ca2
-  custom:scripting/monoscript/fileName/QuiltRecordingSettings.cs: 6b67ee08faf8acc286d4c118b8512d6a -> 0bbcd21338b44d19c8779d1591672ced
-  custom:scripting/monoscript/fileName/AutoExposureEditor.cs: a27d4d12d83f842c3aa31213b830c14c -> dfd15824649ea346b717bc72a871d75b
-  custom:scripting/monoscript/fileName/QuiltCaptureOverrideSettings.cs: f271620fdf714c5ce124043837b4ee90 -> 967d9943dd6c1f42332c9ac4c0ae0567
-  custom:scripting/monoscript/fileName/LensDistortion.cs: 66135f074da9e18bcc1a92d6f2b5b219 -> b7963bb1da21ba484a7b59b9f6ea3aec
-  custom:scripting/monoscript/fileName/MenuItemUtil.cs: 8e811ef2b4ad415cc95b21a711a181c1 -> b73662f18e942030ce211897aa5d3d4e
-  custom:scripting/monoscript/fileName/Playlist.cs: e7fdc373023795f8487f908b3b5a8f56 -> bec6440f011ceea84b5107f2cb22292b
-  custom:scripting/monoscript/fileName/BlockUploadProgress.cs: 1126c93d8787a524e991bfdb975ffd36 -> a1eae29986517c67193ad2b26d78f119
-  custom:scripting/monoscript/fileName/ResourceAssetFactory.cs: d9f2dbfa14e0da613757e0ec008af0fa -> bf6acc988648d854bb3c5751325d0d0a
-  custom:scripting/monoscript/fileName/PngChunkPLTE.cs: e6d1917998a32f8e6ad080d1fea151db -> a0e1572b96b214562c393dcdc0327ac6
-  custom:scripting/monoscript/fileName/ZlibInputStreamIs.cs: c0a15bbb1a1e7eca0d0c53a0672dfd41 -> 56a9b2d946b3f7c8510bef4363c6879d
-  custom:scripting/monoscript/fileName/PostProcessProfileEditor.cs: 6ad442474231ea92bb0db5fae0075c0a -> 1dcd55858a4126cb33b0f2de53c74fbe
-  custom:scripting/monoscript/fileName/EditorGUILayoutHelper.cs: 058e8653d4b64967f91d9d928726070d -> 83ef9935b8620c90fa289d1a91990945
-  custom:scripting/monoscript/fileName/SerializedPropertyExtensions.cs: f2c6c0b12d93b1d46dc646e17ac5c487 -> b015e7a8eee3650e0b2b9bb9c46bcd4f
-  custom:scripting/monoscript/fileName/PostProcessDebug.cs: 7eaea524c1c10a0012bb5e538d05f3fe -> a653e9b773649e7452b035b4ce1dae82
-  custom:scripting/monoscript/fileName/PostProcessAttribute.cs: cb280c7fd1de1d476ef2dc63d2a663fb -> e125947bf72ce7382f3b16f75797c897
-  custom:scripting/monoscript/fileName/OverrideLKGDisplay.cs: 52ec12ede3338783c43a7ab6be42edc4 -> 3ccb456a789ea46275df29144aed9e33
-  custom:scripting/monoscript/fileName/PngChunkTRNS.cs: 056506f2f185abd8076a85596872bf9d -> 58fa6c9339e5a9b0c0ec2642c6e57a38
-  custom:scripting/monoscript/fileName/HologramCameraPostProcessSetup.cs: 2a3f3976be25c31d9b17db48d85e1544 -> 233f3952c2965838ba0b88f6cd9ec5fe
-  custom:scripting/monoscript/fileName/PngChunkTEXT.cs: 1b73039ff968dee72d224489858e5abc -> 987ae6f5ee0cb269d9e1ec3efb735165
-  custom:scripting/monoscript/fileName/HttpListenerContext.cs: b2a6c32a62f28f9b4543aa6a5876d177 -> 5d14166dcc23de04bc997277a4aa5e1a
-  custom:scripting/monoscript/fileName/MacWindowing.cs: 236d95972886d658d9384fad53ca7d33 -> 4e1fc6b97e6e0feeb1347b2ff7ab6c8d
-  custom:scripting/monoscript/fileName/Grain.cs: 9625cc62a978a9450aa19c2797b9072f -> 43f09a87a88d9937fbb9c4dbf3d5508e
-  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 684f9fd8dfc6a27bdc6406df3a89e1d2 -> 6fd024409d6e9db8d4c2c4e26430c2ad
-  custom:scripting/monoscript/fileName/HelpMessage.cs: fa4bb9d6796efdc31e4b023098d81881 -> 91556195beb071e70e86062a61eac04c
-  custom:scripting/monoscript/fileName/UnityImitatingClearFlagsDrawer.cs: 5e87b0575ce2573a76da06c993f29f77 -> 28c33bfd478677e061e7f399210dc048
-  custom:scripting/monoscript/fileName/PostProcessProfile.cs: c8a1422d0346f1492ecb09491b9c312c -> f6dc030e2e953b2ed0eca334cce5d5cf
-  custom:scripting/monoscript/fileName/ChunkPredicate.cs: 0a48f01484d329b66b9865f4273ab13a -> d420f367b3f0004c17188e1da0009d4c
-  custom:scripting/monoscript/fileName/EditorPropertyGroup.cs: 3a23c6597e373f844ff99fdaf44ee497 -> 602fb4c37431fd8dbccb27ae17ac7faf
-  custom:scripting/monoscript/fileName/OnGraphQLRequestEnded.cs: 0f94b3317fdedc54f52985e06a57e2ce -> 6c67f126f69a24d6a7660d3cdc3cae66
-  custom:scripting/monoscript/fileName/PreviewWindow.cs: 7aa52f4068b6b9e0b7cafce2a991d0ae -> 65d1963cc4524186bf2b7800897b4b48
-  custom:scripting/monoscript/fileName/Adler32.cs: 49025fcf8397dc1d71d0add3c344d3ee -> e7e920164b9e6e445e4ee90e538241bc
-  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 91f5913fd6f99dcd1dfbaa265df0defa -> e1a745f8669439cf60479c832410ec48
-  custom:scripting/monoscript/fileName/PathUtil.cs: c83a5283621197c52f97c3bccc04b79c -> 108ddcb649a9ed20cac99d0e8094bd7b
-  custom:scripting/monoscript/fileName/HttpBase.cs: f491f78b1d78fbfc4b9b30434d2a040b -> 06a009d3e93a2956a0736d6578ddc3f6
-  custom:scripting/monoscript/fileName/ProfileFactory.cs: 2f365acde0d5c7f60696a6eafdfbd994 -> f835845dfebfed501813f60a1cb006a3
-  custom:scripting/monoscript/fileName/PostProcessEffectEditor.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/WindowsOSWindow.cs: 7344645902d13420dde177ea922b5729 -> 84d7ce214b98e1abc7e1c164f717fb40
-  custom:scripting/monoscript/fileName/FFmpegSession.cs: fa3e3d1c118658e0927be09e8a9575ba -> b8298529439fe7b92a0697ce9dd0566b
-  custom:scripting/monoscript/fileName/OptimizationProperties.cs: 1aaba3ca4b1a53c75f4f2f8db04421ce -> 68f1898bdb976ae104b56f564f051734
-  custom:scripting/monoscript/fileName/UnityLKGToolkitBootstrapper.cs: b380277c7ac3c6978c6db9bb977129fa -> 62a6689c8e66a625912cbc046a5cc1d4
-  custom:scripting/monoscript/fileName/HttpRequest.cs: 41c6e531a944e6544a0c6eefc35cb100 -> fce0afd4d7af731ed6dfe8f40831a0ad
-  custom:scripting/monoscript/fileName/HttpListenerPrefixCollection.cs: 03e218c89e3aa6291df9373913430e0a -> 5ced04bb9c49c0ba17b8694afe5ed954
-  custom:scripting/monoscript/fileName/CubeLutAssetImporter.cs: ffb1d922131fb466a39dd9fe05d5869e -> 5e94ca4c74dad11cc8880f33d0ba9efb
-  custom:scripting/monoscript/fileName/GraphQLQuery.cs: dd2c1619fb6c9188c04f30e65755993d -> 7d6f5479507190fce71701cf851daaf3
-  custom:scripting/monoscript/fileName/PostProcessBundle.cs: ace9608d50a1b35f869d33919661cd32 -> f610f855c8ae8b896b5084e85ede373e
-  custom:scripting/monoscript/fileName/HologramViewInterpolationExtensions.cs: 61b215344f7d1dd6bfe81cf68b18d0b4 -> 85689eb653cd6b5c8115ada61d3b7ede
-  custom:scripting/monoscript/fileName/PngChunkOFFS.cs: 3b79bfd7f99282044c461937b21b2943 -> 5c95b32791b944e6aed94788669f0901
-  custom:scripting/monoscript/fileName/ScreenSpaceReflectionsEditor.cs: a9bb6a28deb1b9c7706df61f6faef593 -> 59c13ba25de6098e70bafe8be94f609a
-  custom:scripting/monoscript/fileName/LookingGlassGUIUtility.cs: 906e1c46ffe97e51c5614df5a1d083c1 -> 59739474dd95d4f4150328f05387a6b2
-  custom:scripting/monoscript/fileName/UserStorage.cs: 7523ed1199b95e99462689787fcb300b -> 357f7d297eb9c5ed9a38832a167c86f6
-  custom:scripting/monoscript/fileName/LKGDisplaySystem.cs: 403445df52c49dacd95e32560b343b2a -> e98e285374439102bd71d86a63cebb3a
-  custom:scripting/monoscript/fileName/HttpUtility.cs: bc41248e4db7453cedcc7607017940de -> 1e28f0fe73f6d21ab8ee7a7ed3642c92
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Orchestration.cs: 6999725cce00ad0d85ab10ce40abb895 -> 83d685dc52136df79fd26310459faeeb
-  custom:scripting/monoscript/fileName/LookingGlassUser.cs: f38d9d71ace490558fcac9e3d4c9f5ff -> bbb9cb661132bc435f02c6259322c06b
-  custom:scripting/monoscript/fileName/SyncedVideoPlayerCollection.cs: d81bf2302cb92729d5fa1f017d6b22f0 -> 12f6c4c30ac5969e969aaa871ce3970e
-  custom:scripting/monoscript/fileName/RuntimeUtilities.cs: 70c252a7419631d9d305461dd1aa8d7f -> 76964d36e50cc48cfa29643bdde8d9a5
-  custom:scripting/monoscript/fileName/ILogger.cs: ac87683025ddf044c44a5d379970b3e7 -> 61b50736af85924eebdba15682750e31
-  custom:scripting/monoscript/fileName/MobileDMAController.cs: 181a11077697ace9bbe5820f4fc9abd9 -> 276ba7d52175cbeda0d3192358ce8d8b
-  custom:scripting/monoscript/fileName/Bloom.cs: 2882ad9e83a43f1436dee449667e4c84 -> 6f6d579a64201b97313a62a1e91b3575
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/SemanticVersionDrawer.cs: 2c1700364caf78debbbe09b376dc432e -> ee124ae483d81c59bb58e62fddfaef97
-  custom:scripting/monoscript/fileName/AutoExposure.cs: 1c74eb0840a7e17c7f8bf3f12653e6cd -> 0e7c21b17f53209ee8c5c61ab59d7835
-  custom:scripting/monoscript/fileName/FrameRateControllerEditor.cs: b7d5fd5f7bcb826f0dab201535b4817a -> 5e5b2078fb68eaacd4a8cdb2eae36838
-  custom:scripting/monoscript/fileName/WebSocketFrame.cs: 87d500e01ea4c86ef46a281a505d189b -> 6f5e07a032f395fb7009907d94ce54ec
-  custom:scripting/monoscript/fileName/QuiltPresetDrawer.cs: 3c5f7eb1125eb03154046c40adc06f9b -> db636f52e07f410f4aaf5daa296ccb16
-  custom:scripting/monoscript/fileName/ServiceLocator.cs: f8748a769efaa8de3f6b4ad09cf0a873 -> aebe562d1c145f24ab201b14a09e86b3
-  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: f91a6d3bb9b6dee29639c1ed6eb8e005 -> cb70c6437b976f01b752cd219cc47f32
-  custom:scripting/monoscript/fileName/FileHelper.cs: 6ce459302292a36159bb34d674485cc3 -> 26e10de885e3b19352482d5a60b1953b
-  custom:scripting/monoscript/fileName/OAuthDeviceCodeResponse.cs: fdfa9fed7d8d14d00b91b4cbc0c70bf7 -> fa337cac3522d964c64206eb69e6c540
-  custom:scripting/monoscript/fileName/WebSocketException.cs: 602c7847797c8fef2d3e6c161c6ed746 -> c25f69d808d0c0f249f95a5178c1dfcd
-  custom:scripting/monoscript/fileName/RecorderTiming.cs: 2b717987ec3a797826d591765b8e2e49 -> 7bde9bfc0845dd6bc1e3aa0c038e2a98
-  custom:scripting/monoscript/fileName/CookieCollection.cs: 30db5c7874ef355adfcda1180ee89fee -> efb3120e641393e933dbbe387b06abb7
-  custom:scripting/monoscript/fileName/FreePortFinder.cs: 998af4dd7867dfc1e7fb322be40baa7b -> 8d7e182ddf40ef0f8cc62ca77b455f02
-  custom:scripting/monoscript/fileName/PropertySheetFactory.cs: 4501b060a075f967f779b627c8bc15ea -> cfc4667cc03e44252fafe18d99f24b25
-  custom:scripting/monoscript/fileName/IHttpSender.cs: 6ec14a70dfdc24736adee9183a3c9d8b -> d709b30101c10bd732bbcb9b8a9caf29
-  custom:scripting/monoscript/fileName/GraphQLJsonUtilityTests.cs: 070c33065a4eda3d22c0297e9e4b1066 -> a09f1835d54e1b44f83ec732cf1d044f
-  custom:scripting/monoscript/fileName/EditorUtilities.cs: f840f111cc5cdd03cc9bd0ad0f61e042 -> 53a52fb113757c42f9c516115bd845ca
-  custom:scripting/monoscript/fileName/PngIDatChunkInputStream.cs: 89d15e374afacb14661da7b1a226f48b -> 0dfce19530587db8ba114cb24f0a9474
-  custom:scripting/monoscript/fileName/MonitorEvents.cs: 7e3d0254ae06e3398b19dd14dc10d605 -> 8e6e1e8ea61d8add7beff2b8e1571d15
-  custom:scripting/monoscript/fileName/HaltonSeq.cs: 549b52d813bc28fb77b8c4ead126d0b5 -> a7590e55d6fae5328a1c395a2473d0cf
-  custom:scripting/monoscript/fileName/AssetUtil.cs: 96c77cbe694819c75f4f74747f517301 -> 5c189c8a1f178af7d5d6aec4d67a8469
-  custom:scripting/monoscript/fileName/MustBeLoggedInException.cs: cc2c274fb00f3e245f24bd59bc740687 -> a3d2a4dc92014345065ad7c71205ac9c
-  custom:scripting/monoscript/fileName/OnSubscriptionHandshakeComplete.cs: 5ea84302ee220f3d58c9823f62b5336b -> 989d1df99559d0448241fc1ad230da63
-  custom:scripting/monoscript/fileName/AuthenticationResponse.cs: 5ed25501acc12d4b8444dd91eb0fecb0 -> ee5c442dd670a194c642361b006da2d3
-  custom:scripting/monoscript/fileName/MinAttribute.cs: 57093c1f4ab3e377715a000742fcc0e6 -> a3e7473301291585f4cca024ce307406
-  custom:scripting/monoscript/fileName/PngChunkIEND.cs: 216875605c0d63b7cb5481376e98cf1b -> 447188113042f29ac323e951d4775b07
-  custom:scripting/monoscript/fileName/HttpBasicIdentity.cs: b65607a449d53cf22fe136c261c0a304 -> d3dd27c505dbeb4e3b2040b6c6c69a10
-  custom:scripting/monoscript/fileName/PngChunkTIME.cs: 49c3513bce962fda73feb664dfccad6e -> 5a8ec7c783e8b703d0396a14f4bdfa98
-  custom:scripting/monoscript/fileName/PngHelperInternal.cs: 1080135b53334f19a43ebb0af0716b17 -> bda9efe7ec0345f4f0c6e27bad1bb4eb
-  custom:scripting/monoscript/fileName/HologramCameraGizmos.cs: e0540c467f0453074d466c2e12b9b6de -> 0b066e57610802de5949862cf148d713
-  custom:scripting/monoscript/fileName/JObjectExtensions.cs: d79686bb430371ccebecd5ecdc33ea9b -> e0c3f1fcdbc556dc880dcdfac201adc3
-  custom:scripting/monoscript/fileName/MediaMetadataPair.cs: 77a0012bf7a54724b0a386abe0a0af1a -> 630290b875d58bc7d8055ff2082b2fb8
-  custom:scripting/monoscript/fileName/DepthOfField.cs: 5090e8288419eee81a3246455d370f70 -> d62178d8b5619f59fcdd6d24617ef5fd
-  custom:scripting/monoscript/fileName/HttpDigestIdentity.cs: fbdcb19407462c977d4aed316ae74f41 -> 8baa22e624a5ec496d176bc739241522
-  custom:scripting/monoscript/fileName/QuiltSettings.cs: 6d41e35ddaeb1a0ebde3a38fdb2de0d1 -> a97e4fb309a83139ed9da1787bbda272
-  custom:scripting/monoscript/fileName/ChunksList.cs: b258bf28f8db98d43bdbdb2e83ad7dc2 -> 9cd116424fe1c23334923b8aa74035df
-  custom:scripting/monoscript/fileName/WebSocket.cs: c9b1be0b79bccbebaee2bd48744e1875 -> cdc692b6556faa4178daa39b9cfdab3e
-  custom:scripting/monoscript/fileName/ResponseStream.cs: 2583c5073b9dcd9cc11370772b61875c -> 7f98b22ef36c337ecdd31b928c403f12
-  custom:scripting/monoscript/fileName/BloomEditor.cs: 35b910539ba0cb21bff23b5b64577d0c -> c341bb26b40744c3a5c2a142ac3e1051
-  custom:scripting/monoscript/fileName/PackageDependencyUtil.cs: 0829c91d05a30b427e08461dfdfd13f8 -> 4f7676a99d46b4afa6620592797b1efe
-  custom:scripting/monoscript/fileName/PngChunkPHYS.cs: b8b5c8e3ad18c7447e7dbfd6d538e86e -> 62f77ff8d67c048a3d69c6980143db83
-  custom:scripting/monoscript/fileName/UnityNewtonsoftJSONSerializer.cs: 50c03272d1744e24ad4ab5c96743bb03 -> 2d463c8f875e327c0de43d373f8224c9
-  custom:scripting/monoscript/fileName/WaveformMonitor.cs: 62da09385a9bef2df7871f6685a13201 -> 609651ee3f98f206575f684e9cce655d
-  custom:scripting/monoscript/fileName/ZlibStreamFactory.cs: da21c63722daae94616aaa866fe3d9f3 -> f5a9e45ba35bbb677bec49ce30e633f0
-  custom:scripting/monoscript/fileName/HableCurve.cs: f6e25a6a0d90ba64ed27ed275b2819c7 -> f244b24d6e7c556a2de06e25b0bbf4c1
-  custom:scripting/monoscript/fileName/PngReader.cs: a6e50d10ec678d6c82b38436373bab22 -> 0a09063c428f715b3175a5cceb415d71
-  custom:scripting/monoscript/fileName/LKGDeviceType.cs: a38f412912caf84a5122f4b8d4a80307 -> 064efe874f41a8b1201dc2f1b93013bf
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ConsoleLogger.cs: af358150c61c02d9f9c8eb51d2c4948b -> 375a2eaa0854fe1772ca15c6d31868b8
-  custom:scripting/monoscript/fileName/WebSocketServer.cs: 16879481f88d04aa8298954351a2a8bd -> 2b25b73591710ad866fcc051e6a166e6
-  custom:scripting/monoscript/fileName/PngChunkSTER.cs: 0b1c422555471aedbc1f4f101adbaba9 -> c06496617973bbcd5525a2ca82081d5f
-  custom:scripting/monoscript/fileName/PropertySheet.cs: fa3e05291d604f3e71bcdaa07d7c5219 -> e6bb03169eca9d33ea794a47ad6ce213
-  custom:scripting/monoscript/fileName/DeflateCompressLevel.cs: 97d9a48e21b7aed86a919c55ad4c7362 -> d317ce39cc937ebb557e59719ae46966
-  custom:scripting/monoscript/fileName/PngChunkSkipped.cs: 65983842144f9043b078e0cb7d21c10b -> 6e4627a7477c4940e781723121337266
-  custom:scripting/monoscript/fileName/RequestStream.cs: ad101a44fe5051f2302d5a29fea9479c -> 1a6f8a9d71a215100b9d87e0f5c538ab
-  custom:scripting/monoscript/fileName/TargetPool.cs: 3b88f83fb7d266b0947af64da4b5455c -> 6d29560228134c933c12fb1c113fb6ef
-  custom:scripting/monoscript/fileName/LKGSettings.cs: ba3a7a0dd36b7d9b4d4835eaeaca85ad -> 3009a2a0aa428e7adfd7447e992e18be
-  custom:scripting/monoscript/fileName/HttpListenerException.cs: 15357cfad818d07dd55da0742604a0c8 -> 2550fd428b7edb03381ec5057894f399
-  custom:scripting/monoscript/fileName/LogHistogram.cs: 676770e3b45498ad431b433ebe94bad4 -> bab913d888834a1a8572eb834acec97c
-  custom:scripting/monoscript/fileName/ScreenSpaceReflections.cs: ba9598a2b6cdc018e272614d3bf58f6e -> 8afa07200328ddfcb2536d4180c62536
-  custom:scripting/monoscript/fileName/ServerSslConfiguration.cs: a5693be4ae9d41217b2d9e55179e756b -> 2c7fdf22b856553365dd884d7387de0f
-  custom:scripting/monoscript/fileName/HologramCameraDebugging.cs: 15c2d12779204ffda4e234cfa12ea143 -> 06faa6dea4e41d062a466455dbc3131a
-  custom:scripting/monoscript/fileName/PngChunkGAMA.cs: 335413ade5fa79c8ebb74fa223a9857a -> a99abe13868599116384ba02398d6704
-  custom:scripting/monoscript/fileName/TcpListenerWebSocketContext.cs: edf729cdb89679fcc05390c6cc1ec735 -> 2fc03b7afb811c81f4a0381b9bcdbf0e
-  custom:scripting/monoscript/fileName/ReadOnlyField.cs: 4231e44a5ef39312d5148c08b24855eb -> 2f8f330c74c90c67665c76c53abc6560
-  custom:scripting/monoscript/fileName/Preview.cs: 86d2b4bf90c25f982202e58aa27641f2 -> 39080e97423b1222cde73976185ef6b8
-  custom:scripting/monoscript/fileName/ChunkCopyBehaviour.cs: a59d736b9bb4f936ba8cd2614a468749 -> b89b0a145f8f1691d33f4a51d72789bb
-  custom:scripting/monoscript/fileName/CurveEditor.cs: db1adc469358a69fa6d575a82de0db44 -> f5e872b2a5a6427a1785818cb10d95d1
-  custom:scripting/monoscript/fileName/EditorFocusUtility.cs: e82906e200b50ad782eb2cdddb87bd56 -> 94a45e45d55b33829569440a9de179e3
-  custom:scripting/monoscript/fileName/WebSocketServiceHost`1.cs: 6e2684a5eca6dee698597d2eed40d4a8 -> cdafdf3a8c839a3a7166ed5281adf47e
-  custom:scripting/monoscript/fileName/ComputeShaderEditorVersions.cs: 2bc67673279f6f71da53bffdebce3cfc -> aafca68020985b3ae1b7c216ce95b000
-  custom:scripting/monoscript/fileName/PngChunkUNKNOWN.cs: 08357e5f7defd59a607f38a371474e2f -> 6421496cc46d40a047b048533bf1fa86
-  custom:scripting/monoscript/fileName/PostProcessResources.cs: bf2fe15d9b913b4bf0ba09c6ba6d580e -> 5089c17a701ba9b714a1f3d25fb9a9b0
-  custom:scripting/monoscript/fileName/EffectListEditor.cs: d93d71c2279c5d937b11628c8627bd78 -> 1ecdb4094d9e64024d6eb7725a86197b
-  custom:scripting/monoscript/fileName/QuiltCapture.cs: 51d054a985e943dad1a4cf0b70f3a349 -> a699d51a79a7e3bfa01f1a05ef897a0e
-  custom:scripting/monoscript/fileName/FFmpegPreset.cs: 5bda92349481e822f3c3c2a66535bf2e -> 803a2e676fb047c17d899b433adef9a4
-  custom:scripting/monoscript/fileName/RenderStack.cs: ecf59704ac05436bbb0a5e41327c3c70 -> 52fdd5046e488be71293f7dfe3394062
-  custom:scripting/monoscript/fileName/LKGToolkitController.cs: 4e48a70a4e0eb0d3aa5a37040ab43991 -> 94378a13c181f9a267aedcc7fbf3a4f8
-  custom:scripting/monoscript/fileName/Introspection.cs: d761856ea2aa18b19ddfaa4a8f196674 -> 89d0a2fd2ab824a46e39496e3809979b
+Received Import Request.
+  Time since last request: 14422.917395 seconds.
+  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_4.png
+  artifactKey: Guid(6fa5cf178eaaa5f42b820f636bb6e0bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_4.png using Guid(6fa5cf178eaaa5f42b820f636bb6e0bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3f3fb228cdc7b9cfb629b25372d1c06') in 0.160706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_38.png
+  artifactKey: Guid(9660a4ca1ca8425408ac25c641932977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_38.png using Guid(9660a4ca1ca8425408ac25c641932977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3a2ba20a3bfc6f4055f305cca68233a2') in 0.030456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png
+  artifactKey: Guid(02c0a84bd64c6f044954d8bde9b46ec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png using Guid(02c0a84bd64c6f044954d8bde9b46ec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4715bb1f1d1ff8bc21e3e2b4b465749c') in 0.028470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/SpectralLUTs/SpectralLut_PurpleGreen.tga
+  artifactKey: Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/SpectralLUTs/SpectralLut_PurpleGreen.tga using Guid(42183971d24cfe443a346e7ec6e83bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ba29d80dad189659c52773de81a95de') in 0.030121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Input/HardwareButton.cs
+  artifactKey: Guid(c643fc0a4e6c0e14981418c031b68e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Input/HardwareButton.cs using Guid(c643fc0a4e6c0e14981418c031b68e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '31bba9425a38095aa1fcd465f71fdccd') in 0.026919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.hlsl
+  artifactKey: Guid(ad99a5d3138ea7e47a3b2a3051034642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.hlsl using Guid(ad99a5d3138ea7e47a3b2a3051034642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f675de1c2308f95bffacc9217eff28ae') in 0.027572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/SkinTones/Skin Tone 1/Torso_surfacematerial1_Height.1001.png
+  artifactKey: Guid(7b741fbb9963c5840a8f216e61c35a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/SkinTones/Skin Tone 1/Torso_surfacematerial1_Height.1001.png using Guid(7b741fbb9963c5840a8f216e61c35a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f8061f8023e1f643fe25ce77028feeaa') in 0.036750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_2.png
+  artifactKey: Guid(a469f920b21fc7c4fb5b950917ce2fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_2.png using Guid(a469f920b21fc7c4fb5b950917ce2fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c45a0119606a3f1ff96ec76cf1881266') in 0.026337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Shaders/Builtins/Dithering.hlsl
+  artifactKey: Guid(b17c8e94a77f9a24d80deb0464a28ddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Shaders/Builtins/Dithering.hlsl using Guid(b17c8e94a77f9a24d80deb0464a28ddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c574f9352bfa5f2cf30b414f4e048f7d') in 0.025473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png
+  artifactKey: Guid(1d6958e30e40a254dbe5a54c573eeb3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png using Guid(1d6958e30e40a254dbe5a54c573eeb3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c6adebefbb1c94417df8864db4d34de6') in 0.024269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png
+  artifactKey: Guid(3c2f1fb7e4b66e74191b7c328ada52d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png using Guid(3c2f1fb7e4b66e74191b7c328ada52d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9b89d61cef913af008a3ffc4f2d0371c') in 0.028927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/macOS/MacWindowing.cs
+  artifactKey: Guid(d93bbf28b862d40fbb8fc306e6b5b28e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/macOS/MacWindowing.cs using Guid(d93bbf28b862d40fbb8fc306e6b5b28e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c43bb22175c232b3309479d6130d6ea1') in 0.019248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Editor/Utils/CurveEditor.cs
+  artifactKey: Guid(ce0f0631fee52da41884853337cab99d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Editor/Utils/CurveEditor.cs using Guid(ce0f0631fee52da41884853337cab99d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8e8470667616bda82007882a7bbb6b4d') in 0.019355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/WebSocketSharp/Net/RequestStream.cs
+  artifactKey: Guid(164ded9d03f79e54c8a82305b5053209) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/WebSocketSharp/Net/RequestStream.cs using Guid(164ded9d03f79e54c8a82305b5053209) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd7681aa51e3f360d8a5a0262f9eb70fd') in 0.016261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Blocks/LookingGlassUser.cs
+  artifactKey: Guid(1caa89223e62576448f2230eda1974f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Blocks/LookingGlassUser.cs using Guid(1caa89223e62576448f2230eda1974f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '822e36a3e9577de0e827fdfb6aa1e439') in 0.014571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_image_line_helper.html
+  artifactKey: Guid(62a2d8482ded3ef4dab37d9f49232c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_image_line_helper.html using Guid(62a2d8482ded3ef4dab37d9f49232c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9123d271190c73a81f37125f00d8a6b') in 0.015307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_b_k_g_d-members.html
+  artifactKey: Guid(c3436b4ce6734134e938c70e9be086d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_b_k_g_d-members.html using Guid(c3436b4ce6734134e938c70e9be086d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d8af05bd72f12b2e9018b5415119500') in 0.013689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_o_f_f_s.html
+  artifactKey: Guid(c046fe54e7fce6f448ace91ad4bb9fb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_o_f_f_s.html using Guid(c046fe54e7fce6f448ace91ad4bb9fb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7f25a26e03a85fc4b875373a5a46bac8') in 0.015015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_e_n_d.html
+  artifactKey: Guid(e657aed9a5d91a64880e82ae6451092d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_e_n_d.html using Guid(e657aed9a5d91a64880e82ae6451092d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b28daee8e85c8dc9fc55dd89182b7962') in 0.016897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_e_n_d-members.html
+  artifactKey: Guid(e22285ab276961d4ea9c1095eb8b58ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_e_n_d-members.html using Guid(e22285ab276961d4ea9c1095eb8b58ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a819c46160d46a5fc94a23e99cea0bcb') in 0.016167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_z_t_x_t.html
+  artifactKey: Guid(21219ddd8cad6a547a0c2fc08f11c563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_z_t_x_t.html using Guid(21219ddd8cad6a547a0c2fc08f11c563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '62aa6d781ba96ae06b5b62aaf1f63115') in 0.014805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_pngj_bad_crc_exception-members.html
+  artifactKey: Guid(c2517f408a067b140b97e5cb229c0e23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_pngj_bad_crc_exception-members.html using Guid(c2517f408a067b140b97e5cb229c0e23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'caf90229161d942014820c507e181f00') in 0.013967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_p_h_y_s-members.html
+  artifactKey: Guid(a1759c20eb505c84dabca22aa1a9d8b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_p_h_y_s-members.html using Guid(a1759c20eb505c84dabca22aa1a9d8b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '534759eb01ad910f12b33fbd00ff9b9c') in 0.014314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_h_d_r.html
+  artifactKey: Guid(b4955350ab7657442ba9a3decc9c4638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_h_d_r.html using Guid(b4955350ab7657442ba9a3decc9c4638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '10ba2f62346929538be4b391aa63ea8a') in 0.013683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_z_t_x_t-members.html
+  artifactKey: Guid(7c00baffde97797488491a467f86e448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_z_t_x_t-members.html using Guid(7c00baffde97797488491a467f86e448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '09092a811fe1985ff3aab12aca82c40e') in 0.018217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_chunks_list_for_write.html
+  artifactKey: Guid(5289ed1203550654f87ad9565145e39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_chunks_list_for_write.html using Guid(5289ed1203550654f87ad9565145e39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6ccb0312d7ae6dac778598f1bce9bc2') in 0.015209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_t_x_t-members.html
+  artifactKey: Guid(6d4e7d86dbabf3b48a8c7c722d58682b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_i_t_x_t-members.html using Guid(6d4e7d86dbabf3b48a8c7c722d58682b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '833ffa81d79a664b51967c7968b9858b') in 0.018036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/classes.html
+  artifactKey: Guid(2b89b4a062d7bac47a40cea746d3eb6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/classes.html using Guid(2b89b4a062d7bac47a40cea746d3eb6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'af8471fd327e4918a9bca26e5cd8da54') in 0.019648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_file_helper-members.html
+  artifactKey: Guid(e6a9e3aeda80cd94eb770ac3c17deefd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_file_helper-members.html using Guid(e6a9e3aeda80cd94eb770ac3c17deefd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '83ee83a3a5d4146f35feae7897cc88d3') in 0.026170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_pngj_output_exception-members.html
+  artifactKey: Guid(c469c0a61e63ca44baaf8c85371f2f29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_pngj_output_exception-members.html using Guid(c469c0a61e63ca44baaf8c85371f2f29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ddb620c6f6bc0187d6c0c31986d582fb') in 0.017151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_s_b_i_t-members.html
+  artifactKey: Guid(eb51c0da1afb4784fb06462206e4cb12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_s_b_i_t-members.html using Guid(eb51c0da1afb4784fb06462206e4cb12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c06273ff448fce864e19a1e4205e09be') in 0.018660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_s_b_i_t.html
+  artifactKey: Guid(a3ab00fcb923d494ea64f3d05a83d00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_s_b_i_t.html using Guid(a3ab00fcb923d494ea64f3d05a83d00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '279dea6dbad8b55371bab1eeeb7b19b8') in 0.019615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_c_h_r_m.html
+  artifactKey: Guid(8ac64ae3383bd014881896bf5107a43b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_chunks_1_1_png_chunk_c_h_r_m.html using Guid(8ac64ae3383bd014881896bf5107a43b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3f192ca8cafd4a0fc3390f5dd06636f4') in 0.019156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Runtime/Effects/DepthOfField.cs
+  artifactKey: Guid(556797029e73b2347956b6579e77e05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass Post-Processing 3.2.2/PostProcessing/Runtime/Effects/DepthOfField.cs using Guid(556797029e73b2347956b6579e77e05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1a099144f521b8ca742954123dffb146') in 0.011631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.155372 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_deinterlacer.html
+  artifactKey: Guid(5578058f6dde73440aaba8301d017a94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_deinterlacer.html using Guid(5578058f6dde73440aaba8301d017a94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc7f546b6f754ff883d9754e117e625a') in 0.013926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x6f.html
+  artifactKey: Guid(9415c0e484e808d4aa31f9bf4a5f916b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x6f.html using Guid(9415c0e484e808d4aa31f9bf4a5f916b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a17cd9e2bcfc41e94cbea24942f5f26e') in 0.015323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/closed.png
+  artifactKey: Guid(1861a80bbf0e4d449ae2dfa3ef7c2212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/closed.png using Guid(1861a80bbf0e4d449ae2dfa3ef7c2212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6373fa0b7daebd11f8a0733890fbf1a4') in 0.030547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_writer-members.html
+  artifactKey: Guid(077820bf833f1c842920d825baca0e79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_writer-members.html using Guid(077820bf833f1c842920d825baca0e79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b5f4f90cb6e16f2dc46b6339720f89e') in 0.015317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_zlib_1_1_deflate_compress_level-members.html
+  artifactKey: Guid(194d50ad9620ca746bbfdd38ecf52e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_zlib_1_1_deflate_compress_level-members.html using Guid(194d50ad9620ca746bbfdd38ecf52e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89798e4f2f0ed4bd77b3153109a870cf') in 0.016365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x62.html
+  artifactKey: Guid(7242f42f7984d6d41afcf3b82c490f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x62.html using Guid(7242f42f7984d6d41afcf3b82c490f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dd2c4e6f518dece0aab01ced56b3e93a') in 0.015789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x74.html
+  artifactKey: Guid(620079a1b071d044c9d34d6af1a3a870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x74.html using Guid(620079a1b071d044c9d34d6af1a3a870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23964cc413d7e1866a62871d2100df16') in 0.015593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x70.html
+  artifactKey: Guid(f5db75ac2ef817b49bd164b46567e48e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x70.html using Guid(f5db75ac2ef817b49bd164b46567e48e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '733a773f5558cec499c0be3162cf01f1') in 0.015054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/ftv2vertline.png
+  artifactKey: Guid(8e428c4ca6976e242929a442b30a764b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/ftv2vertline.png using Guid(8e428c4ca6976e242929a442b30a764b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce6fa0b531275e4436874a53518c4bdb') in 0.023713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/ftv2folderclosed.png
+  artifactKey: Guid(b4bfa87d09c65db4093c414f529c922e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/ftv2folderclosed.png using Guid(b4bfa87d09c65db4093c414f529c922e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c241a1b9a1763ee516d3d995e2e11807') in 0.025066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_zlib_1_1_adler32.html
+  artifactKey: Guid(a27aedbb12d38644692b48fab0b5596e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_zlib_1_1_adler32.html using Guid(a27aedbb12d38644692b48fab0b5596e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fba9663e1339532923f1e2ea82f353ba') in 0.014402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dynsections.js
+  artifactKey: Guid(84a69cf50082d2446b3bea3a939d3505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dynsections.js using Guid(84a69cf50082d2446b3bea3a939d3505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'af7e32009ae0824e39dc8f8e4c1ae3b2') in 0.014037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dir_07e73fb754cfe8f4105d329e9ca6b863.html
+  artifactKey: Guid(acf5fae32715ce24381a9bd924b1a6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dir_07e73fb754cfe8f4105d329e9ca6b863.html using Guid(acf5fae32715ce24381a9bd924b1a6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '39f232300fa92106f62791899ca1d0da') in 0.013817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x66.html
+  artifactKey: Guid(9cc0669fe55179148b853211dcb37268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_0x66.html using Guid(9cc0669fe55179148b853211dcb37268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '589eab187da00d61b685ebad4e335178') in 0.014546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x72.html
+  artifactKey: Guid(bfbd6b333dd98e74f831c65809378a24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x72.html using Guid(bfbd6b333dd98e74f831c65809378a24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0968b06643fac21280d8ee0bd86a9708') in 0.014457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/doxygen.png
+  artifactKey: Guid(69264f976c45a0d409a7dcc825210b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/doxygen.png using Guid(69264f976c45a0d409a7dcc825210b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc1e2fb30e8f252344a372df99b93d3a') in 0.025897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_i_dat_chunk_input_stream_1_1_idat_chunk_info.html
+  artifactKey: Guid(6c4337d01b47cbc4384f1be47466b913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/class_hjg_1_1_pngcs_1_1_png_i_dat_chunk_input_stream_1_1_idat_chunk_info.html using Guid(6c4337d01b47cbc4384f1be47466b913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd6c7ed66f83373b4e91c7288b27a62bf') in 0.014460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x64.html
+  artifactKey: Guid(56d8893d8beef1a44b2a28fb650b565d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x64.html using Guid(56d8893d8beef1a44b2a28fb650b565d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9124fa22ea2c7e579b554f86d7c39a88') in 0.015156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dir_1b9ac3b170fffcdd28e62d8bb45cbfb6.html
+  artifactKey: Guid(72ce2377401f7f94aa46e4e9a963d52a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/dir_1b9ac3b170fffcdd28e62d8bb45cbfb6.html using Guid(72ce2377401f7f94aa46e4e9a963d52a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b41b47b1512e317cb5095065c80d61d3') in 0.016691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x71.html
+  artifactKey: Guid(8c99fe537c853c64981baa8da68c4945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/functions_func_0x71.html using Guid(8c99fe537c853c64981baa8da68c4945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3dd4097fa85e4d13fcfe62b6635bee10') in 0.015078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.135099 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/namespace_ar_1_1_com.html
+  artifactKey: Guid(adc0f024347cd7e49b63f637c4441560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/namespace_ar_1_1_com.html using Guid(adc0f024347cd7e49b63f637c4441560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f5a91833dbb95c3e9676daebd13a98ad') in 0.014038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Zlib/DeflateCompressLevel.cs
+  artifactKey: Guid(0ec27f44a7bd5da43b350f06be3f0a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Zlib/DeflateCompressLevel.cs using Guid(0ec27f44a7bd5da43b350f06be3f0a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9f122bd33c11cc339194ba4a6be50b0d') in 0.016093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Device/QuiltSettings.cs
+  artifactKey: Guid(7b2fd88cfdaa5a849a20d68ee53cc981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Device/QuiltSettings.cs using Guid(7b2fd88cfdaa5a849a20d68ee53cc981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d8a1fdc6b7413b0e0764f160c4755ad') in 0.015657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkHIST.cs
+  artifactKey: Guid(dcef2678a5ebbc8439b8dbbd3430ee9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkHIST.cs using Guid(dcef2678a5ebbc8439b8dbbd3430ee9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cb8af2df8d706f98a2f9577c5f0ec06a') in 0.015984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/OnSubscriptionCanceled.cs
+  artifactKey: Guid(fc79693e55923d04ba34f1f874db8a71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/OnSubscriptionCanceled.cs using Guid(fc79693e55923d04ba34f1f874db8a71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '69709270df48655910a1df961ca39849') in 0.018918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkIHDR.cs
+  artifactKey: Guid(bb26d4af7dab0bc4f9f1028a799ac4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkIHDR.cs using Guid(bb26d4af7dab0bc4f9f1028a799ac4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '98677b8f8435c51e0300412bbb2bad83') in 0.015468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/Playlist.cs
+  artifactKey: Guid(f1c41dcaf06e5e24db2aa6316ffbd58a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/Playlist.cs using Guid(f1c41dcaf06e5e24db2aa6316ffbd58a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0fedb2bdc986c3e2497dcbe4bd2ecc6c') in 0.015061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/tab_b.png
+  artifactKey: Guid(84a8cfcf0e7d7bd40bf1d0031131f82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/tab_b.png using Guid(84a8cfcf0e7d7bd40bf1d0031131f82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7052b72a056559bd07cf5ca60aa8bacd') in 0.027438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkGAMA.cs
+  artifactKey: Guid(1c387780e6df473489dadbeffb518a87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkGAMA.cs using Guid(1c387780e6df473489dadbeffb518a87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '446507fe2c09e3092e0dd08604456b5c') in 0.019200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Blocks/Responses/UserData.cs
+  artifactKey: Guid(3457958ba132b9d4bbcb8e9b6bf784b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Blocks/Responses/UserData.cs using Guid(3457958ba132b9d4bbcb8e9b6bf784b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8e23e4123a8f2b4cbc9ea8a46744d4b8') in 0.017210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/ChunkCopyBehaviour.cs
+  artifactKey: Guid(ddb71e62e7c795042b8ba3d2fa2fd70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/ChunkCopyBehaviour.cs using Guid(ddb71e62e7c795042b8ba3d2fa2fd70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '601c970a211f3ae2d8696342b43db236') in 0.014674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/GraphQLEvent.cs
+  artifactKey: Guid(2f79f6ed04a7de5479938dddda6e335b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/GraphQLEvent.cs using Guid(2f79f6ed04a7de5479938dddda6e335b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32619bc0360333efefd5debba5f186a5') in 0.017135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/tab_h.png
+  artifactKey: Guid(2d959c460e4a9004b8750d46187ebf0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/docs/html/tab_h.png using Guid(2d959c460e4a9004b8750d46187ebf0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd29bb1a3feb2b043377f2f8deabe8d0') in 0.021954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/OnSubscriptionDataReceived.cs
+  artifactKey: Guid(3901b92efdc040c448f7efd8745093ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/EventCallbacks/OnSubscriptionDataReceived.cs using Guid(3901b92efdc040c448f7efd8745093ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93ad5021ef5e40dfc4bef85177688387') in 0.016570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkSBIT.cs
+  artifactKey: Guid(d33efab72c96e604f8a2c45d531694aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/PngChunkSBIT.cs using Guid(d33efab72c96e604f8a2c45d531694aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '506611bdf9252357b852ad74348ce776') in 0.019729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Zlib/AZlibInputStream.cs
+  artifactKey: Guid(9edfc3cd9b48dda44b988244efcb1175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Zlib/AZlibInputStream.cs using Guid(9edfc3cd9b48dda44b988244efcb1175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '59f657a7c0287ba2273ab654cd309436') in 0.017115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Device/SubpixelCell.cs
+  artifactKey: Guid(c738189a92d3fdf4e97171592b55295c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Device/SubpixelCell.cs using Guid(c738189a92d3fdf4e97171592b55295c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4861be4b314e06840ad4e8630abf44f5') in 0.013220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Implementations/DefaultHttpSender.cs
+  artifactKey: Guid(3f1b73cca8a88b94a9cf501ca72cc4b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Implementations/DefaultHttpSender.cs using Guid(3f1b73cca8a88b94a9cf501ca72cc4b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7f6d29f6bc39416acfc58438f4b73883') in 0.014242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/UnityWebRequests/UnityWebRequestExtensions.cs
+  artifactKey: Guid(f933dbbddc692dc468db666b928d0be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/UnityWebRequests/UnityWebRequestExtensions.cs using Guid(f933dbbddc692dc468db666b928d0be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e5d6c3764d7d525c9d96396752ca63eb') in 0.016209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/Data/LKGSettings.cs
+  artifactKey: Guid(f9eaa9a35693b8d42b4322fd1fa0a8c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/Systems/Data/LKGSettings.cs using Guid(f9eaa9a35693b8d42b4322fd1fa0a8c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1d41b50669a6685bc42a53a2b2d8d46e') in 0.014192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/WebSocketClient.cs
+  artifactKey: Guid(d9854f0028be52949b394cb5b70bacd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/WebSocketClient.cs using Guid(d9854f0028be52949b394cb5b70bacd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8c4d983a6c1d12d0397e5cc5a2cd2c73') in 0.014130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/ChunkPredicateId.cs
+  artifactKey: Guid(20f9b0527de24e94a9b75dee4cedf6a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/PNGCS/Hjg.Pngcs/Chunks/ChunkPredicateId.cs using Guid(20f9b0527de24e94a9b75dee4cedf6a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c76008b1bff853f1df71e028242b8c09') in 0.016161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/UnityWebRequests/NetworkErrorBehaviour.cs
+  artifactKey: Guid(8cbf9a240f585e24e82d951bf834cae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Plugins/GraphQL Client/Scripts/GraphQLClient/UnityWebRequests/NetworkErrorBehaviour.cs using Guid(8cbf9a240f585e24e82d951bf834cae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '793819a3f55749d8b94e10fe0725bca5') in 0.024138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/EventListeners/MonitorEvents.cs
+  artifactKey: Guid(100bc80ad0a36a5468083421b55ca68f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Looking Glass/LookingGlass/Scripts/LookingGlass/LKG-Toolkit/Toolkit-API/Bridge/EventListeners/MonitorEvents.cs using Guid(100bc80ad0a36a5468083421b55ca68f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c015da8e64a70eb167a6e7a15421e74') in 0.021892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
