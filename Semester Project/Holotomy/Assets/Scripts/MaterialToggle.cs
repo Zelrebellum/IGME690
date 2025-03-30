@@ -7,12 +7,11 @@ public class MaterialToggle : MonoBehaviour
 {
     [SerializeField] List<Material> materials;
 
-    GameObject gObject;
+    [SerializeField] GameObject gObject;
     int matIndex;
     // Start is called before the first frame update
     void Start()
     {
-        gObject = GetComponent<GameObject>();
         matIndex = Random.Range(0, materials.Count-1);
         gObject.GetComponent<Renderer>().material = materials[matIndex];
     }
@@ -20,17 +19,17 @@ public class MaterialToggle : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(matIndex>=materials.Count)
-        {
-            matIndex = 0;
-        }
-        else
-        {
-            matIndex++;
-        }
 
         if (InputManager.GetButtonDown(HardwareButton.Forward))
         {
+            if (matIndex >= materials.Count - 1)
+            {
+                matIndex = 0;
+            }
+            else
+            {
+                matIndex++;
+            }
             gObject.GetComponent<Renderer>().material = materials[matIndex];
         }
         

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638787245469895947
-    m_Hash: 1258697998
+      ticks: 638787229046625027
+    m_Hash: 1153970303
   m_LockFileStatus:
     m_FilePath: C:/Users/rosey/source/repos/IGME690/Semester Project/Holotomy/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638787245469906028
-    m_Hash: 1062762572
+      ticks: 638787229046721125
+    m_Hash: 2124309606
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
