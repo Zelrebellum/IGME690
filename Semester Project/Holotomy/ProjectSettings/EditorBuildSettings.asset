@@ -4,6 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 98c3b803f6c07024087aebd5d127e224
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 5323f88a5de3cbf46b7f2e73bddd8dbb
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: d7350fd7904127e47aa5a756c413b5e2
+  - enabled: 1
+    path: Assets/Scenes/Holotomy.unity
+    guid: 84f4de51b6333244aacf90ff5527af97
   m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 976df2f2e83ea6c41aa8aeb085e6a8cb, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9e74b464c8b6095458fb2dc8b8475382, type: 2}
